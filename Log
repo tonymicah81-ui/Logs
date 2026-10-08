@@ -1,0 +1,2405 @@
+2026-10-08T12:24:17.023Z	Initializing build environment...
+2026-10-08T12:24:24.737Z	Success: Finished initializing build environment
+2026-10-08T12:24:25.410Z	Cloning repository...
+2026-10-08T12:24:27.852Z	Detected the following tools from environment: npm@10.9.2, nodejs@24.18.0
+2026-10-08T12:24:27.854Z	Restoring from dependencies cache
+2026-10-08T12:24:27.857Z	Restoring from build output cache
+2026-10-08T12:24:27.989Z	Installing project dependencies: npm clean-install --progress=false
+2026-10-08T12:24:49.630Z	
+2026-10-08T12:24:49.630Z	added 494 packages in 21s
+2026-10-08T12:24:49.630Z	
+2026-10-08T12:24:49.630Z	150 packages are looking for funding
+2026-10-08T12:24:49.630Z	  run `npm fund` for details
+2026-10-08T12:24:49.631Z	npm warn allow-scripts 4 packages have install scripts not yet covered by allowScripts:
+2026-10-08T12:24:49.631Z	npm warn allow-scripts   @firebase/util@1.15.1 (postinstall: node ./postinstall.js)
+2026-10-08T12:24:49.632Z	npm warn allow-scripts   protobufjs@7.6.4 (postinstall: node scripts/postinstall)
+2026-10-08T12:24:49.632Z	npm warn allow-scripts   sharp@0.34.5 (install: node install/check.js || npm run build)
+2026-10-08T12:24:49.632Z	npm warn allow-scripts   unrs-resolver@1.12.2 (postinstall: node postinstall.js)
+2026-10-08T12:24:49.632Z	npm warn allow-scripts
+2026-10-08T12:24:49.632Z	npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+2026-10-08T12:24:49.831Z	Executing user build command: npm run build
+2026-10-08T12:24:50.088Z	
+2026-10-08T12:24:50.089Z	> easy-setup@1.0.0 build
+2026-10-08T12:24:50.089Z	> npm install --no-save --package-lock=false @opennextjs/cloudflare@latest && next build && npx --yes @opennextjs/cloudflare build
+2026-10-08T12:24:50.089Z	
+2026-10-08T12:25:42.287Z	npm warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead
+2026-10-08T12:25:43.580Z	npm warn deprecated glob@9.3.5: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+2026-10-08T12:25:47.109Z	npm warn deprecated eslint@9.39.5: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+2026-10-08T12:25:54.909Z	
+2026-10-08T12:25:54.909Z	added 277 packages, removed 16 packages, and changed 144 packages in 1m
+2026-10-08T12:25:54.910Z	
+2026-10-08T12:25:54.910Z	199 packages are looking for funding
+2026-10-08T12:25:54.910Z	  run `npm fund` for details
+2026-10-08T12:25:54.911Z	npm warn allow-scripts 6 packages have install scripts not yet covered by allowScripts:
+2026-10-08T12:25:54.911Z	npm warn allow-scripts   esbuild@0.25.4 (postinstall: node install.js)
+2026-10-08T12:25:54.911Z	npm warn allow-scripts   unrs-resolver@1.12.2 (postinstall: node postinstall.js)
+2026-10-08T12:25:54.912Z	npm warn allow-scripts   @firebase/util@1.15.3 (postinstall: node ./postinstall.js)
+2026-10-08T12:25:54.912Z	npm warn allow-scripts   protobufjs@7.6.6 (postinstall: node scripts/postinstall)
+2026-10-08T12:25:54.913Z	npm warn allow-scripts   esbuild@0.28.1 (postinstall: node install.js)
+2026-10-08T12:25:54.913Z	npm warn allow-scripts   workerd@1.20261006.1 (postinstall: node install.js)
+2026-10-08T12:25:54.913Z	npm warn allow-scripts
+2026-10-08T12:25:54.913Z	npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+2026-10-08T12:25:56.042Z	⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2026-10-08T12:25:56.046Z	Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-10-08T12:25:56.046Z	This information is used to shape Next.js' roadmap and prioritize features.
+2026-10-08T12:25:56.046Z	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-10-08T12:25:56.046Z	https://nextjs.org/telemetry
+2026-10-08T12:25:56.046Z	
+2026-10-08T12:25:56.136Z	   ▲ Next.js 15.5.27
+2026-10-08T12:25:56.136Z	
+2026-10-08T12:25:56.198Z	   Creating an optimized production build ...
+2026-10-08T12:26:35.764Z	 ✓ Compiled successfully in 36.2s
+2026-10-08T12:26:35.769Z	   Linting and checking validity of types ...
+2026-10-08T12:26:50.828Z	   Collecting page data ...
+2026-10-08T12:26:58.834Z	   Generating static pages (0/78) ...
+2026-10-08T12:27:01.365Z	   Generating static pages (19/78) 
+2026-10-08T12:27:01.967Z	   Generating static pages (38/78) 
+2026-10-08T12:27:02.646Z	   Generating static pages (58/78) 
+2026-10-08T12:27:03.051Z	 ✓ Generating static pages (78/78)
+2026-10-08T12:27:05.141Z	   Finalizing page optimization ...
+2026-10-08T12:27:05.142Z	   Collecting build traces ...
+2026-10-08T12:27:13.408Z	
+2026-10-08T12:27:13.413Z	Route (app)                                      Size  First Load JS
+2026-10-08T12:27:13.413Z	┌ ƒ /                                           136 B         156 kB
+2026-10-08T12:27:13.413Z	├ ○ /_not-found                                 166 B         103 kB
+2026-10-08T12:27:13.413Z	├ ○ /admin/analytics                          6.74 kB         281 kB
+2026-10-08T12:27:13.413Z	├ ○ /admin/broadcast                           5.2 kB         280 kB
+2026-10-08T12:27:13.413Z	├ ○ /admin/businesses                         4.06 kB         301 kB
+2026-10-08T12:27:13.413Z	├ ○ /admin/chats                              2.88 kB         349 kB
+2026-10-08T12:27:13.413Z	├ ○ /admin/dashboard                          3.42 kB         278 kB
+2026-10-08T12:27:13.413Z	├ ○ /admin/farm-products                      3.82 kB         301 kB
+2026-10-08T12:27:13.413Z	├ ○ /admin/insurance                          4.47 kB         302 kB
+2026-10-08T12:27:13.413Z	├ ○ /admin/investments                        4.46 kB         283 kB
+2026-10-08T12:27:13.414Z	├ ○ /admin/kyc                                7.99 kB         283 kB
+2026-10-08T12:27:13.414Z	├ ○ /admin/loan-products                      5.52 kB         280 kB
+2026-10-08T12:27:13.414Z	├ ○ /admin/loan-requests                      4.02 kB         284 kB
+2026-10-08T12:27:13.414Z	├ ○ /admin/messaging                          5.78 kB         294 kB
+2026-10-08T12:27:13.414Z	├ ○ /admin/payment-accounts                    5.5 kB         280 kB
+2026-10-08T12:27:13.414Z	├ ○ /admin/properties                         4.78 kB         302 kB
+2026-10-08T12:27:13.414Z	├ ○ /admin/stocks                             7.43 kB         282 kB
+2026-10-08T12:27:13.414Z	├ ○ /admin/store/analytics                    6.46 kB         281 kB
+2026-10-08T12:27:13.414Z	├ ○ /admin/store/orders                       3.92 kB         279 kB
+2026-10-08T12:27:13.414Z	├ ○ /admin/store/products                     5.74 kB         305 kB
+2026-10-08T12:27:13.414Z	├ ○ /admin/users                              7.05 kB         287 kB
+2026-10-08T12:27:13.414Z	├ ƒ /admin/users/[uid]/activity               3.69 kB         286 kB
+2026-10-08T12:27:13.414Z	├ ƒ /admin/users/[uid]/service                11.7 kB         304 kB
+2026-10-08T12:27:13.414Z	├ ○ /admin/wallet-requests                    2.25 kB         283 kB
+2026-10-08T12:27:13.414Z	├ ƒ /api/investments/process-maturity           166 B         103 kB
+2026-10-08T12:27:13.414Z	├ ƒ /api/otp/send                               166 B         103 kB
+2026-10-08T12:27:13.414Z	├ ƒ /api/otp/verify                             166 B         103 kB
+2026-10-08T12:27:13.414Z	├ ƒ /api/send-email                             166 B         103 kB
+2026-10-08T12:27:13.414Z	├ ƒ /api/sign-cloudinary                        166 B         103 kB
+2026-10-08T12:27:13.414Z	├ ƒ /api/statements/generate                    166 B         103 kB
+2026-10-08T12:27:13.414Z	├ ƒ /api/superadmin/broker-export               166 B         103 kB
+2026-10-08T12:27:13.414Z	├ ƒ /api/telegram/send                          166 B         103 kB
+2026-10-08T12:27:13.414Z	├ ƒ /api/telegram/test                          166 B         103 kB
+2026-10-08T12:27:13.414Z	├ ƒ /api/telegram/webhook                       166 B         103 kB
+2026-10-08T12:27:13.414Z	├ ƒ /api/test-cloudinary                        166 B         103 kB
+2026-10-08T12:27:13.415Z	├ ƒ /api/test-email                             166 B         103 kB
+2026-10-08T12:27:13.415Z	├ ○ /broker-exports                             177 B         279 kB
+2026-10-08T12:27:13.415Z	├ ○ /dashboard                                5.75 kB         307 kB
+2026-10-08T12:27:13.415Z	├ ○ /forgot-password                          4.18 kB         282 kB
+2026-10-08T12:27:13.415Z	├ ○ /investments                                182 B         106 kB
+2026-10-08T12:27:13.415Z	├ ○ /kyc                                      7.86 kB         301 kB
+2026-10-08T12:27:13.415Z	├ ○ /loans                                    4.27 kB         288 kB
+2026-10-08T12:27:13.415Z	├ ○ /login                                    5.27 kB         289 kB
+2026-10-08T12:27:13.415Z	├ ○ /market                                     859 B         280 kB
+2026-10-08T12:27:13.415Z	├ ○ /market/business                          4.95 kB         280 kB
+2026-10-08T12:27:13.415Z	├ ƒ /market/business/[id]                     4.31 kB         284 kB
+2026-10-08T12:27:13.415Z	├ ○ /market/farming                           5.35 kB         280 kB
+2026-10-08T12:27:13.415Z	├ ƒ /market/farming/[id]                      8.23 kB         283 kB
+2026-10-08T12:27:13.415Z	├ ○ /market/insurance                         5.04 kB         280 kB
+2026-10-08T12:27:13.415Z	├ ƒ /market/insurance/[id]                    8.18 kB         283 kB
+2026-10-08T12:27:13.415Z	├ ○ /market/loans                             4.64 kB         279 kB
+2026-10-08T12:27:13.415Z	├ ƒ /market/loans/[id]                        5.31 kB         280 kB
+2026-10-08T12:27:13.415Z	├ ○ /market/real-estate                       5.87 kB         281 kB
+2026-10-08T12:27:13.415Z	├ ƒ /market/real-estate/[id]                  4.73 kB         284 kB
+2026-10-08T12:27:13.415Z	├ ○ /my-policies                              5.97 kB         281 kB
+2026-10-08T12:27:13.415Z	├ ○ /notifications                            4.15 kB         279 kB
+2026-10-08T12:27:13.415Z	├ ○ /plans                                    4.79 kB         279 kB
+2026-10-08T12:27:13.415Z	├ ƒ /plans/[id]/subscribe                     7.53 kB         290 kB
+2026-10-08T12:27:13.415Z	├ ○ /policies                                   182 B         106 kB
+2026-10-08T12:27:13.416Z	├ ○ /portfolio                                8.26 kB         304 kB
+2026-10-08T12:27:13.416Z	├ ƒ /portfolio/[id]                           6.01 kB         288 kB
+2026-10-08T12:27:13.416Z	├ ○ /privacy                                    182 B         106 kB
+2026-10-08T12:27:13.416Z	├ ○ /profile                                  5.84 kB         308 kB
+2026-10-08T12:27:13.416Z	├ ○ /referrals                                6.24 kB         281 kB
+2026-10-08T12:27:13.416Z	├ ○ /signup                                   5.92 kB         290 kB
+2026-10-08T12:27:13.416Z	├ ○ /staff                                     6.3 kB         284 kB
+2026-10-08T12:27:13.416Z	├ ○ /staff/vault                              7.37 kB         299 kB
+2026-10-08T12:27:13.416Z	├ ○ /stocks                                    5.5 kB         289 kB
+2026-10-08T12:27:13.417Z	├ ƒ /stocks/[symbol]                          6.62 kB         290 kB
+2026-10-08T12:27:13.417Z	├ ○ /stocks/market                             5.7 kB         289 kB
+2026-10-08T12:27:13.417Z	├ ○ /superadmin/admins                        4.33 kB         279 kB
+2026-10-08T12:27:13.417Z	├ ○ /superadmin/audit                         1.86 kB         277 kB
+2026-10-08T12:27:13.417Z	├ ○ /superadmin/broker                        8.93 kB         291 kB
+2026-10-08T12:27:13.417Z	├ ○ /superadmin/broker-exports                  177 B         279 kB
+2026-10-08T12:27:13.417Z	├ ○ /superadmin/dashboard                     1.84 kB         108 kB
+2026-10-08T12:27:13.417Z	├ ○ /superadmin/email                         7.51 kB         290 kB
+2026-10-08T12:27:13.417Z	├ ○ /superadmin/email/templates               4.08 kB         289 kB
+2026-10-08T12:27:13.417Z	├ ○ /superadmin/investments/plans             7.42 kB         282 kB
+2026-10-08T12:27:13.417Z	├ ○ /superadmin/investors                     6.93 kB         306 kB
+2026-10-08T12:27:13.417Z	├ ○ /superadmin/landing-templates               182 B         106 kB
+2026-10-08T12:27:13.418Z	├ ƒ /superadmin/landing-templates/[template]    136 B         156 kB
+2026-10-08T12:27:13.418Z	├ ○ /superadmin/loans                         7.34 kB         282 kB
+2026-10-08T12:27:13.418Z	├ ○ /superadmin/membership                    4.76 kB         293 kB
+2026-10-08T12:27:13.419Z	├ ○ /superadmin/payment-methods               4.23 kB         279 kB
+2026-10-08T12:27:13.419Z	├ ○ /superadmin/platform                      10.9 kB         318 kB
+2026-10-08T12:27:13.419Z	├ ○ /superadmin/telegram                      6.73 kB         289 kB
+2026-10-08T12:27:13.419Z	├ ○ /support                                  2.74 kB         349 kB
+2026-10-08T12:27:13.419Z	├ ○ /terms                                      182 B         106 kB
+2026-10-08T12:27:13.419Z	├ ○ /wallet                                      6 kB         290 kB
+2026-10-08T12:27:13.419Z	└ ƒ /wallet/receipt/[txnId]                   5.14 kB         291 kB
+2026-10-08T12:27:13.419Z	+ First Load JS shared by all                  102 kB
+2026-10-08T12:27:13.419Z	  ├ chunks/1255-fbff2a247371566e.js           46.2 kB
+2026-10-08T12:27:13.419Z	  ├ chunks/4bd1b696-100b9d70ed4e49c1.js       54.2 kB
+2026-10-08T12:27:13.419Z	  └ other shared chunks (total)               1.97 kB
+2026-10-08T12:27:13.419Z	
+2026-10-08T12:27:13.419Z	
+2026-10-08T12:27:13.420Z	○  (Static)   prerendered as static content
+2026-10-08T12:27:13.420Z	ƒ  (Dynamic)  server-rendered on demand
+2026-10-08T12:27:13.420Z	
+2026-10-08T12:27:15.793Z	
+2026-10-08T12:27:15.793Z	┌─────────────────────────────┐
+2026-10-08T12:27:15.793Z	│ OpenNext — Cloudflare build │
+2026-10-08T12:27:15.793Z	└─────────────────────────────┘
+2026-10-08T12:27:15.793Z	
+2026-10-08T12:27:15.916Z	App directory: /opt/buildhome/repo
+2026-10-08T12:27:15.916Z	Next.js version : 15.5.27
+2026-10-08T12:27:15.917Z	@opennextjs/cloudflare version: 1.20.9
+2026-10-08T12:27:15.918Z	@opennextjs/aws version: 4.1.8
+2026-10-08T12:27:15.918Z	workerd compatibility_date: 2026-10-06
+2026-10-08T12:27:15.918Z	
+2026-10-08T12:27:15.918Z	┌─────────────────────────────────┐
+2026-10-08T12:27:15.918Z	│ OpenNext — Building Next.js app │
+2026-10-08T12:27:15.919Z	└─────────────────────────────────┘
+2026-10-08T12:27:15.919Z	
+2026-10-08T12:27:16.110Z	
+2026-10-08T12:27:16.110Z	> easy-setup@1.0.0 build
+2026-10-08T12:27:16.111Z	> npm install --no-save --package-lock=false @opennextjs/cloudflare@latest && next build && npx --yes @opennextjs/cloudflare build
+2026-10-08T12:27:16.111Z	
+2026-10-08T12:27:35.807Z	
+2026-10-08T12:27:35.808Z	up to date in 20s
+2026-10-08T12:27:35.808Z	
+2026-10-08T12:27:35.808Z	199 packages are looking for funding
+2026-10-08T12:27:35.808Z	  run `npm fund` for details
+2026-10-08T12:27:35.811Z	npm warn allow-scripts 6 packages have install scripts not yet covered by allowScripts:
+2026-10-08T12:27:35.811Z	npm warn allow-scripts   esbuild@0.25.4 (postinstall: node install.js)
+2026-10-08T12:27:35.811Z	npm warn allow-scripts   unrs-resolver@1.12.2 (postinstall: node postinstall.js)
+2026-10-08T12:27:35.811Z	npm warn allow-scripts   @firebase/util@1.15.3 (postinstall: node ./postinstall.js)
+2026-10-08T12:27:35.811Z	npm warn allow-scripts   protobufjs@7.6.6 (postinstall: node scripts/postinstall)
+2026-10-08T12:27:35.811Z	npm warn allow-scripts   esbuild@0.28.1 (postinstall: node install.js)
+2026-10-08T12:27:35.811Z	npm warn allow-scripts   workerd@1.20261006.1 (postinstall: node install.js)
+2026-10-08T12:27:35.812Z	npm warn allow-scripts
+2026-10-08T12:27:35.812Z	npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+2026-10-08T12:27:36.896Z	   ▲ Next.js 15.5.27
+2026-10-08T12:27:36.896Z	
+2026-10-08T12:27:37.017Z	   Creating an optimized production build ...
+2026-10-08T12:27:56.513Z	 ✓ Compiled successfully in 16.5s
+2026-10-08T12:27:56.516Z	   Linting and checking validity of types ...
+2026-10-08T12:28:10.681Z	   Collecting page data ...
+2026-10-08T12:28:16.753Z	   Generating static pages (0/78) ...
+2026-10-08T12:28:18.973Z	   Generating static pages (19/78) 
+2026-10-08T12:28:19.586Z	   Generating static pages (38/78) 
+2026-10-08T12:28:20.433Z	   Generating static pages (58/78) 
+2026-10-08T12:28:20.793Z	 ✓ Generating static pages (78/78)
+2026-10-08T12:28:21.658Z	   Finalizing page optimization ...
+2026-10-08T12:28:21.658Z	   Collecting build traces ...
+2026-10-08T12:28:42.462Z	
+2026-10-08T12:28:42.468Z	Route (app)                                      Size  First Load JS
+2026-10-08T12:28:42.468Z	┌ ƒ /                                           136 B         156 kB
+2026-10-08T12:28:42.468Z	├ ○ /_not-found                                 166 B         103 kB
+2026-10-08T12:28:42.468Z	├ ○ /admin/analytics                          6.74 kB         281 kB
+2026-10-08T12:28:42.468Z	├ ○ /admin/broadcast                           5.2 kB         280 kB
+2026-10-08T12:28:42.468Z	├ ○ /admin/businesses                         4.06 kB         301 kB
+2026-10-08T12:28:42.468Z	├ ○ /admin/chats                              2.88 kB         349 kB
+2026-10-08T12:28:42.468Z	├ ○ /admin/dashboard                          3.42 kB         278 kB
+2026-10-08T12:28:42.468Z	├ ○ /admin/farm-products                      3.82 kB         301 kB
+2026-10-08T12:28:42.468Z	├ ○ /admin/insurance                          4.47 kB         302 kB
+2026-10-08T12:28:42.469Z	├ ○ /admin/investments                        4.46 kB         283 kB
+2026-10-08T12:28:42.469Z	├ ○ /admin/kyc                                7.99 kB         283 kB
+2026-10-08T12:28:42.469Z	├ ○ /admin/loan-products                      5.52 kB         280 kB
+2026-10-08T12:28:42.469Z	├ ○ /admin/loan-requests                      4.02 kB         284 kB
+2026-10-08T12:28:42.469Z	├ ○ /admin/messaging                          5.78 kB         294 kB
+2026-10-08T12:28:42.469Z	├ ○ /admin/payment-accounts                    5.5 kB         280 kB
+2026-10-08T12:28:42.469Z	├ ○ /admin/properties                         4.78 kB         302 kB
+2026-10-08T12:28:42.469Z	├ ○ /admin/stocks                             7.43 kB         282 kB
+2026-10-08T12:28:42.469Z	├ ○ /admin/store/analytics                    6.46 kB         281 kB
+2026-10-08T12:28:42.469Z	├ ○ /admin/store/orders                       3.92 kB         279 kB
+2026-10-08T12:28:42.469Z	├ ○ /admin/store/products                     5.74 kB         305 kB
+2026-10-08T12:28:42.469Z	├ ○ /admin/users                              7.05 kB         287 kB
+2026-10-08T12:28:42.470Z	├ ƒ /admin/users/[uid]/activity               3.69 kB         286 kB
+2026-10-08T12:28:42.470Z	├ ƒ /admin/users/[uid]/service                11.7 kB         304 kB
+2026-10-08T12:28:42.470Z	├ ○ /admin/wallet-requests                    2.25 kB         283 kB
+2026-10-08T12:28:42.470Z	├ ƒ /api/investments/process-maturity           166 B         103 kB
+2026-10-08T12:28:42.471Z	├ ƒ /api/otp/send                               166 B         103 kB
+2026-10-08T12:28:42.471Z	├ ƒ /api/otp/verify                             166 B         103 kB
+2026-10-08T12:28:42.471Z	├ ƒ /api/send-email                             166 B         103 kB
+2026-10-08T12:28:42.471Z	├ ƒ /api/sign-cloudinary                        166 B         103 kB
+2026-10-08T12:28:42.471Z	├ ƒ /api/statements/generate                    166 B         103 kB
+2026-10-08T12:28:42.471Z	├ ƒ /api/superadmin/broker-export               166 B         103 kB
+2026-10-08T12:28:42.471Z	├ ƒ /api/telegram/send                          166 B         103 kB
+2026-10-08T12:28:42.471Z	├ ƒ /api/telegram/test                          166 B         103 kB
+2026-10-08T12:28:42.471Z	├ ƒ /api/telegram/webhook                       166 B         103 kB
+2026-10-08T12:28:42.471Z	├ ƒ /api/test-cloudinary                        166 B         103 kB
+2026-10-08T12:28:42.471Z	├ ƒ /api/test-email                             166 B         103 kB
+2026-10-08T12:28:42.471Z	├ ○ /broker-exports                             177 B         279 kB
+2026-10-08T12:28:42.471Z	├ ○ /dashboard                                5.75 kB         307 kB
+2026-10-08T12:28:42.471Z	├ ○ /forgot-password                          4.18 kB         282 kB
+2026-10-08T12:28:42.471Z	├ ○ /investments                                182 B         106 kB
+2026-10-08T12:28:42.471Z	├ ○ /kyc                                      7.86 kB         301 kB
+2026-10-08T12:28:42.471Z	├ ○ /loans                                    4.27 kB         288 kB
+2026-10-08T12:28:42.471Z	├ ○ /login                                    5.27 kB         289 kB
+2026-10-08T12:28:42.471Z	├ ○ /market                                     859 B         280 kB
+2026-10-08T12:28:42.472Z	├ ○ /market/business                          4.95 kB         280 kB
+2026-10-08T12:28:42.473Z	├ ƒ /market/business/[id]                     4.31 kB         284 kB
+2026-10-08T12:28:42.473Z	├ ○ /market/farming                           5.35 kB         280 kB
+2026-10-08T12:28:42.473Z	├ ƒ /market/farming/[id]                      8.23 kB         283 kB
+2026-10-08T12:28:42.473Z	├ ○ /market/insurance                         5.04 kB         280 kB
+2026-10-08T12:28:42.473Z	├ ƒ /market/insurance/[id]                    8.18 kB         283 kB
+2026-10-08T12:28:42.473Z	├ ○ /market/loans                             4.64 kB         279 kB
+2026-10-08T12:28:42.473Z	├ ƒ /market/loans/[id]                        5.31 kB         280 kB
+2026-10-08T12:28:42.473Z	├ ○ /market/real-estate                       5.87 kB         281 kB
+2026-10-08T12:28:42.473Z	├ ƒ /market/real-estate/[id]                  4.73 kB         284 kB
+2026-10-08T12:28:42.473Z	├ ○ /my-policies                              5.97 kB         281 kB
+2026-10-08T12:28:42.473Z	├ ○ /notifications                            4.15 kB         279 kB
+2026-10-08T12:28:42.473Z	├ ○ /plans                                    4.79 kB         279 kB
+2026-10-08T12:28:42.473Z	├ ƒ /plans/[id]/subscribe                     7.53 kB         290 kB
+2026-10-08T12:28:42.473Z	├ ○ /policies                                   182 B         106 kB
+2026-10-08T12:28:42.473Z	├ ○ /portfolio                                8.26 kB         304 kB
+2026-10-08T12:28:42.474Z	├ ƒ /portfolio/[id]                           6.01 kB         288 kB
+2026-10-08T12:28:42.474Z	├ ○ /privacy                                    182 B         106 kB
+2026-10-08T12:28:42.474Z	├ ○ /profile                                  5.84 kB         308 kB
+2026-10-08T12:28:42.475Z	├ ○ /referrals                                6.24 kB         281 kB
+2026-10-08T12:28:42.475Z	├ ○ /signup                                   5.92 kB         290 kB
+2026-10-08T12:28:42.475Z	├ ○ /staff                                     6.3 kB         284 kB
+2026-10-08T12:28:42.475Z	├ ○ /staff/vault                              7.37 kB         299 kB
+2026-10-08T12:28:42.475Z	├ ○ /stocks                                    5.5 kB         289 kB
+2026-10-08T12:28:42.475Z	├ ƒ /stocks/[symbol]                          6.62 kB         290 kB
+2026-10-08T12:28:42.475Z	├ ○ /stocks/market                             5.7 kB         289 kB
+2026-10-08T12:28:42.475Z	├ ○ /superadmin/admins                        4.33 kB         279 kB
+2026-10-08T12:28:42.475Z	├ ○ /superadmin/audit                         1.86 kB         277 kB
+2026-10-08T12:28:42.475Z	├ ○ /superadmin/broker                        8.93 kB         291 kB
+2026-10-08T12:28:42.475Z	├ ○ /superadmin/broker-exports                  177 B         279 kB
+2026-10-08T12:28:42.476Z	├ ○ /superadmin/dashboard                     1.84 kB         108 kB
+2026-10-08T12:28:42.476Z	├ ○ /superadmin/email                         7.51 kB         290 kB
+2026-10-08T12:28:42.476Z	├ ○ /superadmin/email/templates               4.08 kB         289 kB
+2026-10-08T12:28:42.476Z	├ ○ /superadmin/investments/plans             7.42 kB         282 kB
+2026-10-08T12:28:42.476Z	├ ○ /superadmin/investors                     6.93 kB         306 kB
+2026-10-08T12:28:42.476Z	├ ○ /superadmin/landing-templates               182 B         106 kB
+2026-10-08T12:28:42.476Z	├ ƒ /superadmin/landing-templates/[template]    136 B         156 kB
+2026-10-08T12:28:42.476Z	├ ○ /superadmin/loans                         7.34 kB         282 kB
+2026-10-08T12:28:42.476Z	├ ○ /superadmin/membership                    4.76 kB         293 kB
+2026-10-08T12:28:42.476Z	├ ○ /superadmin/payment-methods               4.23 kB         279 kB
+2026-10-08T12:28:42.476Z	├ ○ /superadmin/platform                      10.9 kB         318 kB
+2026-10-08T12:28:42.476Z	├ ○ /superadmin/telegram                      6.73 kB         289 kB
+2026-10-08T12:28:42.476Z	├ ○ /support                                  2.74 kB         349 kB
+2026-10-08T12:28:42.476Z	├ ○ /terms                                      182 B         106 kB
+2026-10-08T12:28:42.476Z	├ ○ /wallet                                      6 kB         290 kB
+2026-10-08T12:28:42.476Z	└ ƒ /wallet/receipt/[txnId]                   5.14 kB         291 kB
+2026-10-08T12:28:42.476Z	+ First Load JS shared by all                  102 kB
+2026-10-08T12:28:42.476Z	  ├ chunks/1255-fbff2a247371566e.js           46.2 kB
+2026-10-08T12:28:42.476Z	  ├ chunks/4bd1b696-100b9d70ed4e49c1.js       54.2 kB
+2026-10-08T12:28:42.477Z	  └ other shared chunks (total)               1.97 kB
+2026-10-08T12:28:42.477Z	
+2026-10-08T12:28:42.477Z	
+2026-10-08T12:28:42.477Z	○  (Static)   prerendered as static content
+2026-10-08T12:28:42.477Z	ƒ  (Dynamic)  server-rendered on demand
+2026-10-08T12:28:42.477Z	
+2026-10-08T12:28:44.570Z	
+2026-10-08T12:28:44.571Z	┌─────────────────────────────┐
+2026-10-08T12:28:44.571Z	│ OpenNext — Cloudflare build │
+2026-10-08T12:28:44.571Z	└─────────────────────────────┘
+2026-10-08T12:28:44.571Z	
+2026-10-08T12:28:44.702Z	App directory: /opt/buildhome/repo
+2026-10-08T12:28:44.703Z	Next.js version : 15.5.27
+2026-10-08T12:28:44.705Z	@opennextjs/cloudflare version: 1.20.9
+2026-10-08T12:28:44.705Z	@opennextjs/aws version: 4.1.8
+2026-10-08T12:28:44.705Z	workerd compatibility_date: 2026-10-06
+2026-10-08T12:28:44.706Z	
+2026-10-08T12:28:44.706Z	┌─────────────────────────────────┐
+2026-10-08T12:28:44.706Z	│ OpenNext — Building Next.js app │
+2026-10-08T12:28:44.706Z	└─────────────────────────────────┘
+2026-10-08T12:28:44.706Z	
+2026-10-08T12:28:44.892Z	
+2026-10-08T12:28:44.892Z	> easy-setup@1.0.0 build
+2026-10-08T12:28:44.892Z	> npm install --no-save --package-lock=false @opennextjs/cloudflare@latest && next build && npx --yes @opennextjs/cloudflare build
+2026-10-08T12:28:44.892Z	
+2026-10-08T12:29:00.635Z	
+2026-10-08T12:29:00.635Z	up to date in 16s
+2026-10-08T12:29:00.635Z	
+2026-10-08T12:29:00.635Z	199 packages are looking for funding
+2026-10-08T12:29:00.635Z	  run `npm fund` for details
+2026-10-08T12:29:00.638Z	npm warn allow-scripts 6 packages have install scripts not yet covered by allowScripts:
+2026-10-08T12:29:00.638Z	npm warn allow-scripts   esbuild@0.25.4 (postinstall: node install.js)
+2026-10-08T12:29:00.639Z	npm warn allow-scripts   unrs-resolver@1.12.2 (postinstall: node postinstall.js)
+2026-10-08T12:29:00.639Z	npm warn allow-scripts   @firebase/util@1.15.3 (postinstall: node ./postinstall.js)
+2026-10-08T12:29:00.639Z	npm warn allow-scripts   protobufjs@7.6.6 (postinstall: node scripts/postinstall)
+2026-10-08T12:29:00.639Z	npm warn allow-scripts   esbuild@0.28.1 (postinstall: node install.js)
+2026-10-08T12:29:00.639Z	npm warn allow-scripts   workerd@1.20261006.1 (postinstall: node install.js)
+2026-10-08T12:29:00.640Z	npm warn allow-scripts
+2026-10-08T12:29:00.640Z	npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+2026-10-08T12:29:01.788Z	   ▲ Next.js 15.5.27
+2026-10-08T12:29:01.788Z	
+2026-10-08T12:29:02.018Z	   Creating an optimized production build ...
+2026-10-08T12:29:14.400Z	 ✓ Compiled successfully in 9.4s
+2026-10-08T12:29:14.416Z	   Linting and checking validity of types ...
+2026-10-08T12:29:29.898Z	   Collecting page data ...
+2026-10-08T12:29:35.648Z	   Generating static pages (0/78) ...
+2026-10-08T12:29:38.043Z	   Generating static pages (19/78) 
+2026-10-08T12:29:38.944Z	   Generating static pages (38/78) 
+2026-10-08T12:29:39.548Z	   Generating static pages (58/78) 
+2026-10-08T12:29:40.063Z	 ✓ Generating static pages (78/78)
+2026-10-08T12:29:40.735Z	   Finalizing page optimization ...
+2026-10-08T12:29:40.736Z	   Collecting build traces ...
+2026-10-08T12:30:05.272Z	
+2026-10-08T12:30:05.278Z	Route (app)                                      Size  First Load JS
+2026-10-08T12:30:05.279Z	┌ ƒ /                                           136 B         156 kB
+2026-10-08T12:30:05.279Z	├ ○ /_not-found                                 166 B         103 kB
+2026-10-08T12:30:05.279Z	├ ○ /admin/analytics                          6.74 kB         281 kB
+2026-10-08T12:30:05.279Z	├ ○ /admin/broadcast                           5.2 kB         280 kB
+2026-10-08T12:30:05.279Z	├ ○ /admin/businesses                         4.06 kB         301 kB
+2026-10-08T12:30:05.279Z	├ ○ /admin/chats                              2.88 kB         349 kB
+2026-10-08T12:30:05.279Z	├ ○ /admin/dashboard                          3.42 kB         278 kB
+2026-10-08T12:30:05.279Z	├ ○ /admin/farm-products                      3.82 kB         301 kB
+2026-10-08T12:30:05.279Z	├ ○ /admin/insurance                          4.47 kB         302 kB
+2026-10-08T12:30:05.279Z	├ ○ /admin/investments                        4.46 kB         283 kB
+2026-10-08T12:30:05.279Z	├ ○ /admin/kyc                                7.99 kB         283 kB
+2026-10-08T12:30:05.279Z	├ ○ /admin/loan-products                      5.52 kB         280 kB
+2026-10-08T12:30:05.279Z	├ ○ /admin/loan-requests                      4.02 kB         284 kB
+2026-10-08T12:30:05.279Z	├ ○ /admin/messaging                          5.78 kB         294 kB
+2026-10-08T12:30:05.279Z	├ ○ /admin/payment-accounts                    5.5 kB         280 kB
+2026-10-08T12:30:05.279Z	├ ○ /admin/properties                         4.78 kB         302 kB
+2026-10-08T12:30:05.279Z	├ ○ /admin/stocks                             7.43 kB         282 kB
+2026-10-08T12:30:05.279Z	├ ○ /admin/store/analytics                    6.46 kB         281 kB
+2026-10-08T12:30:05.279Z	├ ○ /admin/store/orders                       3.92 kB         279 kB
+2026-10-08T12:30:05.279Z	├ ○ /admin/store/products                     5.74 kB         305 kB
+2026-10-08T12:30:05.279Z	├ ○ /admin/users                              7.05 kB         287 kB
+2026-10-08T12:30:05.279Z	├ ƒ /admin/users/[uid]/activity               3.69 kB         286 kB
+2026-10-08T12:30:05.279Z	├ ƒ /admin/users/[uid]/service                11.7 kB         304 kB
+2026-10-08T12:30:05.279Z	├ ○ /admin/wallet-requests                    2.25 kB         283 kB
+2026-10-08T12:30:05.279Z	├ ƒ /api/investments/process-maturity           166 B         103 kB
+2026-10-08T12:30:05.279Z	├ ƒ /api/otp/send                               166 B         103 kB
+2026-10-08T12:30:05.280Z	├ ƒ /api/otp/verify                             166 B         103 kB
+2026-10-08T12:30:05.280Z	├ ƒ /api/send-email                             166 B         103 kB
+2026-10-08T12:30:05.280Z	├ ƒ /api/sign-cloudinary                        166 B         103 kB
+2026-10-08T12:30:05.280Z	├ ƒ /api/statements/generate                    166 B         103 kB
+2026-10-08T12:30:05.280Z	├ ƒ /api/superadmin/broker-export               166 B         103 kB
+2026-10-08T12:30:05.280Z	├ ƒ /api/telegram/send                          166 B         103 kB
+2026-10-08T12:30:05.280Z	├ ƒ /api/telegram/test                          166 B         103 kB
+2026-10-08T12:30:05.280Z	├ ƒ /api/telegram/webhook                       166 B         103 kB
+2026-10-08T12:30:05.280Z	├ ƒ /api/test-cloudinary                        166 B         103 kB
+2026-10-08T12:30:05.280Z	├ ƒ /api/test-email                             166 B         103 kB
+2026-10-08T12:30:05.280Z	├ ○ /broker-exports                             177 B         279 kB
+2026-10-08T12:30:05.280Z	├ ○ /dashboard                                5.75 kB         307 kB
+2026-10-08T12:30:05.280Z	├ ○ /forgot-password                          4.18 kB         282 kB
+2026-10-08T12:30:05.280Z	├ ○ /investments                                182 B         106 kB
+2026-10-08T12:30:05.280Z	├ ○ /kyc                                      7.86 kB         301 kB
+2026-10-08T12:30:05.280Z	├ ○ /loans                                    4.27 kB         288 kB
+2026-10-08T12:30:05.280Z	├ ○ /login                                    5.27 kB         289 kB
+2026-10-08T12:30:05.280Z	├ ○ /market                                     859 B         280 kB
+2026-10-08T12:30:05.280Z	├ ○ /market/business                          4.95 kB         280 kB
+2026-10-08T12:30:05.280Z	├ ƒ /market/business/[id]                     4.31 kB         284 kB
+2026-10-08T12:30:05.280Z	├ ○ /market/farming                           5.35 kB         280 kB
+2026-10-08T12:30:05.281Z	├ ƒ /market/farming/[id]                      8.23 kB         283 kB
+2026-10-08T12:30:05.281Z	├ ○ /market/insurance                         5.04 kB         280 kB
+2026-10-08T12:30:05.281Z	├ ƒ /market/insurance/[id]                    8.18 kB         283 kB
+2026-10-08T12:30:05.281Z	├ ○ /market/loans                             4.64 kB         279 kB
+2026-10-08T12:30:05.281Z	├ ƒ /market/loans/[id]                        5.31 kB         280 kB
+2026-10-08T12:30:05.281Z	├ ○ /market/real-estate                       5.87 kB         281 kB
+2026-10-08T12:30:05.281Z	├ ƒ /market/real-estate/[id]                  4.73 kB         284 kB
+2026-10-08T12:30:05.283Z	├ ○ /my-policies                              5.97 kB         281 kB
+2026-10-08T12:30:05.283Z	├ ○ /notifications                            4.15 kB         279 kB
+2026-10-08T12:30:05.283Z	├ ○ /plans                                    4.79 kB         279 kB
+2026-10-08T12:30:05.283Z	├ ƒ /plans/[id]/subscribe                     7.53 kB         290 kB
+2026-10-08T12:30:05.283Z	├ ○ /policies                                   182 B         106 kB
+2026-10-08T12:30:05.283Z	├ ○ /portfolio                                8.26 kB         304 kB
+2026-10-08T12:30:05.283Z	├ ƒ /portfolio/[id]                           6.01 kB         288 kB
+2026-10-08T12:30:05.283Z	├ ○ /privacy                                    182 B         106 kB
+2026-10-08T12:30:05.283Z	├ ○ /profile                                  5.84 kB         308 kB
+2026-10-08T12:30:05.283Z	├ ○ /referrals                                6.24 kB         281 kB
+2026-10-08T12:30:05.283Z	├ ○ /signup                                   5.92 kB         290 kB
+2026-10-08T12:30:05.284Z	├ ○ /staff                                     6.3 kB         284 kB
+2026-10-08T12:30:05.284Z	├ ○ /staff/vault                              7.37 kB         299 kB
+2026-10-08T12:30:05.284Z	├ ○ /stocks                                    5.5 kB         289 kB
+2026-10-08T12:30:05.284Z	├ ƒ /stocks/[symbol]                          6.62 kB         290 kB
+2026-10-08T12:30:05.284Z	├ ○ /stocks/market                             5.7 kB         289 kB
+2026-10-08T12:30:05.284Z	├ ○ /superadmin/admins                        4.33 kB         279 kB
+2026-10-08T12:30:05.284Z	├ ○ /superadmin/audit                         1.86 kB         277 kB
+2026-10-08T12:30:05.284Z	├ ○ /superadmin/broker                        8.93 kB         291 kB
+2026-10-08T12:30:05.284Z	├ ○ /superadmin/broker-exports                  177 B         279 kB
+2026-10-08T12:30:05.284Z	├ ○ /superadmin/dashboard                     1.84 kB         108 kB
+2026-10-08T12:30:05.284Z	├ ○ /superadmin/email                         7.51 kB         290 kB
+2026-10-08T12:30:05.284Z	├ ○ /superadmin/email/templates               4.08 kB         289 kB
+2026-10-08T12:30:05.284Z	├ ○ /superadmin/investments/plans             7.42 kB         282 kB
+2026-10-08T12:30:05.286Z	├ ○ /superadmin/investors                     6.93 kB         306 kB
+2026-10-08T12:30:05.286Z	├ ○ /superadmin/landing-templates               182 B         106 kB
+2026-10-08T12:30:05.286Z	├ ƒ /superadmin/landing-templates/[template]    136 B         156 kB
+2026-10-08T12:30:05.286Z	├ ○ /superadmin/loans                         7.34 kB         282 kB
+2026-10-08T12:30:05.286Z	├ ○ /superadmin/membership                    4.76 kB         293 kB
+2026-10-08T12:30:05.286Z	├ ○ /superadmin/payment-methods               4.23 kB         279 kB
+2026-10-08T12:30:05.286Z	├ ○ /superadmin/platform                      10.9 kB         318 kB
+2026-10-08T12:30:05.286Z	├ ○ /superadmin/telegram                      6.73 kB         289 kB
+2026-10-08T12:30:05.287Z	├ ○ /support                                  2.74 kB         349 kB
+2026-10-08T12:30:05.287Z	├ ○ /terms                                      182 B         106 kB
+2026-10-08T12:30:05.287Z	├ ○ /wallet                                      6 kB         290 kB
+2026-10-08T12:30:05.287Z	└ ƒ /wallet/receipt/[txnId]                   5.14 kB         291 kB
+2026-10-08T12:30:05.287Z	+ First Load JS shared by all                  102 kB
+2026-10-08T12:30:05.287Z	  ├ chunks/1255-fbff2a247371566e.js           46.2 kB
+2026-10-08T12:30:05.287Z	  ├ chunks/4bd1b696-100b9d70ed4e49c1.js       54.2 kB
+2026-10-08T12:30:05.287Z	  └ other shared chunks (total)               1.97 kB
+2026-10-08T12:30:05.287Z	
+2026-10-08T12:30:05.287Z	
+2026-10-08T12:30:05.287Z	○  (Static)   prerendered as static content
+2026-10-08T12:30:05.287Z	ƒ  (Dynamic)  server-rendered on demand
+2026-10-08T12:30:05.287Z	
+2026-10-08T12:30:07.692Z	
+2026-10-08T12:30:07.693Z	┌─────────────────────────────┐
+2026-10-08T12:30:07.693Z	│ OpenNext — Cloudflare build │
+2026-10-08T12:30:07.693Z	└─────────────────────────────┘
+2026-10-08T12:30:07.693Z	
+2026-10-08T12:30:07.811Z	App directory: /opt/buildhome/repo
+2026-10-08T12:30:07.811Z	Next.js version : 15.5.27
+2026-10-08T12:30:07.814Z	@opennextjs/cloudflare version: 1.20.9
+2026-10-08T12:30:07.814Z	@opennextjs/aws version: 4.1.8
+2026-10-08T12:30:07.814Z	workerd compatibility_date: 2026-10-06
+2026-10-08T12:30:07.816Z	
+2026-10-08T12:30:07.816Z	┌─────────────────────────────────┐
+2026-10-08T12:30:07.816Z	│ OpenNext — Building Next.js app │
+2026-10-08T12:30:07.816Z	└─────────────────────────────────┘
+2026-10-08T12:30:07.816Z	
+2026-10-08T12:30:08.020Z	
+2026-10-08T12:30:08.020Z	> easy-setup@1.0.0 build
+2026-10-08T12:30:08.020Z	> npm install --no-save --package-lock=false @opennextjs/cloudflare@latest && next build && npx --yes @opennextjs/cloudflare build
+2026-10-08T12:30:08.020Z	
+2026-10-08T12:30:40.668Z	
+2026-10-08T12:30:40.669Z	up to date in 33s
+2026-10-08T12:30:40.669Z	
+2026-10-08T12:30:40.669Z	199 packages are looking for funding
+2026-10-08T12:30:40.669Z	  run `npm fund` for details
+2026-10-08T12:30:40.671Z	npm warn allow-scripts 6 packages have install scripts not yet covered by allowScripts:
+2026-10-08T12:30:40.673Z	npm warn allow-scripts   esbuild@0.25.4 (postinstall: node install.js)
+2026-10-08T12:30:40.673Z	npm warn allow-scripts   unrs-resolver@1.12.2 (postinstall: node postinstall.js)
+2026-10-08T12:30:40.673Z	npm warn allow-scripts   @firebase/util@1.15.3 (postinstall: node ./postinstall.js)
+2026-10-08T12:30:40.673Z	npm warn allow-scripts   protobufjs@7.6.6 (postinstall: node scripts/postinstall)
+2026-10-08T12:30:40.674Z	npm warn allow-scripts   esbuild@0.28.1 (postinstall: node install.js)
+2026-10-08T12:30:40.674Z	npm warn allow-scripts   workerd@1.20261006.1 (postinstall: node install.js)
+2026-10-08T12:30:40.674Z	npm warn allow-scripts
+2026-10-08T12:30:40.674Z	npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+2026-10-08T12:30:41.745Z	   ▲ Next.js 15.5.27
+2026-10-08T12:30:41.745Z	
+2026-10-08T12:30:41.967Z	   Creating an optimized production build ...
+2026-10-08T12:30:53.887Z	 ✓ Compiled successfully in 8.9s
+2026-10-08T12:30:53.893Z	   Linting and checking validity of types ...
+2026-10-08T12:31:09.613Z	   Collecting page data ...
+2026-10-08T12:31:16.128Z	   Generating static pages (0/78) ...
+2026-10-08T12:31:18.607Z	   Generating static pages (19/78) 
+2026-10-08T12:31:19.170Z	   Generating static pages (38/78) 
+2026-10-08T12:31:19.993Z	   Generating static pages (58/78) 
+2026-10-08T12:31:20.437Z	 ✓ Generating static pages (78/78)
+2026-10-08T12:31:21.124Z	   Finalizing page optimization ...
+2026-10-08T12:31:21.124Z	   Collecting build traces ...
+2026-10-08T12:31:46.819Z	
+2026-10-08T12:31:46.825Z	Route (app)                                      Size  First Load JS
+2026-10-08T12:31:46.826Z	┌ ƒ /                                           136 B         156 kB
+2026-10-08T12:31:46.826Z	├ ○ /_not-found                                 166 B         103 kB
+2026-10-08T12:31:46.826Z	├ ○ /admin/analytics                          6.74 kB         281 kB
+2026-10-08T12:31:46.826Z	├ ○ /admin/broadcast                           5.2 kB         280 kB
+2026-10-08T12:31:46.826Z	├ ○ /admin/businesses                         4.06 kB         301 kB
+2026-10-08T12:31:46.826Z	├ ○ /admin/chats                              2.88 kB         349 kB
+2026-10-08T12:31:46.826Z	├ ○ /admin/dashboard                          3.42 kB         278 kB
+2026-10-08T12:31:46.826Z	├ ○ /admin/farm-products                      3.82 kB         301 kB
+2026-10-08T12:31:46.826Z	├ ○ /admin/insurance                          4.47 kB         302 kB
+2026-10-08T12:31:46.826Z	├ ○ /admin/investments                        4.46 kB         283 kB
+2026-10-08T12:31:46.826Z	├ ○ /admin/kyc                                7.99 kB         283 kB
+2026-10-08T12:31:46.827Z	├ ○ /admin/loan-products                      5.52 kB         280 kB
+2026-10-08T12:31:46.827Z	├ ○ /admin/loan-requests                      4.02 kB         284 kB
+2026-10-08T12:31:46.827Z	├ ○ /admin/messaging                          5.78 kB         294 kB
+2026-10-08T12:31:46.827Z	├ ○ /admin/payment-accounts                    5.5 kB         280 kB
+2026-10-08T12:31:46.827Z	├ ○ /admin/properties                         4.78 kB         302 kB
+2026-10-08T12:31:46.828Z	├ ○ /admin/stocks                             7.43 kB         282 kB
+2026-10-08T12:31:46.828Z	├ ○ /admin/store/analytics                    6.46 kB         281 kB
+2026-10-08T12:31:46.828Z	├ ○ /admin/store/orders                       3.92 kB         279 kB
+2026-10-08T12:31:46.828Z	├ ○ /admin/store/products                     5.74 kB         305 kB
+2026-10-08T12:31:46.829Z	├ ○ /admin/users                              7.05 kB         287 kB
+2026-10-08T12:31:46.829Z	├ ƒ /admin/users/[uid]/activity               3.69 kB         286 kB
+2026-10-08T12:31:46.829Z	├ ƒ /admin/users/[uid]/service                11.7 kB         304 kB
+2026-10-08T12:31:46.829Z	├ ○ /admin/wallet-requests                    2.25 kB         283 kB
+2026-10-08T12:31:46.829Z	├ ƒ /api/investments/process-maturity           166 B         103 kB
+2026-10-08T12:31:46.829Z	├ ƒ /api/otp/send                               166 B         103 kB
+2026-10-08T12:31:46.829Z	├ ƒ /api/otp/verify                             166 B         103 kB
+2026-10-08T12:31:46.830Z	├ ƒ /api/send-email                             166 B         103 kB
+2026-10-08T12:31:46.830Z	├ ƒ /api/sign-cloudinary                        166 B         103 kB
+2026-10-08T12:31:46.830Z	├ ƒ /api/statements/generate                    166 B         103 kB
+2026-10-08T12:31:46.830Z	├ ƒ /api/superadmin/broker-export               166 B         103 kB
+2026-10-08T12:31:46.830Z	├ ƒ /api/telegram/send                          166 B         103 kB
+2026-10-08T12:31:46.830Z	├ ƒ /api/telegram/test                          166 B         103 kB
+2026-10-08T12:31:46.830Z	├ ƒ /api/telegram/webhook                       166 B         103 kB
+2026-10-08T12:31:46.830Z	├ ƒ /api/test-cloudinary                        166 B         103 kB
+2026-10-08T12:31:46.830Z	├ ƒ /api/test-email                             166 B         103 kB
+2026-10-08T12:31:46.830Z	├ ○ /broker-exports                             177 B         279 kB
+2026-10-08T12:31:46.830Z	├ ○ /dashboard                                5.75 kB         307 kB
+2026-10-08T12:31:46.830Z	├ ○ /forgot-password                          4.18 kB         282 kB
+2026-10-08T12:31:46.830Z	├ ○ /investments                                182 B         106 kB
+2026-10-08T12:31:46.830Z	├ ○ /kyc                                      7.86 kB         301 kB
+2026-10-08T12:31:46.830Z	├ ○ /loans                                    4.27 kB         288 kB
+2026-10-08T12:31:46.831Z	├ ○ /login                                    5.27 kB         289 kB
+2026-10-08T12:31:46.831Z	├ ○ /market                                     859 B         280 kB
+2026-10-08T12:31:46.831Z	├ ○ /market/business                          4.95 kB         280 kB
+2026-10-08T12:31:46.831Z	├ ƒ /market/business/[id]                     4.31 kB         284 kB
+2026-10-08T12:31:46.831Z	├ ○ /market/farming                           5.35 kB         280 kB
+2026-10-08T12:31:46.832Z	├ ƒ /market/farming/[id]                      8.23 kB         283 kB
+2026-10-08T12:31:46.833Z	├ ○ /market/insurance                         5.04 kB         280 kB
+2026-10-08T12:31:46.833Z	├ ƒ /market/insurance/[id]                    8.18 kB         283 kB
+2026-10-08T12:31:46.833Z	├ ○ /market/loans                             4.64 kB         279 kB
+2026-10-08T12:31:46.833Z	├ ƒ /market/loans/[id]                        5.31 kB         280 kB
+2026-10-08T12:31:46.833Z	├ ○ /market/real-estate                       5.87 kB         281 kB
+2026-10-08T12:31:46.833Z	├ ƒ /market/real-estate/[id]                  4.73 kB         284 kB
+2026-10-08T12:31:46.833Z	├ ○ /my-policies                              5.97 kB         281 kB
+2026-10-08T12:31:46.833Z	├ ○ /notifications                            4.15 kB         279 kB
+2026-10-08T12:31:46.833Z	├ ○ /plans                                    4.79 kB         279 kB
+2026-10-08T12:31:46.834Z	├ ƒ /plans/[id]/subscribe                     7.53 kB         290 kB
+2026-10-08T12:31:46.834Z	├ ○ /policies                                   182 B         106 kB
+2026-10-08T12:31:46.834Z	├ ○ /portfolio                                8.26 kB         304 kB
+2026-10-08T12:31:46.834Z	├ ƒ /portfolio/[id]                           6.01 kB         288 kB
+2026-10-08T12:31:46.834Z	├ ○ /privacy                                    182 B         106 kB
+2026-10-08T12:31:46.834Z	├ ○ /profile                                  5.84 kB         308 kB
+2026-10-08T12:31:46.834Z	├ ○ /referrals                                6.24 kB         281 kB
+2026-10-08T12:31:46.834Z	├ ○ /signup                                   5.92 kB         290 kB
+2026-10-08T12:31:46.834Z	├ ○ /staff                                     6.3 kB         284 kB
+2026-10-08T12:31:46.834Z	├ ○ /staff/vault                              7.37 kB         299 kB
+2026-10-08T12:31:46.834Z	├ ○ /stocks                                    5.5 kB         289 kB
+2026-10-08T12:31:46.834Z	├ ƒ /stocks/[symbol]                          6.62 kB         290 kB
+2026-10-08T12:31:46.835Z	├ ○ /stocks/market                             5.7 kB         289 kB
+2026-10-08T12:31:46.835Z	├ ○ /superadmin/admins                        4.33 kB         279 kB
+2026-10-08T12:31:46.835Z	├ ○ /superadmin/audit                         1.86 kB         277 kB
+2026-10-08T12:31:46.835Z	├ ○ /superadmin/broker                        8.93 kB         291 kB
+2026-10-08T12:31:46.835Z	├ ○ /superadmin/broker-exports                  177 B         279 kB
+2026-10-08T12:31:46.835Z	├ ○ /superadmin/dashboard                     1.84 kB         108 kB
+2026-10-08T12:31:46.835Z	├ ○ /superadmin/email                         7.51 kB         290 kB
+2026-10-08T12:31:46.835Z	├ ○ /superadmin/email/templates               4.08 kB         289 kB
+2026-10-08T12:31:46.835Z	├ ○ /superadmin/investments/plans             7.42 kB         282 kB
+2026-10-08T12:31:46.835Z	├ ○ /superadmin/investors                     6.93 kB         306 kB
+2026-10-08T12:31:46.835Z	├ ○ /superadmin/landing-templates               182 B         106 kB
+2026-10-08T12:31:46.835Z	├ ƒ /superadmin/landing-templates/[template]    136 B         156 kB
+2026-10-08T12:31:46.835Z	├ ○ /superadmin/loans                         7.34 kB         282 kB
+2026-10-08T12:31:46.835Z	├ ○ /superadmin/membership                    4.76 kB         293 kB
+2026-10-08T12:31:46.835Z	├ ○ /superadmin/payment-methods               4.23 kB         279 kB
+2026-10-08T12:31:46.835Z	├ ○ /superadmin/platform                      10.9 kB         318 kB
+2026-10-08T12:31:46.836Z	├ ○ /superadmin/telegram                      6.73 kB         289 kB
+2026-10-08T12:31:46.837Z	├ ○ /support                                  2.74 kB         349 kB
+2026-10-08T12:31:46.837Z	├ ○ /terms                                      182 B         106 kB
+2026-10-08T12:31:46.837Z	├ ○ /wallet                                      6 kB         290 kB
+2026-10-08T12:31:46.837Z	└ ƒ /wallet/receipt/[txnId]                   5.14 kB         291 kB
+2026-10-08T12:31:46.837Z	+ First Load JS shared by all                  102 kB
+2026-10-08T12:31:46.837Z	  ├ chunks/1255-fbff2a247371566e.js           46.2 kB
+2026-10-08T12:31:46.837Z	  ├ chunks/4bd1b696-100b9d70ed4e49c1.js       54.2 kB
+2026-10-08T12:31:46.837Z	  └ other shared chunks (total)               1.97 kB
+2026-10-08T12:31:46.837Z	
+2026-10-08T12:31:46.837Z	
+2026-10-08T12:31:46.837Z	○  (Static)   prerendered as static content
+2026-10-08T12:31:46.837Z	ƒ  (Dynamic)  server-rendered on demand
+2026-10-08T12:31:46.837Z	
+2026-10-08T12:31:48.928Z	
+2026-10-08T12:31:48.928Z	┌─────────────────────────────┐
+2026-10-08T12:31:48.928Z	│ OpenNext — Cloudflare build │
+2026-10-08T12:31:48.928Z	└─────────────────────────────┘
+2026-10-08T12:31:48.928Z	
+2026-10-08T12:31:49.032Z	App directory: /opt/buildhome/repo
+2026-10-08T12:31:49.032Z	Next.js version : 15.5.27
+2026-10-08T12:31:49.034Z	@opennextjs/cloudflare version: 1.20.9
+2026-10-08T12:31:49.035Z	@opennextjs/aws version: 4.1.8
+2026-10-08T12:31:49.035Z	workerd compatibility_date: 2026-10-06
+2026-10-08T12:31:49.036Z	
+2026-10-08T12:31:49.036Z	┌─────────────────────────────────┐
+2026-10-08T12:31:49.036Z	│ OpenNext — Building Next.js app │
+2026-10-08T12:31:49.036Z	└─────────────────────────────────┘
+2026-10-08T12:31:49.036Z	
+2026-10-08T12:31:49.195Z	
+2026-10-08T12:31:49.195Z	> easy-setup@1.0.0 build
+2026-10-08T12:31:49.195Z	> npm install --no-save --package-lock=false @opennextjs/cloudflare@latest && next build && npx --yes @opennextjs/cloudflare build
+2026-10-08T12:31:49.195Z	
+2026-10-08T12:32:04.932Z	
+2026-10-08T12:32:04.932Z	up to date in 16s
+2026-10-08T12:32:04.933Z	
+2026-10-08T12:32:04.933Z	199 packages are looking for funding
+2026-10-08T12:32:04.934Z	  run `npm fund` for details
+2026-10-08T12:32:04.935Z	npm warn allow-scripts 6 packages have install scripts not yet covered by allowScripts:
+2026-10-08T12:32:04.935Z	npm warn allow-scripts   esbuild@0.25.4 (postinstall: node install.js)
+2026-10-08T12:32:04.935Z	npm warn allow-scripts   unrs-resolver@1.12.2 (postinstall: node postinstall.js)
+2026-10-08T12:32:04.935Z	npm warn allow-scripts   @firebase/util@1.15.3 (postinstall: node ./postinstall.js)
+2026-10-08T12:32:04.935Z	npm warn allow-scripts   protobufjs@7.6.6 (postinstall: node scripts/postinstall)
+2026-10-08T12:32:04.935Z	npm warn allow-scripts   esbuild@0.28.1 (postinstall: node install.js)
+2026-10-08T12:32:04.935Z	npm warn allow-scripts   workerd@1.20261006.1 (postinstall: node install.js)
+2026-10-08T12:32:04.935Z	npm warn allow-scripts
+2026-10-08T12:32:04.935Z	npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+2026-10-08T12:32:05.889Z	   ▲ Next.js 15.5.27
+2026-10-08T12:32:05.889Z	
+2026-10-08T12:32:06.072Z	   Creating an optimized production build ...
+2026-10-08T12:32:18.780Z	 ✓ Compiled successfully in 9.5s
+2026-10-08T12:32:18.782Z	   Linting and checking validity of types ...
+2026-10-08T12:32:34.313Z	   Collecting page data ...
+2026-10-08T12:32:40.421Z	   Generating static pages (0/78) ...
+2026-10-08T12:32:42.360Z	   Generating static pages (19/78) 
+2026-10-08T12:32:42.959Z	   Generating static pages (38/78) 
+2026-10-08T12:32:43.833Z	   Generating static pages (58/78) 
+2026-10-08T12:32:44.308Z	 ✓ Generating static pages (78/78)
+2026-10-08T12:32:44.930Z	   Finalizing page optimization ...
+2026-10-08T12:32:44.930Z	   Collecting build traces ...
+2026-10-08T12:33:10.010Z	
+2026-10-08T12:33:10.016Z	Route (app)                                      Size  First Load JS
+2026-10-08T12:33:10.016Z	┌ ƒ /                                           136 B         156 kB
+2026-10-08T12:33:10.016Z	├ ○ /_not-found                                 166 B         103 kB
+2026-10-08T12:33:10.016Z	├ ○ /admin/analytics                          6.74 kB         281 kB
+2026-10-08T12:33:10.016Z	├ ○ /admin/broadcast                           5.2 kB         280 kB
+2026-10-08T12:33:10.016Z	├ ○ /admin/businesses                         4.06 kB         301 kB
+2026-10-08T12:33:10.016Z	├ ○ /admin/chats                              2.88 kB         349 kB
+2026-10-08T12:33:10.016Z	├ ○ /admin/dashboard                          3.42 kB         278 kB
+2026-10-08T12:33:10.016Z	├ ○ /admin/farm-products                      3.82 kB         301 kB
+2026-10-08T12:33:10.016Z	├ ○ /admin/insurance                          4.47 kB         302 kB
+2026-10-08T12:33:10.016Z	├ ○ /admin/investments                        4.46 kB         283 kB
+2026-10-08T12:33:10.016Z	├ ○ /admin/kyc                                7.99 kB         283 kB
+2026-10-08T12:33:10.016Z	├ ○ /admin/loan-products                      5.52 kB         280 kB
+2026-10-08T12:33:10.016Z	├ ○ /admin/loan-requests                      4.02 kB         284 kB
+2026-10-08T12:33:10.017Z	├ ○ /admin/messaging                          5.78 kB         294 kB
+2026-10-08T12:33:10.017Z	├ ○ /admin/payment-accounts                    5.5 kB         280 kB
+2026-10-08T12:33:10.017Z	├ ○ /admin/properties                         4.78 kB         302 kB
+2026-10-08T12:33:10.017Z	├ ○ /admin/stocks                             7.43 kB         282 kB
+2026-10-08T12:33:10.017Z	├ ○ /admin/store/analytics                    6.46 kB         281 kB
+2026-10-08T12:33:10.017Z	├ ○ /admin/store/orders                       3.92 kB         279 kB
+2026-10-08T12:33:10.017Z	├ ○ /admin/store/products                     5.74 kB         305 kB
+2026-10-08T12:33:10.017Z	├ ○ /admin/users                              7.05 kB         287 kB
+2026-10-08T12:33:10.017Z	├ ƒ /admin/users/[uid]/activity               3.69 kB         286 kB
+2026-10-08T12:33:10.017Z	├ ƒ /admin/users/[uid]/service                11.7 kB         304 kB
+2026-10-08T12:33:10.017Z	├ ○ /admin/wallet-requests                    2.25 kB         283 kB
+2026-10-08T12:33:10.017Z	├ ƒ /api/investments/process-maturity           166 B         103 kB
+2026-10-08T12:33:10.017Z	├ ƒ /api/otp/send                               166 B         103 kB
+2026-10-08T12:33:10.017Z	├ ƒ /api/otp/verify                             166 B         103 kB
+2026-10-08T12:33:10.017Z	├ ƒ /api/send-email                             166 B         103 kB
+2026-10-08T12:33:10.017Z	├ ƒ /api/sign-cloudinary                        166 B         103 kB
+2026-10-08T12:33:10.017Z	├ ƒ /api/statements/generate                    166 B         103 kB
+2026-10-08T12:33:10.017Z	├ ƒ /api/superadmin/broker-export               166 B         103 kB
+2026-10-08T12:33:10.017Z	├ ƒ /api/telegram/send                          166 B         103 kB
+2026-10-08T12:33:10.017Z	├ ƒ /api/telegram/test                          166 B         103 kB
+2026-10-08T12:33:10.018Z	├ ƒ /api/telegram/webhook                       166 B         103 kB
+2026-10-08T12:33:10.018Z	├ ƒ /api/test-cloudinary                        166 B         103 kB
+2026-10-08T12:33:10.018Z	├ ƒ /api/test-email                             166 B         103 kB
+2026-10-08T12:33:10.018Z	├ ○ /broker-exports                             177 B         279 kB
+2026-10-08T12:33:10.020Z	├ ○ /dashboard                                5.75 kB         307 kB
+2026-10-08T12:33:10.020Z	├ ○ /forgot-password                          4.18 kB         282 kB
+2026-10-08T12:33:10.020Z	├ ○ /investments                                182 B         106 kB
+2026-10-08T12:33:10.020Z	├ ○ /kyc                                      7.86 kB         301 kB
+2026-10-08T12:33:10.020Z	├ ○ /loans                                    4.27 kB         288 kB
+2026-10-08T12:33:10.020Z	├ ○ /login                                    5.27 kB         289 kB
+2026-10-08T12:33:10.020Z	├ ○ /market                                     859 B         280 kB
+2026-10-08T12:33:10.021Z	├ ○ /market/business                          4.95 kB         280 kB
+2026-10-08T12:33:10.021Z	├ ƒ /market/business/[id]                     4.31 kB         284 kB
+2026-10-08T12:33:10.021Z	├ ○ /market/farming                           5.35 kB         280 kB
+2026-10-08T12:33:10.021Z	├ ƒ /market/farming/[id]                      8.23 kB         283 kB
+2026-10-08T12:33:10.021Z	├ ○ /market/insurance                         5.04 kB         280 kB
+2026-10-08T12:33:10.022Z	├ ƒ /market/insurance/[id]                    8.18 kB         283 kB
+2026-10-08T12:33:10.022Z	├ ○ /market/loans                             4.64 kB         279 kB
+2026-10-08T12:33:10.022Z	├ ƒ /market/loans/[id]                        5.31 kB         280 kB
+2026-10-08T12:33:10.022Z	├ ○ /market/real-estate                       5.87 kB         281 kB
+2026-10-08T12:33:10.022Z	├ ƒ /market/real-estate/[id]                  4.73 kB         284 kB
+2026-10-08T12:33:10.022Z	├ ○ /my-policies                              5.97 kB         281 kB
+2026-10-08T12:33:10.022Z	├ ○ /notifications                            4.15 kB         279 kB
+2026-10-08T12:33:10.022Z	├ ○ /plans                                    4.79 kB         279 kB
+2026-10-08T12:33:10.023Z	├ ƒ /plans/[id]/subscribe                     7.53 kB         290 kB
+2026-10-08T12:33:10.024Z	├ ○ /policies                                   182 B         106 kB
+2026-10-08T12:33:10.025Z	├ ○ /portfolio                                8.26 kB         304 kB
+2026-10-08T12:33:10.027Z	├ ƒ /portfolio/[id]                           6.01 kB         288 kB
+2026-10-08T12:33:10.027Z	├ ○ /privacy                                    182 B         106 kB
+2026-10-08T12:33:10.027Z	├ ○ /profile                                  5.84 kB         308 kB
+2026-10-08T12:33:10.027Z	├ ○ /referrals                                6.24 kB         281 kB
+2026-10-08T12:33:10.028Z	├ ○ /signup                                   5.92 kB         290 kB
+2026-10-08T12:33:10.028Z	├ ○ /staff                                     6.3 kB         284 kB
+2026-10-08T12:33:10.028Z	├ ○ /staff/vault                              7.37 kB         299 kB
+2026-10-08T12:33:10.028Z	├ ○ /stocks                                    5.5 kB         289 kB
+2026-10-08T12:33:10.028Z	├ ƒ /stocks/[symbol]                          6.62 kB         290 kB
+2026-10-08T12:33:10.028Z	├ ○ /stocks/market                             5.7 kB         289 kB
+2026-10-08T12:33:10.028Z	├ ○ /superadmin/admins                        4.33 kB         279 kB
+2026-10-08T12:33:10.028Z	├ ○ /superadmin/audit                         1.86 kB         277 kB
+2026-10-08T12:33:10.028Z	├ ○ /superadmin/broker                        8.93 kB         291 kB
+2026-10-08T12:33:10.028Z	├ ○ /superadmin/broker-exports                  177 B         279 kB
+2026-10-08T12:33:10.028Z	├ ○ /superadmin/dashboard                     1.84 kB         108 kB
+2026-10-08T12:33:10.029Z	├ ○ /superadmin/email                         7.51 kB         290 kB
+2026-10-08T12:33:10.029Z	├ ○ /superadmin/email/templates               4.08 kB         289 kB
+2026-10-08T12:33:10.029Z	├ ○ /superadmin/investments/plans             7.42 kB         282 kB
+2026-10-08T12:33:10.029Z	├ ○ /superadmin/investors                     6.93 kB         306 kB
+2026-10-08T12:33:10.029Z	├ ○ /superadmin/landing-templates               182 B         106 kB
+2026-10-08T12:33:10.029Z	├ ƒ /superadmin/landing-templates/[template]    136 B         156 kB
+2026-10-08T12:33:10.029Z	├ ○ /superadmin/loans                         7.34 kB         282 kB
+2026-10-08T12:33:10.029Z	├ ○ /superadmin/membership                    4.76 kB         293 kB
+2026-10-08T12:33:10.030Z	├ ○ /superadmin/payment-methods               4.23 kB         279 kB
+2026-10-08T12:33:10.030Z	├ ○ /superadmin/platform                      10.9 kB         318 kB
+2026-10-08T12:33:10.030Z	├ ○ /superadmin/telegram                      6.73 kB         289 kB
+2026-10-08T12:33:10.030Z	├ ○ /support                                  2.74 kB         349 kB
+2026-10-08T12:33:10.030Z	├ ○ /terms                                      182 B         106 kB
+2026-10-08T12:33:10.030Z	├ ○ /wallet                                      6 kB         290 kB
+2026-10-08T12:33:10.030Z	└ ƒ /wallet/receipt/[txnId]                   5.14 kB         291 kB
+2026-10-08T12:33:10.030Z	+ First Load JS shared by all                  102 kB
+2026-10-08T12:33:10.030Z	  ├ chunks/1255-fbff2a247371566e.js           46.2 kB
+2026-10-08T12:33:10.030Z	  ├ chunks/4bd1b696-100b9d70ed4e49c1.js       54.2 kB
+2026-10-08T12:33:10.030Z	  └ other shared chunks (total)               1.97 kB
+2026-10-08T12:33:10.030Z	
+2026-10-08T12:33:10.030Z	
+2026-10-08T12:33:10.031Z	○  (Static)   prerendered as static content
+2026-10-08T12:33:10.031Z	ƒ  (Dynamic)  server-rendered on demand
+2026-10-08T12:33:10.031Z	
+2026-10-08T12:33:12.222Z	
+2026-10-08T12:33:12.222Z	┌─────────────────────────────┐
+2026-10-08T12:33:12.222Z	│ OpenNext — Cloudflare build │
+2026-10-08T12:33:12.222Z	└─────────────────────────────┘
+2026-10-08T12:33:12.223Z	
+2026-10-08T12:33:12.352Z	App directory: /opt/buildhome/repo
+2026-10-08T12:33:12.352Z	Next.js version : 15.5.27
+2026-10-08T12:33:12.353Z	@opennextjs/cloudflare version: 1.20.9
+2026-10-08T12:33:12.353Z	@opennextjs/aws version: 4.1.8
+2026-10-08T12:33:12.353Z	workerd compatibility_date: 2026-10-06
+2026-10-08T12:33:12.355Z	
+2026-10-08T12:33:12.355Z	┌─────────────────────────────────┐
+2026-10-08T12:33:12.355Z	│ OpenNext — Building Next.js app │
+2026-10-08T12:33:12.355Z	└─────────────────────────────────┘
+2026-10-08T12:33:12.355Z	
+2026-10-08T12:33:12.529Z	
+2026-10-08T12:33:12.529Z	> easy-setup@1.0.0 build
+2026-10-08T12:33:12.529Z	> npm install --no-save --package-lock=false @opennextjs/cloudflare@latest && next build && npx --yes @opennextjs/cloudflare build
+2026-10-08T12:33:12.529Z	
+2026-10-08T12:33:29.123Z	
+2026-10-08T12:33:29.124Z	up to date in 16s
+2026-10-08T12:33:29.124Z	
+2026-10-08T12:33:29.124Z	199 packages are looking for funding
+2026-10-08T12:33:29.124Z	  run `npm fund` for details
+2026-10-08T12:33:29.125Z	npm warn allow-scripts 6 packages have install scripts not yet covered by allowScripts:
+2026-10-08T12:33:29.125Z	npm warn allow-scripts   esbuild@0.25.4 (postinstall: node install.js)
+2026-10-08T12:33:29.126Z	npm warn allow-scripts   unrs-resolver@1.12.2 (postinstall: node postinstall.js)
+2026-10-08T12:33:29.126Z	npm warn allow-scripts   @firebase/util@1.15.3 (postinstall: node ./postinstall.js)
+2026-10-08T12:33:29.126Z	npm warn allow-scripts   protobufjs@7.6.6 (postinstall: node scripts/postinstall)
+2026-10-08T12:33:29.126Z	npm warn allow-scripts   esbuild@0.28.1 (postinstall: node install.js)
+2026-10-08T12:33:29.126Z	npm warn allow-scripts   workerd@1.20261006.1 (postinstall: node install.js)
+2026-10-08T12:33:29.126Z	npm warn allow-scripts
+2026-10-08T12:33:29.126Z	npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+2026-10-08T12:33:30.182Z	   ▲ Next.js 15.5.27
+2026-10-08T12:33:30.182Z	
+2026-10-08T12:33:30.391Z	   Creating an optimized production build ...
+2026-10-08T12:33:43.308Z	 ✓ Compiled successfully in 9.8s
+2026-10-08T12:33:43.329Z	   Linting and checking validity of types ...
+2026-10-08T12:33:59.824Z	   Collecting page data ...
+2026-10-08T12:34:05.650Z	   Generating static pages (0/78) ...
+2026-10-08T12:34:07.987Z	   Generating static pages (19/78) 
+2026-10-08T12:34:08.518Z	   Generating static pages (38/78) 
+2026-10-08T12:34:09.299Z	   Generating static pages (58/78) 
+2026-10-08T12:34:09.698Z	 ✓ Generating static pages (78/78)
+2026-10-08T12:34:10.323Z	   Finalizing page optimization ...
+2026-10-08T12:34:10.325Z	   Collecting build traces ...
+2026-10-08T12:34:35.797Z	
+2026-10-08T12:34:35.803Z	Route (app)                                      Size  First Load JS
+2026-10-08T12:34:35.804Z	┌ ƒ /                                           136 B         156 kB
+2026-10-08T12:34:35.804Z	├ ○ /_not-found                                 166 B         103 kB
+2026-10-08T12:34:35.804Z	├ ○ /admin/analytics                          6.74 kB         281 kB
+2026-10-08T12:34:35.804Z	├ ○ /admin/broadcast                           5.2 kB         280 kB
+2026-10-08T12:34:35.804Z	├ ○ /admin/businesses                         4.06 kB         301 kB
+2026-10-08T12:34:35.805Z	├ ○ /admin/chats                              2.88 kB         349 kB
+2026-10-08T12:34:35.805Z	├ ○ /admin/dashboard                          3.42 kB         278 kB
+2026-10-08T12:34:35.805Z	├ ○ /admin/farm-products                      3.82 kB         301 kB
+2026-10-08T12:34:35.805Z	├ ○ /admin/insurance                          4.47 kB         302 kB
+2026-10-08T12:34:35.806Z	├ ○ /admin/investments                        4.46 kB         283 kB
+2026-10-08T12:34:35.806Z	├ ○ /admin/kyc                                7.99 kB         283 kB
+2026-10-08T12:34:35.806Z	├ ○ /admin/loan-products                      5.52 kB         280 kB
+2026-10-08T12:34:35.806Z	├ ○ /admin/loan-requests                      4.02 kB         284 kB
+2026-10-08T12:34:35.806Z	├ ○ /admin/messaging                          5.78 kB         294 kB
+2026-10-08T12:34:35.806Z	├ ○ /admin/payment-accounts                    5.5 kB         280 kB
+2026-10-08T12:34:35.806Z	├ ○ /admin/properties                         4.78 kB         302 kB
+2026-10-08T12:34:35.806Z	├ ○ /admin/stocks                             7.43 kB         282 kB
+2026-10-08T12:34:35.806Z	├ ○ /admin/store/analytics                    6.46 kB         281 kB
+2026-10-08T12:34:35.806Z	├ ○ /admin/store/orders                       3.92 kB         279 kB
+2026-10-08T12:34:35.806Z	├ ○ /admin/store/products                     5.74 kB         305 kB
+2026-10-08T12:34:35.806Z	├ ○ /admin/users                              7.05 kB         287 kB
+2026-10-08T12:34:35.806Z	├ ƒ /admin/users/[uid]/activity               3.69 kB         286 kB
+2026-10-08T12:34:35.806Z	├ ƒ /admin/users/[uid]/service                11.7 kB         304 kB
+2026-10-08T12:34:35.807Z	├ ○ /admin/wallet-requests                    2.25 kB         283 kB
+2026-10-08T12:34:35.807Z	├ ƒ /api/investments/process-maturity           166 B         103 kB
+2026-10-08T12:34:35.808Z	├ ƒ /api/otp/send                               166 B         103 kB
+2026-10-08T12:34:35.808Z	├ ƒ /api/otp/verify                             166 B         103 kB
+2026-10-08T12:34:35.808Z	├ ƒ /api/send-email                             166 B         103 kB
+2026-10-08T12:34:35.808Z	├ ƒ /api/sign-cloudinary                        166 B         103 kB
+2026-10-08T12:34:35.808Z	├ ƒ /api/statements/generate                    166 B         103 kB
+2026-10-08T12:34:35.808Z	├ ƒ /api/superadmin/broker-export               166 B         103 kB
+2026-10-08T12:34:35.808Z	├ ƒ /api/telegram/send                          166 B         103 kB
+2026-10-08T12:34:35.808Z	├ ƒ /api/telegram/test                          166 B         103 kB
+2026-10-08T12:34:35.808Z	├ ƒ /api/telegram/webhook                       166 B         103 kB
+2026-10-08T12:34:35.808Z	├ ƒ /api/test-cloudinary                        166 B         103 kB
+2026-10-08T12:34:35.808Z	├ ƒ /api/test-email                             166 B         103 kB
+2026-10-08T12:34:35.808Z	├ ○ /broker-exports                             177 B         279 kB
+2026-10-08T12:34:35.808Z	├ ○ /dashboard                                5.75 kB         307 kB
+2026-10-08T12:34:35.808Z	├ ○ /forgot-password                          4.18 kB         282 kB
+2026-10-08T12:34:35.808Z	├ ○ /investments                                182 B         106 kB
+2026-10-08T12:34:35.808Z	├ ○ /kyc                                      7.86 kB         301 kB
+2026-10-08T12:34:35.809Z	├ ○ /loans                                    4.27 kB         288 kB
+2026-10-08T12:34:35.809Z	├ ○ /login                                    5.27 kB         289 kB
+2026-10-08T12:34:35.809Z	├ ○ /market                                     859 B         280 kB
+2026-10-08T12:34:35.809Z	├ ○ /market/business                          4.95 kB         280 kB
+2026-10-08T12:34:35.809Z	├ ƒ /market/business/[id]                     4.31 kB         284 kB
+2026-10-08T12:34:35.809Z	├ ○ /market/farming                           5.35 kB         280 kB
+2026-10-08T12:34:35.809Z	├ ƒ /market/farming/[id]                      8.23 kB         283 kB
+2026-10-08T12:34:35.810Z	├ ○ /market/insurance                         5.04 kB         280 kB
+2026-10-08T12:34:35.811Z	├ ƒ /market/insurance/[id]                    8.18 kB         283 kB
+2026-10-08T12:34:35.811Z	├ ○ /market/loans                             4.64 kB         279 kB
+2026-10-08T12:34:35.811Z	├ ƒ /market/loans/[id]                        5.31 kB         280 kB
+2026-10-08T12:34:35.811Z	├ ○ /market/real-estate                       5.87 kB         281 kB
+2026-10-08T12:34:35.811Z	├ ƒ /market/real-estate/[id]                  4.73 kB         284 kB
+2026-10-08T12:34:35.811Z	├ ○ /my-policies                              5.97 kB         281 kB
+2026-10-08T12:34:35.811Z	├ ○ /notifications                            4.15 kB         279 kB
+2026-10-08T12:34:35.811Z	├ ○ /plans                                    4.79 kB         279 kB
+2026-10-08T12:34:35.811Z	├ ƒ /plans/[id]/subscribe                     7.53 kB         290 kB
+2026-10-08T12:34:35.811Z	├ ○ /policies                                   182 B         106 kB
+2026-10-08T12:34:35.811Z	├ ○ /portfolio                                8.26 kB         304 kB
+2026-10-08T12:34:35.811Z	├ ƒ /portfolio/[id]                           6.01 kB         288 kB
+2026-10-08T12:34:35.811Z	├ ○ /privacy                                    182 B         106 kB
+2026-10-08T12:34:35.811Z	├ ○ /profile                                  5.84 kB         308 kB
+2026-10-08T12:34:35.811Z	├ ○ /referrals                                6.24 kB         281 kB
+2026-10-08T12:34:35.811Z	├ ○ /signup                                   5.92 kB         290 kB
+2026-10-08T12:34:35.811Z	├ ○ /staff                                     6.3 kB         284 kB
+2026-10-08T12:34:35.811Z	├ ○ /staff/vault                              7.37 kB         299 kB
+2026-10-08T12:34:35.812Z	├ ○ /stocks                                    5.5 kB         289 kB
+2026-10-08T12:34:35.812Z	├ ƒ /stocks/[symbol]                          6.62 kB         290 kB
+2026-10-08T12:34:35.812Z	├ ○ /stocks/market                             5.7 kB         289 kB
+2026-10-08T12:34:35.812Z	├ ○ /superadmin/admins                        4.33 kB         279 kB
+2026-10-08T12:34:35.812Z	├ ○ /superadmin/audit                         1.86 kB         277 kB
+2026-10-08T12:34:35.812Z	├ ○ /superadmin/broker                        8.93 kB         291 kB
+2026-10-08T12:34:35.812Z	├ ○ /superadmin/broker-exports                  177 B         279 kB
+2026-10-08T12:34:35.812Z	├ ○ /superadmin/dashboard                     1.84 kB         108 kB
+2026-10-08T12:34:35.812Z	├ ○ /superadmin/email                         7.51 kB         290 kB
+2026-10-08T12:34:35.812Z	├ ○ /superadmin/email/templates               4.08 kB         289 kB
+2026-10-08T12:34:35.812Z	├ ○ /superadmin/investments/plans             7.42 kB         282 kB
+2026-10-08T12:34:35.812Z	├ ○ /superadmin/investors                     6.93 kB         306 kB
+2026-10-08T12:34:35.812Z	├ ○ /superadmin/landing-templates               182 B         106 kB
+2026-10-08T12:34:35.812Z	├ ƒ /superadmin/landing-templates/[template]    136 B         156 kB
+2026-10-08T12:34:35.812Z	├ ○ /superadmin/loans                         7.34 kB         282 kB
+2026-10-08T12:34:35.812Z	├ ○ /superadmin/membership                    4.76 kB         293 kB
+2026-10-08T12:34:35.812Z	├ ○ /superadmin/payment-methods               4.23 kB         279 kB
+2026-10-08T12:34:35.812Z	├ ○ /superadmin/platform                      10.9 kB         318 kB
+2026-10-08T12:34:35.813Z	├ ○ /superadmin/telegram                      6.73 kB         289 kB
+2026-10-08T12:34:35.813Z	├ ○ /support                                  2.74 kB         349 kB
+2026-10-08T12:34:35.813Z	├ ○ /terms                                      182 B         106 kB
+2026-10-08T12:34:35.813Z	├ ○ /wallet                                      6 kB         290 kB
+2026-10-08T12:34:35.813Z	└ ƒ /wallet/receipt/[txnId]                   5.14 kB         291 kB
+2026-10-08T12:34:35.813Z	+ First Load JS shared by all                  102 kB
+2026-10-08T12:34:35.813Z	  ├ chunks/1255-fbff2a247371566e.js           46.2 kB
+2026-10-08T12:34:35.814Z	  ├ chunks/4bd1b696-100b9d70ed4e49c1.js       54.2 kB
+2026-10-08T12:34:35.814Z	  └ other shared chunks (total)               1.97 kB
+2026-10-08T12:34:35.814Z	
+2026-10-08T12:34:35.814Z	
+2026-10-08T12:34:35.814Z	○  (Static)   prerendered as static content
+2026-10-08T12:34:35.814Z	ƒ  (Dynamic)  server-rendered on demand
+2026-10-08T12:34:35.814Z	
+2026-10-08T12:34:37.960Z	
+2026-10-08T12:34:37.961Z	┌─────────────────────────────┐
+2026-10-08T12:34:37.961Z	│ OpenNext — Cloudflare build │
+2026-10-08T12:34:37.961Z	└─────────────────────────────┘
+2026-10-08T12:34:37.961Z	
+2026-10-08T12:34:38.091Z	App directory: /opt/buildhome/repo
+2026-10-08T12:34:38.091Z	Next.js version : 15.5.27
+2026-10-08T12:34:38.092Z	@opennextjs/cloudflare version: 1.20.9
+2026-10-08T12:34:38.092Z	@opennextjs/aws version: 4.1.8
+2026-10-08T12:34:38.092Z	workerd compatibility_date: 2026-10-06
+2026-10-08T12:34:38.093Z	
+2026-10-08T12:34:38.093Z	┌─────────────────────────────────┐
+2026-10-08T12:34:38.093Z	│ OpenNext — Building Next.js app │
+2026-10-08T12:34:38.093Z	└─────────────────────────────────┘
+2026-10-08T12:34:38.093Z	
+2026-10-08T12:34:38.296Z	
+2026-10-08T12:34:38.296Z	> easy-setup@1.0.0 build
+2026-10-08T12:34:38.297Z	> npm install --no-save --package-lock=false @opennextjs/cloudflare@latest && next build && npx --yes @opennextjs/cloudflare build
+2026-10-08T12:34:38.297Z	
+2026-10-08T12:34:53.812Z	
+2026-10-08T12:34:53.812Z	up to date in 15s
+2026-10-08T12:34:53.813Z	
+2026-10-08T12:34:53.814Z	199 packages are looking for funding
+2026-10-08T12:34:53.814Z	  run `npm fund` for details
+2026-10-08T12:34:53.814Z	npm warn allow-scripts 6 packages have install scripts not yet covered by allowScripts:
+2026-10-08T12:34:53.814Z	npm warn allow-scripts   esbuild@0.25.4 (postinstall: node install.js)
+2026-10-08T12:34:53.814Z	npm warn allow-scripts   unrs-resolver@1.12.2 (postinstall: node postinstall.js)
+2026-10-08T12:34:53.814Z	npm warn allow-scripts   @firebase/util@1.15.3 (postinstall: node ./postinstall.js)
+2026-10-08T12:34:53.814Z	npm warn allow-scripts   protobufjs@7.6.6 (postinstall: node scripts/postinstall)
+2026-10-08T12:34:53.814Z	npm warn allow-scripts   esbuild@0.28.1 (postinstall: node install.js)
+2026-10-08T12:34:53.814Z	npm warn allow-scripts   workerd@1.20261006.1 (postinstall: node install.js)
+2026-10-08T12:34:53.814Z	npm warn allow-scripts
+2026-10-08T12:34:53.814Z	npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+2026-10-08T12:34:54.877Z	   ▲ Next.js 15.5.27
+2026-10-08T12:34:54.877Z	
+2026-10-08T12:34:55.100Z	   Creating an optimized production build ...
+2026-10-08T12:35:11.774Z	 ✓ Compiled successfully in 13.4s
+2026-10-08T12:35:11.798Z	   Linting and checking validity of types ...
+2026-10-08T12:35:26.832Z	   Collecting page data ...
+2026-10-08T12:35:33.243Z	   Generating static pages (0/78) ...
+2026-10-08T12:35:35.340Z	   Generating static pages (19/78) 
+2026-10-08T12:35:36.082Z	   Generating static pages (38/78) 
+2026-10-08T12:35:36.966Z	   Generating static pages (58/78) 
+2026-10-08T12:35:37.350Z	 ✓ Generating static pages (78/78)
+2026-10-08T12:35:38.400Z	   Finalizing page optimization ...
+2026-10-08T12:35:38.400Z	   Collecting build traces ...
+2026-10-08T12:36:01.393Z	
+2026-10-08T12:36:01.401Z	Route (app)                                      Size  First Load JS
+2026-10-08T12:36:01.401Z	┌ ƒ /                                           136 B         156 kB
+2026-10-08T12:36:01.401Z	├ ○ /_not-found                                 166 B         103 kB
+2026-10-08T12:36:01.401Z	├ ○ /admin/analytics                          6.74 kB         281 kB
+2026-10-08T12:36:01.401Z	├ ○ /admin/broadcast                           5.2 kB         280 kB
+2026-10-08T12:36:01.401Z	├ ○ /admin/businesses                         4.06 kB         301 kB
+2026-10-08T12:36:01.401Z	├ ○ /admin/chats                              2.88 kB         349 kB
+2026-10-08T12:36:01.401Z	├ ○ /admin/dashboard                          3.42 kB         278 kB
+2026-10-08T12:36:01.402Z	├ ○ /admin/farm-products                      3.82 kB         301 kB
+2026-10-08T12:36:01.402Z	├ ○ /admin/insurance                          4.47 kB         302 kB
+2026-10-08T12:36:01.402Z	├ ○ /admin/investments                        4.46 kB         283 kB
+2026-10-08T12:36:01.402Z	├ ○ /admin/kyc                                7.99 kB         283 kB
+2026-10-08T12:36:01.402Z	├ ○ /admin/loan-products                      5.52 kB         280 kB
+2026-10-08T12:36:01.402Z	├ ○ /admin/loan-requests                      4.02 kB         284 kB
+2026-10-08T12:36:01.402Z	├ ○ /admin/messaging                          5.78 kB         294 kB
+2026-10-08T12:36:01.402Z	├ ○ /admin/payment-accounts                    5.5 kB         280 kB
+2026-10-08T12:36:01.402Z	├ ○ /admin/properties                         4.78 kB         302 kB
+2026-10-08T12:36:01.402Z	├ ○ /admin/stocks                             7.43 kB         282 kB
+2026-10-08T12:36:01.402Z	├ ○ /admin/store/analytics                    6.46 kB         281 kB
+2026-10-08T12:36:01.402Z	├ ○ /admin/store/orders                       3.92 kB         279 kB
+2026-10-08T12:36:01.402Z	├ ○ /admin/store/products                     5.74 kB         305 kB
+2026-10-08T12:36:01.402Z	├ ○ /admin/users                              7.05 kB         287 kB
+2026-10-08T12:36:01.404Z	├ ƒ /admin/users/[uid]/activity               3.69 kB         286 kB
+2026-10-08T12:36:01.404Z	├ ƒ /admin/users/[uid]/service                11.7 kB         304 kB
+2026-10-08T12:36:01.404Z	├ ○ /admin/wallet-requests                    2.25 kB         283 kB
+2026-10-08T12:36:01.405Z	├ ƒ /api/investments/process-maturity           166 B         103 kB
+2026-10-08T12:36:01.405Z	├ ƒ /api/otp/send                               166 B         103 kB
+2026-10-08T12:36:01.405Z	├ ƒ /api/otp/verify                             166 B         103 kB
+2026-10-08T12:36:01.405Z	├ ƒ /api/send-email                             166 B         103 kB
+2026-10-08T12:36:01.405Z	├ ƒ /api/sign-cloudinary                        166 B         103 kB
+2026-10-08T12:36:01.405Z	├ ƒ /api/statements/generate                    166 B         103 kB
+2026-10-08T12:36:01.405Z	├ ƒ /api/superadmin/broker-export               166 B         103 kB
+2026-10-08T12:36:01.406Z	├ ƒ /api/telegram/send                          166 B         103 kB
+2026-10-08T12:36:01.406Z	├ ƒ /api/telegram/test                          166 B         103 kB
+2026-10-08T12:36:01.406Z	├ ƒ /api/telegram/webhook                       166 B         103 kB
+2026-10-08T12:36:01.406Z	├ ƒ /api/test-cloudinary                        166 B         103 kB
+2026-10-08T12:36:01.406Z	├ ƒ /api/test-email                             166 B         103 kB
+2026-10-08T12:36:01.406Z	├ ○ /broker-exports                             177 B         279 kB
+2026-10-08T12:36:01.406Z	├ ○ /dashboard                                5.75 kB         307 kB
+2026-10-08T12:36:01.406Z	├ ○ /forgot-password                          4.18 kB         282 kB
+2026-10-08T12:36:01.406Z	├ ○ /investments                                182 B         106 kB
+2026-10-08T12:36:01.406Z	├ ○ /kyc                                      7.86 kB         301 kB
+2026-10-08T12:36:01.406Z	├ ○ /loans                                    4.27 kB         288 kB
+2026-10-08T12:36:01.406Z	├ ○ /login                                    5.27 kB         289 kB
+2026-10-08T12:36:01.406Z	├ ○ /market                                     859 B         280 kB
+2026-10-08T12:36:01.406Z	├ ○ /market/business                          4.95 kB         280 kB
+2026-10-08T12:36:01.406Z	├ ƒ /market/business/[id]                     4.31 kB         284 kB
+2026-10-08T12:36:01.406Z	├ ○ /market/farming                           5.35 kB         280 kB
+2026-10-08T12:36:01.407Z	├ ƒ /market/farming/[id]                      8.23 kB         283 kB
+2026-10-08T12:36:01.407Z	├ ○ /market/insurance                         5.04 kB         280 kB
+2026-10-08T12:36:01.407Z	├ ƒ /market/insurance/[id]                    8.18 kB         283 kB
+2026-10-08T12:36:01.407Z	├ ○ /market/loans                             4.64 kB         279 kB
+2026-10-08T12:36:01.407Z	├ ƒ /market/loans/[id]                        5.31 kB         280 kB
+2026-10-08T12:36:01.407Z	├ ○ /market/real-estate                       5.87 kB         281 kB
+2026-10-08T12:36:01.407Z	├ ƒ /market/real-estate/[id]                  4.73 kB         284 kB
+2026-10-08T12:36:01.407Z	├ ○ /my-policies                              5.97 kB         281 kB
+2026-10-08T12:36:01.407Z	├ ○ /notifications                            4.15 kB         279 kB
+2026-10-08T12:36:01.407Z	├ ○ /plans                                    4.79 kB         279 kB
+2026-10-08T12:36:01.407Z	├ ƒ /plans/[id]/subscribe                     7.53 kB         290 kB
+2026-10-08T12:36:01.407Z	├ ○ /policies                                   182 B         106 kB
+2026-10-08T12:36:01.407Z	├ ○ /portfolio                                8.26 kB         304 kB
+2026-10-08T12:36:01.407Z	├ ƒ /portfolio/[id]                           6.01 kB         288 kB
+2026-10-08T12:36:01.407Z	├ ○ /privacy                                    182 B         106 kB
+2026-10-08T12:36:01.407Z	├ ○ /profile                                  5.84 kB         308 kB
+2026-10-08T12:36:01.407Z	├ ○ /referrals                                6.24 kB         281 kB
+2026-10-08T12:36:01.407Z	├ ○ /signup                                   5.92 kB         290 kB
+2026-10-08T12:36:01.408Z	├ ○ /staff                                     6.3 kB         284 kB
+2026-10-08T12:36:01.408Z	├ ○ /staff/vault                              7.37 kB         299 kB
+2026-10-08T12:36:01.408Z	├ ○ /stocks                                    5.5 kB         289 kB
+2026-10-08T12:36:01.408Z	├ ƒ /stocks/[symbol]                          6.62 kB         290 kB
+2026-10-08T12:36:01.408Z	├ ○ /stocks/market                             5.7 kB         289 kB
+2026-10-08T12:36:01.408Z	├ ○ /superadmin/admins                        4.33 kB         279 kB
+2026-10-08T12:36:01.408Z	├ ○ /superadmin/audit                         1.86 kB         277 kB
+2026-10-08T12:36:01.408Z	├ ○ /superadmin/broker                        8.93 kB         291 kB
+2026-10-08T12:36:01.408Z	├ ○ /superadmin/broker-exports                  177 B         279 kB
+2026-10-08T12:36:01.408Z	├ ○ /superadmin/dashboard                     1.84 kB         108 kB
+2026-10-08T12:36:01.408Z	├ ○ /superadmin/email                         7.51 kB         290 kB
+2026-10-08T12:36:01.408Z	├ ○ /superadmin/email/templates               4.08 kB         289 kB
+2026-10-08T12:36:01.408Z	├ ○ /superadmin/investments/plans             7.42 kB         282 kB
+2026-10-08T12:36:01.408Z	├ ○ /superadmin/investors                     6.93 kB         306 kB
+2026-10-08T12:36:01.408Z	├ ○ /superadmin/landing-templates               182 B         106 kB
+2026-10-08T12:36:01.408Z	├ ƒ /superadmin/landing-templates/[template]    136 B         156 kB
+2026-10-08T12:36:01.408Z	├ ○ /superadmin/loans                         7.34 kB         282 kB
+2026-10-08T12:36:01.408Z	├ ○ /superadmin/membership                    4.76 kB         293 kB
+2026-10-08T12:36:01.408Z	├ ○ /superadmin/payment-methods               4.23 kB         279 kB
+2026-10-08T12:36:01.408Z	├ ○ /superadmin/platform                      10.9 kB         318 kB
+2026-10-08T12:36:01.408Z	├ ○ /superadmin/telegram                      6.73 kB         289 kB
+2026-10-08T12:36:01.408Z	├ ○ /support                                  2.74 kB         349 kB
+2026-10-08T12:36:01.408Z	├ ○ /terms                                      182 B         106 kB
+2026-10-08T12:36:01.409Z	├ ○ /wallet                                      6 kB         290 kB
+2026-10-08T12:36:01.413Z	└ ƒ /wallet/receipt/[txnId]                   5.14 kB         291 kB
+2026-10-08T12:36:01.414Z	+ First Load JS shared by all                  102 kB
+2026-10-08T12:36:01.414Z	  ├ chunks/1255-fbff2a247371566e.js           46.2 kB
+2026-10-08T12:36:01.414Z	  ├ chunks/4bd1b696-100b9d70ed4e49c1.js       54.2 kB
+2026-10-08T12:36:01.414Z	  └ other shared chunks (total)               1.97 kB
+2026-10-08T12:36:01.414Z	
+2026-10-08T12:36:01.414Z	
+2026-10-08T12:36:01.414Z	○  (Static)   prerendered as static content
+2026-10-08T12:36:01.414Z	ƒ  (Dynamic)  server-rendered on demand
+2026-10-08T12:36:01.414Z	
+2026-10-08T12:36:03.626Z	
+2026-10-08T12:36:03.626Z	┌─────────────────────────────┐
+2026-10-08T12:36:03.626Z	│ OpenNext — Cloudflare build │
+2026-10-08T12:36:03.627Z	└─────────────────────────────┘
+2026-10-08T12:36:03.627Z	
+2026-10-08T12:36:03.752Z	App directory: /opt/buildhome/repo
+2026-10-08T12:36:03.752Z	Next.js version : 15.5.27
+2026-10-08T12:36:03.754Z	@opennextjs/cloudflare version: 1.20.9
+2026-10-08T12:36:03.754Z	@opennextjs/aws version: 4.1.8
+2026-10-08T12:36:03.754Z	workerd compatibility_date: 2026-10-06
+2026-10-08T12:36:03.755Z	
+2026-10-08T12:36:03.756Z	┌─────────────────────────────────┐
+2026-10-08T12:36:03.756Z	│ OpenNext — Building Next.js app │
+2026-10-08T12:36:03.756Z	└─────────────────────────────────┘
+2026-10-08T12:36:03.756Z	
+2026-10-08T12:36:03.919Z	
+2026-10-08T12:36:03.919Z	> easy-setup@1.0.0 build
+2026-10-08T12:36:03.919Z	> npm install --no-save --package-lock=false @opennextjs/cloudflare@latest && next build && npx --yes @opennextjs/cloudflare build
+2026-10-08T12:36:03.919Z	
+2026-10-08T12:36:36.670Z	
+2026-10-08T12:36:36.671Z	up to date in 33s
+2026-10-08T12:36:36.671Z	
+2026-10-08T12:36:36.671Z	199 packages are looking for funding
+2026-10-08T12:36:36.671Z	  run `npm fund` for details
+2026-10-08T12:36:36.672Z	npm warn allow-scripts 6 packages have install scripts not yet covered by allowScripts:
+2026-10-08T12:36:36.673Z	npm warn allow-scripts   esbuild@0.25.4 (postinstall: node install.js)
+2026-10-08T12:36:36.673Z	npm warn allow-scripts   unrs-resolver@1.12.2 (postinstall: node postinstall.js)
+2026-10-08T12:36:36.674Z	npm warn allow-scripts   @firebase/util@1.15.3 (postinstall: node ./postinstall.js)
+2026-10-08T12:36:36.674Z	npm warn allow-scripts   protobufjs@7.6.6 (postinstall: node scripts/postinstall)
+2026-10-08T12:36:36.674Z	npm warn allow-scripts   esbuild@0.28.1 (postinstall: node install.js)
+2026-10-08T12:36:36.674Z	npm warn allow-scripts   workerd@1.20261006.1 (postinstall: node install.js)
+2026-10-08T12:36:36.674Z	npm warn allow-scripts
+2026-10-08T12:36:36.674Z	npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+2026-10-08T12:36:37.699Z	   ▲ Next.js 15.5.27
+2026-10-08T12:36:37.700Z	
+2026-10-08T12:36:37.917Z	   Creating an optimized production build ...
+2026-10-08T12:36:49.692Z	 ✓ Compiled successfully in 8.9s
+2026-10-08T12:36:49.696Z	   Linting and checking validity of types ...
+2026-10-08T12:37:04.715Z	   Collecting page data ...
+2026-10-08T12:37:10.343Z	   Generating static pages (0/78) ...
+2026-10-08T12:37:12.681Z	   Generating static pages (19/78) 
+2026-10-08T12:37:13.108Z	   Generating static pages (38/78) 
+2026-10-08T12:37:13.897Z	   Generating static pages (58/78) 
+2026-10-08T12:37:14.428Z	 ✓ Generating static pages (78/78)
+2026-10-08T12:37:15.245Z	   Finalizing page optimization ...
+2026-10-08T12:37:15.246Z	   Collecting build traces ...
+2026-10-08T12:37:42.156Z	
+2026-10-08T12:37:42.162Z	Route (app)                                      Size  First Load JS
+2026-10-08T12:37:42.164Z	┌ ƒ /                                           136 B         156 kB
+2026-10-08T12:37:42.164Z	├ ○ /_not-found                                 166 B         103 kB
+2026-10-08T12:37:42.164Z	├ ○ /admin/analytics                          6.74 kB         281 kB
+2026-10-08T12:37:42.164Z	├ ○ /admin/broadcast                           5.2 kB         280 kB
+2026-10-08T12:37:42.164Z	├ ○ /admin/businesses                         4.06 kB         301 kB
+2026-10-08T12:37:42.164Z	├ ○ /admin/chats                              2.88 kB         349 kB
+2026-10-08T12:37:42.164Z	├ ○ /admin/dashboard                          3.42 kB         278 kB
+2026-10-08T12:37:42.164Z	├ ○ /admin/farm-products                      3.82 kB         301 kB
+2026-10-08T12:37:42.164Z	├ ○ /admin/insurance                          4.47 kB         302 kB
+2026-10-08T12:37:42.164Z	├ ○ /admin/investments                        4.46 kB         283 kB
+2026-10-08T12:37:42.164Z	├ ○ /admin/kyc                                7.99 kB         283 kB
+2026-10-08T12:37:42.164Z	├ ○ /admin/loan-products                      5.52 kB         280 kB
+2026-10-08T12:37:42.164Z	├ ○ /admin/loan-requests                      4.02 kB         284 kB
+2026-10-08T12:37:42.164Z	├ ○ /admin/messaging                          5.78 kB         294 kB
+2026-10-08T12:37:42.164Z	├ ○ /admin/payment-accounts                    5.5 kB         280 kB
+2026-10-08T12:37:42.165Z	├ ○ /admin/properties                         4.78 kB         302 kB
+2026-10-08T12:37:42.165Z	├ ○ /admin/stocks                             7.43 kB         282 kB
+2026-10-08T12:37:42.165Z	├ ○ /admin/store/analytics                    6.46 kB         281 kB
+2026-10-08T12:37:42.165Z	├ ○ /admin/store/orders                       3.92 kB         279 kB
+2026-10-08T12:37:42.165Z	├ ○ /admin/store/products                     5.74 kB         305 kB
+2026-10-08T12:37:42.165Z	├ ○ /admin/users                              7.05 kB         287 kB
+2026-10-08T12:37:42.165Z	├ ƒ /admin/users/[uid]/activity               3.69 kB         286 kB
+2026-10-08T12:37:42.166Z	├ ƒ /admin/users/[uid]/service                11.7 kB         304 kB
+2026-10-08T12:37:42.166Z	├ ○ /admin/wallet-requests                    2.25 kB         283 kB
+2026-10-08T12:37:42.167Z	├ ƒ /api/investments/process-maturity           166 B         103 kB
+2026-10-08T12:37:42.167Z	├ ƒ /api/otp/send                               166 B         103 kB
+2026-10-08T12:37:42.167Z	├ ƒ /api/otp/verify                             166 B         103 kB
+2026-10-08T12:37:42.167Z	├ ƒ /api/send-email                             166 B         103 kB
+2026-10-08T12:37:42.167Z	├ ƒ /api/sign-cloudinary                        166 B         103 kB
+2026-10-08T12:37:42.167Z	├ ƒ /api/statements/generate                    166 B         103 kB
+2026-10-08T12:37:42.167Z	├ ƒ /api/superadmin/broker-export               166 B         103 kB
+2026-10-08T12:37:42.167Z	├ ƒ /api/telegram/send                          166 B         103 kB
+2026-10-08T12:37:42.169Z	├ ƒ /api/telegram/test                          166 B         103 kB
+2026-10-08T12:37:42.169Z	├ ƒ /api/telegram/webhook                       166 B         103 kB
+2026-10-08T12:37:42.169Z	├ ƒ /api/test-cloudinary                        166 B         103 kB
+2026-10-08T12:37:42.169Z	├ ƒ /api/test-email                             166 B         103 kB
+2026-10-08T12:37:42.169Z	├ ○ /broker-exports                             177 B         279 kB
+2026-10-08T12:37:42.169Z	├ ○ /dashboard                                5.75 kB         307 kB
+2026-10-08T12:37:42.169Z	├ ○ /forgot-password                          4.18 kB         282 kB
+2026-10-08T12:37:42.169Z	├ ○ /investments                                182 B         106 kB
+2026-10-08T12:37:42.170Z	├ ○ /kyc                                      7.86 kB         301 kB
+2026-10-08T12:37:42.170Z	├ ○ /loans                                    4.27 kB         288 kB
+2026-10-08T12:37:42.170Z	├ ○ /login                                    5.27 kB         289 kB
+2026-10-08T12:37:42.170Z	├ ○ /market                                     859 B         280 kB
+2026-10-08T12:37:42.170Z	├ ○ /market/business                          4.95 kB         280 kB
+2026-10-08T12:37:42.170Z	├ ƒ /market/business/[id]                     4.31 kB         284 kB
+2026-10-08T12:37:42.170Z	├ ○ /market/farming                           5.35 kB         280 kB
+2026-10-08T12:37:42.170Z	├ ƒ /market/farming/[id]                      8.23 kB         283 kB
+2026-10-08T12:37:42.170Z	├ ○ /market/insurance                         5.04 kB         280 kB
+2026-10-08T12:37:42.170Z	├ ƒ /market/insurance/[id]                    8.18 kB         283 kB
+2026-10-08T12:37:42.170Z	├ ○ /market/loans                             4.64 kB         279 kB
+2026-10-08T12:37:42.170Z	├ ƒ /market/loans/[id]                        5.31 kB         280 kB
+2026-10-08T12:37:42.170Z	├ ○ /market/real-estate                       5.87 kB         281 kB
+2026-10-08T12:37:42.170Z	├ ƒ /market/real-estate/[id]                  4.73 kB         284 kB
+2026-10-08T12:37:42.170Z	├ ○ /my-policies                              5.97 kB         281 kB
+2026-10-08T12:37:42.170Z	├ ○ /notifications                            4.15 kB         279 kB
+2026-10-08T12:37:42.170Z	├ ○ /plans                                    4.79 kB         279 kB
+2026-10-08T12:37:42.170Z	├ ƒ /plans/[id]/subscribe                     7.53 kB         290 kB
+2026-10-08T12:37:42.170Z	├ ○ /policies                                   182 B         106 kB
+2026-10-08T12:37:42.170Z	├ ○ /portfolio                                8.26 kB         304 kB
+2026-10-08T12:37:42.170Z	├ ƒ /portfolio/[id]                           6.01 kB         288 kB
+2026-10-08T12:37:42.170Z	├ ○ /privacy                                    182 B         106 kB
+2026-10-08T12:37:42.170Z	├ ○ /profile                                  5.84 kB         308 kB
+2026-10-08T12:37:42.170Z	├ ○ /referrals                                6.24 kB         281 kB
+2026-10-08T12:37:42.170Z	├ ○ /signup                                   5.92 kB         290 kB
+2026-10-08T12:37:42.170Z	├ ○ /staff                                     6.3 kB         284 kB
+2026-10-08T12:37:42.171Z	├ ○ /staff/vault                              7.37 kB         299 kB
+2026-10-08T12:37:42.171Z	├ ○ /stocks                                    5.5 kB         289 kB
+2026-10-08T12:37:42.171Z	├ ƒ /stocks/[symbol]                          6.62 kB         290 kB
+2026-10-08T12:37:42.171Z	├ ○ /stocks/market                             5.7 kB         289 kB
+2026-10-08T12:37:42.171Z	├ ○ /superadmin/admins                        4.33 kB         279 kB
+2026-10-08T12:37:42.171Z	├ ○ /superadmin/audit                         1.86 kB         277 kB
+2026-10-08T12:37:42.171Z	├ ○ /superadmin/broker                        8.93 kB         291 kB
+2026-10-08T12:37:42.171Z	├ ○ /superadmin/broker-exports                  177 B         279 kB
+2026-10-08T12:37:42.171Z	├ ○ /superadmin/dashboard                     1.84 kB         108 kB
+2026-10-08T12:37:42.171Z	├ ○ /superadmin/email                         7.51 kB         290 kB
+2026-10-08T12:37:42.171Z	├ ○ /superadmin/email/templates               4.08 kB         289 kB
+2026-10-08T12:37:42.171Z	├ ○ /superadmin/investments/plans             7.42 kB         282 kB
+2026-10-08T12:37:42.171Z	├ ○ /superadmin/investors                     6.93 kB         306 kB
+2026-10-08T12:37:42.171Z	├ ○ /superadmin/landing-templates               182 B         106 kB
+2026-10-08T12:37:42.171Z	├ ƒ /superadmin/landing-templates/[template]    136 B         156 kB
+2026-10-08T12:37:42.171Z	├ ○ /superadmin/loans                         7.34 kB         282 kB
+2026-10-08T12:37:42.171Z	├ ○ /superadmin/membership                    4.76 kB         293 kB
+2026-10-08T12:37:42.171Z	├ ○ /superadmin/payment-methods               4.23 kB         279 kB
+2026-10-08T12:37:42.171Z	├ ○ /superadmin/platform                      10.9 kB         318 kB
+2026-10-08T12:37:42.171Z	├ ○ /superadmin/telegram                      6.73 kB         289 kB
+2026-10-08T12:37:42.171Z	├ ○ /support                                  2.74 kB         349 kB
+2026-10-08T12:37:42.171Z	├ ○ /terms                                      182 B         106 kB
+2026-10-08T12:37:42.173Z	├ ○ /wallet                                      6 kB         290 kB
+2026-10-08T12:37:42.173Z	└ ƒ /wallet/receipt/[txnId]                   5.14 kB         291 kB
+2026-10-08T12:37:42.173Z	+ First Load JS shared by all                  102 kB
+2026-10-08T12:37:42.173Z	  ├ chunks/1255-fbff2a247371566e.js           46.2 kB
+2026-10-08T12:37:42.173Z	  ├ chunks/4bd1b696-100b9d70ed4e49c1.js       54.2 kB
+2026-10-08T12:37:42.173Z	  └ other shared chunks (total)               1.97 kB
+2026-10-08T12:37:42.173Z	
+2026-10-08T12:37:42.173Z	
+2026-10-08T12:37:42.173Z	○  (Static)   prerendered as static content
+2026-10-08T12:37:42.173Z	ƒ  (Dynamic)  server-rendered on demand
+2026-10-08T12:37:42.173Z	
+2026-10-08T12:37:44.597Z	
+2026-10-08T12:37:44.597Z	┌─────────────────────────────┐
+2026-10-08T12:37:44.597Z	│ OpenNext — Cloudflare build │
+2026-10-08T12:37:44.597Z	└─────────────────────────────┘
+2026-10-08T12:37:44.597Z	
+2026-10-08T12:37:44.713Z	App directory: /opt/buildhome/repo
+2026-10-08T12:37:44.713Z	Next.js version : 15.5.27
+2026-10-08T12:37:44.715Z	@opennextjs/cloudflare version: 1.20.9
+2026-10-08T12:37:44.715Z	@opennextjs/aws version: 4.1.8
+2026-10-08T12:37:44.715Z	workerd compatibility_date: 2026-10-06
+2026-10-08T12:37:44.717Z	
+2026-10-08T12:37:44.717Z	┌─────────────────────────────────┐
+2026-10-08T12:37:44.717Z	│ OpenNext — Building Next.js app │
+2026-10-08T12:37:44.717Z	└─────────────────────────────────┘
+2026-10-08T12:37:44.717Z	
+2026-10-08T12:37:44.900Z	
+2026-10-08T12:37:44.900Z	> easy-setup@1.0.0 build
+2026-10-08T12:37:44.900Z	> npm install --no-save --package-lock=false @opennextjs/cloudflare@latest && next build && npx --yes @opennextjs/cloudflare build
+2026-10-08T12:37:44.900Z	
+2026-10-08T12:38:00.479Z	
+2026-10-08T12:38:00.479Z	up to date in 15s
+2026-10-08T12:38:00.479Z	
+2026-10-08T12:38:00.479Z	199 packages are looking for funding
+2026-10-08T12:38:00.480Z	  run `npm fund` for details
+2026-10-08T12:38:00.480Z	npm warn allow-scripts 6 packages have install scripts not yet covered by allowScripts:
+2026-10-08T12:38:00.480Z	npm warn allow-scripts   esbuild@0.25.4 (postinstall: node install.js)
+2026-10-08T12:38:00.480Z	npm warn allow-scripts   unrs-resolver@1.12.2 (postinstall: node postinstall.js)
+2026-10-08T12:38:00.480Z	npm warn allow-scripts   @firebase/util@1.15.3 (postinstall: node ./postinstall.js)
+2026-10-08T12:38:00.480Z	npm warn allow-scripts   protobufjs@7.6.6 (postinstall: node scripts/postinstall)
+2026-10-08T12:38:00.481Z	npm warn allow-scripts   esbuild@0.28.1 (postinstall: node install.js)
+2026-10-08T12:38:00.481Z	npm warn allow-scripts   workerd@1.20261006.1 (postinstall: node install.js)
+2026-10-08T12:38:00.481Z	npm warn allow-scripts
+2026-10-08T12:38:00.481Z	npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+2026-10-08T12:38:01.531Z	   ▲ Next.js 15.5.27
+2026-10-08T12:38:01.531Z	
+2026-10-08T12:38:01.706Z	   Creating an optimized production build ...
+2026-10-08T12:38:14.578Z	 ✓ Compiled successfully in 9.7s
+2026-10-08T12:38:14.582Z	   Linting and checking validity of types ...
+2026-10-08T12:38:30.594Z	   Collecting page data ...
+2026-10-08T12:38:37.025Z	   Generating static pages (0/78) ...
+2026-10-08T12:38:39.669Z	   Generating static pages (19/78) 
+2026-10-08T12:38:40.253Z	   Generating static pages (38/78) 
+2026-10-08T12:38:41.067Z	   Generating static pages (58/78) 
+2026-10-08T12:38:41.502Z	 ✓ Generating static pages (78/78)
+2026-10-08T12:38:42.474Z	   Finalizing page optimization ...
+2026-10-08T12:38:42.474Z	   Collecting build traces ...
+2026-10-08T12:39:08.254Z	
+2026-10-08T12:39:08.262Z	Route (app)                                      Size  First Load JS
+2026-10-08T12:39:08.262Z	┌ ƒ /                                           136 B         156 kB
+2026-10-08T12:39:08.262Z	├ ○ /_not-found                                 166 B         103 kB
+2026-10-08T12:39:08.262Z	├ ○ /admin/analytics                          6.74 kB         281 kB
+2026-10-08T12:39:08.262Z	├ ○ /admin/broadcast                           5.2 kB         280 kB
+2026-10-08T12:39:08.262Z	├ ○ /admin/businesses                         4.06 kB         301 kB
+2026-10-08T12:39:08.263Z	├ ○ /admin/chats                              2.88 kB         349 kB
+2026-10-08T12:39:08.263Z	├ ○ /admin/dashboard                          3.42 kB         278 kB
+2026-10-08T12:39:08.263Z	├ ○ /admin/farm-products                      3.82 kB         301 kB
+2026-10-08T12:39:08.263Z	├ ○ /admin/insurance                          4.47 kB         302 kB
+2026-10-08T12:39:08.263Z	├ ○ /admin/investments                        4.46 kB         283 kB
+2026-10-08T12:39:08.263Z	├ ○ /admin/kyc                                7.99 kB         283 kB
+2026-10-08T12:39:08.263Z	├ ○ /admin/loan-products                      5.52 kB         280 kB
+2026-10-08T12:39:08.263Z	├ ○ /admin/loan-requests                      4.02 kB         284 kB
+2026-10-08T12:39:08.263Z	├ ○ /admin/messaging                          5.78 kB         294 kB
+2026-10-08T12:39:08.263Z	├ ○ /admin/payment-accounts                    5.5 kB         280 kB
+2026-10-08T12:39:08.263Z	├ ○ /admin/properties                         4.78 kB         302 kB
+2026-10-08T12:39:08.264Z	├ ○ /admin/stocks                             7.43 kB         282 kB
+2026-10-08T12:39:08.264Z	├ ○ /admin/store/analytics                    6.46 kB         281 kB
+2026-10-08T12:39:08.264Z	├ ○ /admin/store/orders                       3.92 kB         279 kB
+2026-10-08T12:39:08.264Z	├ ○ /admin/store/products                     5.74 kB         305 kB
+2026-10-08T12:39:08.264Z	├ ○ /admin/users                              7.05 kB         287 kB
+2026-10-08T12:39:08.264Z	├ ƒ /admin/users/[uid]/activity               3.69 kB         286 kB
+2026-10-08T12:39:08.264Z	├ ƒ /admin/users/[uid]/service                11.7 kB         304 kB
+2026-10-08T12:39:08.264Z	├ ○ /admin/wallet-requests                    2.25 kB         283 kB
+2026-10-08T12:39:08.264Z	├ ƒ /api/investments/process-maturity           166 B         103 kB
+2026-10-08T12:39:08.266Z	├ ƒ /api/otp/send                               166 B         103 kB
+2026-10-08T12:39:08.266Z	├ ƒ /api/otp/verify                             166 B         103 kB
+2026-10-08T12:39:08.266Z	├ ƒ /api/send-email                             166 B         103 kB
+2026-10-08T12:39:08.266Z	├ ƒ /api/sign-cloudinary                        166 B         103 kB
+2026-10-08T12:39:08.266Z	├ ƒ /api/statements/generate                    166 B         103 kB
+2026-10-08T12:39:08.266Z	├ ƒ /api/superadmin/broker-export               166 B         103 kB
+2026-10-08T12:39:08.266Z	├ ƒ /api/telegram/send                          166 B         103 kB
+2026-10-08T12:39:08.267Z	├ ƒ /api/telegram/test                          166 B         103 kB
+2026-10-08T12:39:08.267Z	├ ƒ /api/telegram/webhook                       166 B         103 kB
+2026-10-08T12:39:08.267Z	├ ƒ /api/test-cloudinary                        166 B         103 kB
+2026-10-08T12:39:08.267Z	├ ƒ /api/test-email                             166 B         103 kB
+2026-10-08T12:39:08.267Z	├ ○ /broker-exports                             177 B         279 kB
+2026-10-08T12:39:08.267Z	├ ○ /dashboard                                5.75 kB         307 kB
+2026-10-08T12:39:08.267Z	├ ○ /forgot-password                          4.18 kB         282 kB
+2026-10-08T12:39:08.267Z	├ ○ /investments                                182 B         106 kB
+2026-10-08T12:39:08.267Z	├ ○ /kyc                                      7.86 kB         301 kB
+2026-10-08T12:39:08.267Z	├ ○ /loans                                    4.27 kB         288 kB
+2026-10-08T12:39:08.267Z	├ ○ /login                                    5.27 kB         289 kB
+2026-10-08T12:39:08.267Z	├ ○ /market                                     859 B         280 kB
+2026-10-08T12:39:08.267Z	├ ○ /market/business                          4.95 kB         280 kB
+2026-10-08T12:39:08.268Z	├ ƒ /market/business/[id]                     4.31 kB         284 kB
+2026-10-08T12:39:08.268Z	├ ○ /market/farming                           5.35 kB         280 kB
+2026-10-08T12:39:08.268Z	├ ƒ /market/farming/[id]                      8.23 kB         283 kB
+2026-10-08T12:39:08.268Z	├ ○ /market/insurance                         5.04 kB         280 kB
+2026-10-08T12:39:08.268Z	├ ƒ /market/insurance/[id]                    8.18 kB         283 kB
+2026-10-08T12:39:08.268Z	├ ○ /market/loans                             4.64 kB         279 kB
+2026-10-08T12:39:08.268Z	├ ƒ /market/loans/[id]                        5.31 kB         280 kB
+2026-10-08T12:39:08.268Z	├ ○ /market/real-estate                       5.87 kB         281 kB
+2026-10-08T12:39:08.268Z	├ ƒ /market/real-estate/[id]                  4.73 kB         284 kB
+2026-10-08T12:39:08.268Z	├ ○ /my-policies                              5.97 kB         281 kB
+2026-10-08T12:39:08.268Z	├ ○ /notifications                            4.15 kB         279 kB
+2026-10-08T12:39:08.268Z	├ ○ /plans                                    4.79 kB         279 kB
+2026-10-08T12:39:08.268Z	├ ƒ /plans/[id]/subscribe                     7.53 kB         290 kB
+2026-10-08T12:39:08.268Z	├ ○ /policies                                   182 B         106 kB
+2026-10-08T12:39:08.268Z	├ ○ /portfolio                                8.26 kB         304 kB
+2026-10-08T12:39:08.269Z	├ ƒ /portfolio/[id]                           6.01 kB         288 kB
+2026-10-08T12:39:08.269Z	├ ○ /privacy                                    182 B         106 kB
+2026-10-08T12:39:08.269Z	├ ○ /profile                                  5.84 kB         308 kB
+2026-10-08T12:39:08.269Z	├ ○ /referrals                                6.24 kB         281 kB
+2026-10-08T12:39:08.269Z	├ ○ /signup                                   5.92 kB         290 kB
+2026-10-08T12:39:08.269Z	├ ○ /staff                                     6.3 kB         284 kB
+2026-10-08T12:39:08.269Z	├ ○ /staff/vault                              7.37 kB         299 kB
+2026-10-08T12:39:08.269Z	├ ○ /stocks                                    5.5 kB         289 kB
+2026-10-08T12:39:08.269Z	├ ƒ /stocks/[symbol]                          6.62 kB         290 kB
+2026-10-08T12:39:08.269Z	├ ○ /stocks/market                             5.7 kB         289 kB
+2026-10-08T12:39:08.269Z	├ ○ /superadmin/admins                        4.33 kB         279 kB
+2026-10-08T12:39:08.269Z	├ ○ /superadmin/audit                         1.86 kB         277 kB
+2026-10-08T12:39:08.270Z	├ ○ /superadmin/broker                        8.93 kB         291 kB
+2026-10-08T12:39:08.270Z	├ ○ /superadmin/broker-exports                  177 B         279 kB
+2026-10-08T12:39:08.270Z	├ ○ /superadmin/dashboard                     1.84 kB         108 kB
+2026-10-08T12:39:08.270Z	├ ○ /superadmin/email                         7.51 kB         290 kB
+2026-10-08T12:39:08.270Z	├ ○ /superadmin/email/templates               4.08 kB         289 kB
+2026-10-08T12:39:08.270Z	├ ○ /superadmin/investments/plans             7.42 kB         282 kB
+2026-10-08T12:39:08.270Z	├ ○ /superadmin/investors                     6.93 kB         306 kB
+2026-10-08T12:39:08.270Z	├ ○ /superadmin/landing-templates               182 B         106 kB
+2026-10-08T12:39:08.270Z	├ ƒ /superadmin/landing-templates/[template]    136 B         156 kB
+2026-10-08T12:39:08.270Z	├ ○ /superadmin/loans                         7.34 kB         282 kB
+2026-10-08T12:39:08.270Z	├ ○ /superadmin/membership                    4.76 kB         293 kB
+2026-10-08T12:39:08.270Z	├ ○ /superadmin/payment-methods               4.23 kB         279 kB
+2026-10-08T12:39:08.270Z	├ ○ /superadmin/platform                      10.9 kB         318 kB
+2026-10-08T12:39:08.271Z	├ ○ /superadmin/telegram                      6.73 kB         289 kB
+2026-10-08T12:39:08.271Z	├ ○ /support                                  2.74 kB         349 kB
+2026-10-08T12:39:08.271Z	├ ○ /terms                                      182 B         106 kB
+2026-10-08T12:39:08.271Z	├ ○ /wallet                                      6 kB         290 kB
+2026-10-08T12:39:08.272Z	└ ƒ /wallet/receipt/[txnId]                   5.14 kB         291 kB
+2026-10-08T12:39:08.272Z	+ First Load JS shared by all                  102 kB
+2026-10-08T12:39:08.272Z	  ├ chunks/1255-fbff2a247371566e.js           46.2 kB
+2026-10-08T12:39:08.272Z	  ├ chunks/4bd1b696-100b9d70ed4e49c1.js       54.2 kB
+2026-10-08T12:39:08.272Z	  └ other shared chunks (total)               1.97 kB
+2026-10-08T12:39:08.272Z	
+2026-10-08T12:39:08.272Z	
+2026-10-08T12:39:08.274Z	○  (Static)   prerendered as static content
+2026-10-08T12:39:08.274Z	ƒ  (Dynamic)  server-rendered on demand
+2026-10-08T12:39:08.274Z	
+2026-10-08T12:39:10.481Z	
+2026-10-08T12:39:10.481Z	┌─────────────────────────────┐
+2026-10-08T12:39:10.481Z	│ OpenNext — Cloudflare build │
+2026-10-08T12:39:10.481Z	└─────────────────────────────┘
+2026-10-08T12:39:10.481Z	
+2026-10-08T12:39:10.581Z	App directory: /opt/buildhome/repo
+2026-10-08T12:39:10.581Z	Next.js version : 15.5.27
+2026-10-08T12:39:10.583Z	@opennextjs/cloudflare version: 1.20.9
+2026-10-08T12:39:10.583Z	@opennextjs/aws version: 4.1.8
+2026-10-08T12:39:10.583Z	workerd compatibility_date: 2026-10-06
+2026-10-08T12:39:10.584Z	
+2026-10-08T12:39:10.584Z	┌─────────────────────────────────┐
+2026-10-08T12:39:10.584Z	│ OpenNext — Building Next.js app │
+2026-10-08T12:39:10.585Z	└─────────────────────────────────┘
+2026-10-08T12:39:10.585Z	
+2026-10-08T12:39:10.745Z	
+2026-10-08T12:39:10.746Z	> easy-setup@1.0.0 build
+2026-10-08T12:39:10.746Z	> npm install --no-save --package-lock=false @opennextjs/cloudflare@latest && next build && npx --yes @opennextjs/cloudflare build
+2026-10-08T12:39:10.746Z	
+2026-10-08T12:39:25.694Z	
+2026-10-08T12:39:25.694Z	up to date in 15s
+2026-10-08T12:39:25.695Z	
+2026-10-08T12:39:25.695Z	199 packages are looking for funding
+2026-10-08T12:39:25.695Z	  run `npm fund` for details
+2026-10-08T12:39:25.697Z	npm warn allow-scripts 6 packages have install scripts not yet covered by allowScripts:
+2026-10-08T12:39:25.697Z	npm warn allow-scripts   esbuild@0.25.4 (postinstall: node install.js)
+2026-10-08T12:39:25.697Z	npm warn allow-scripts   unrs-resolver@1.12.2 (postinstall: node postinstall.js)
+2026-10-08T12:39:25.697Z	npm warn allow-scripts   @firebase/util@1.15.3 (postinstall: node ./postinstall.js)
+2026-10-08T12:39:25.697Z	npm warn allow-scripts   protobufjs@7.6.6 (postinstall: node scripts/postinstall)
+2026-10-08T12:39:25.697Z	npm warn allow-scripts   esbuild@0.28.1 (postinstall: node install.js)
+2026-10-08T12:39:25.697Z	npm warn allow-scripts   workerd@1.20261006.1 (postinstall: node install.js)
+2026-10-08T12:39:25.697Z	npm warn allow-scripts
+2026-10-08T12:39:25.697Z	npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+2026-10-08T12:39:26.663Z	   ▲ Next.js 15.5.27
+2026-10-08T12:39:26.663Z	
+2026-10-08T12:39:26.861Z	   Creating an optimized production build ...
+2026-10-08T12:39:41.217Z	 ✓ Compiled successfully in 11.1s
+2026-10-08T12:39:41.220Z	   Linting and checking validity of types ...
+2026-10-08T12:39:58.283Z	   Collecting page data ...
+2026-10-08T12:40:05.284Z	   Generating static pages (0/78) ...
+2026-10-08T12:40:08.002Z	   Generating static pages (19/78) 
+2026-10-08T12:40:08.508Z	   Generating static pages (38/78) 
+2026-10-08T12:40:09.190Z	   Generating static pages (58/78) 
+2026-10-08T12:40:09.805Z	 ✓ Generating static pages (78/78)
+2026-10-08T12:40:10.713Z	   Finalizing page optimization ...
+2026-10-08T12:40:10.714Z	   Collecting build traces ...
+2026-10-08T12:40:37.861Z	
+2026-10-08T12:40:37.867Z	Route (app)                                      Size  First Load JS
+2026-10-08T12:40:37.868Z	┌ ƒ /                                           136 B         156 kB
+2026-10-08T12:40:37.868Z	├ ○ /_not-found                                 166 B         103 kB
+2026-10-08T12:40:37.868Z	├ ○ /admin/analytics                          6.74 kB         281 kB
+2026-10-08T12:40:37.868Z	├ ○ /admin/broadcast                           5.2 kB         280 kB
+2026-10-08T12:40:37.868Z	├ ○ /admin/businesses                         4.06 kB         301 kB
+2026-10-08T12:40:37.868Z	├ ○ /admin/chats                              2.88 kB         349 kB
+2026-10-08T12:40:37.868Z	├ ○ /admin/dashboard                          3.42 kB         278 kB
+2026-10-08T12:40:37.868Z	├ ○ /admin/farm-products                      3.82 kB         301 kB
+2026-10-08T12:40:37.868Z	├ ○ /admin/insurance                          4.47 kB         302 kB
+2026-10-08T12:40:37.868Z	├ ○ /admin/investments                        4.46 kB         283 kB
+2026-10-08T12:40:37.868Z	├ ○ /admin/kyc                                7.99 kB         283 kB
+2026-10-08T12:40:37.868Z	├ ○ /admin/loan-products                      5.52 kB         280 kB
+2026-10-08T12:40:37.868Z	├ ○ /admin/loan-requests                      4.02 kB         284 kB
+2026-10-08T12:40:37.868Z	├ ○ /admin/messaging                          5.78 kB         294 kB
+2026-10-08T12:40:37.868Z	├ ○ /admin/payment-accounts                    5.5 kB         280 kB
+2026-10-08T12:40:37.868Z	├ ○ /admin/properties                         4.78 kB         302 kB
+2026-10-08T12:40:37.868Z	├ ○ /admin/stocks                             7.43 kB         282 kB
+2026-10-08T12:40:37.868Z	├ ○ /admin/store/analytics                    6.46 kB         281 kB
+2026-10-08T12:40:37.868Z	├ ○ /admin/store/orders                       3.92 kB         279 kB
+2026-10-08T12:40:37.868Z	├ ○ /admin/store/products                     5.74 kB         305 kB
+2026-10-08T12:40:37.868Z	├ ○ /admin/users                              7.05 kB         287 kB
+2026-10-08T12:40:37.868Z	├ ƒ /admin/users/[uid]/activity               3.69 kB         286 kB
+2026-10-08T12:40:37.868Z	├ ƒ /admin/users/[uid]/service                11.7 kB         304 kB
+2026-10-08T12:40:37.868Z	├ ○ /admin/wallet-requests                    2.25 kB         283 kB
+2026-10-08T12:40:37.868Z	├ ƒ /api/investments/process-maturity           166 B         103 kB
+2026-10-08T12:40:37.871Z	├ ƒ /api/otp/send                               166 B         103 kB
+2026-10-08T12:40:37.872Z	├ ƒ /api/otp/verify                             166 B         103 kB
+2026-10-08T12:40:37.872Z	├ ƒ /api/send-email                             166 B         103 kB
+2026-10-08T12:40:37.872Z	├ ƒ /api/sign-cloudinary                        166 B         103 kB
+2026-10-08T12:40:37.872Z	├ ƒ /api/statements/generate                    166 B         103 kB
+2026-10-08T12:40:37.872Z	├ ƒ /api/superadmin/broker-export               166 B         103 kB
+2026-10-08T12:40:37.872Z	├ ƒ /api/telegram/send                          166 B         103 kB
+2026-10-08T12:40:37.872Z	├ ƒ /api/telegram/test                          166 B         103 kB
+2026-10-08T12:40:37.872Z	├ ƒ /api/telegram/webhook                       166 B         103 kB
+2026-10-08T12:40:37.872Z	├ ƒ /api/test-cloudinary                        166 B         103 kB
+2026-10-08T12:40:37.872Z	├ ƒ /api/test-email                             166 B         103 kB
+2026-10-08T12:40:37.872Z	├ ○ /broker-exports                             177 B         279 kB
+2026-10-08T12:40:37.873Z	├ ○ /dashboard                                5.75 kB         307 kB
+2026-10-08T12:40:37.873Z	├ ○ /forgot-password                          4.18 kB         282 kB
+2026-10-08T12:40:37.873Z	├ ○ /investments                                182 B         106 kB
+2026-10-08T12:40:37.873Z	├ ○ /kyc                                      7.86 kB         301 kB
+2026-10-08T12:40:37.873Z	├ ○ /loans                                    4.27 kB         288 kB
+2026-10-08T12:40:37.873Z	├ ○ /login                                    5.27 kB         289 kB
+2026-10-08T12:40:37.873Z	├ ○ /market                                     859 B         280 kB
+2026-10-08T12:40:37.873Z	├ ○ /market/business                          4.95 kB         280 kB
+2026-10-08T12:40:37.873Z	├ ƒ /market/business/[id]                     4.31 kB         284 kB
+2026-10-08T12:40:37.873Z	├ ○ /market/farming                           5.35 kB         280 kB
+2026-10-08T12:40:37.873Z	├ ƒ /market/farming/[id]                      8.23 kB         283 kB
+2026-10-08T12:40:37.874Z	├ ○ /market/insurance                         5.04 kB         280 kB
+2026-10-08T12:40:37.874Z	├ ƒ /market/insurance/[id]                    8.18 kB         283 kB
+2026-10-08T12:40:37.874Z	├ ○ /market/loans                             4.64 kB         279 kB
+2026-10-08T12:40:37.874Z	├ ƒ /market/loans/[id]                        5.31 kB         280 kB
+2026-10-08T12:40:37.874Z	├ ○ /market/real-estate                       5.87 kB         281 kB
+2026-10-08T12:40:37.874Z	├ ƒ /market/real-estate/[id]                  4.73 kB         284 kB
+2026-10-08T12:40:37.874Z	├ ○ /my-policies                              5.97 kB         281 kB
+2026-10-08T12:40:37.874Z	├ ○ /notifications                            4.15 kB         279 kB
+2026-10-08T12:40:37.874Z	├ ○ /plans                                    4.79 kB         279 kB
+2026-10-08T12:40:37.874Z	├ ƒ /plans/[id]/subscribe                     7.53 kB         290 kB
+2026-10-08T12:40:37.874Z	├ ○ /policies                                   182 B         106 kB
+2026-10-08T12:40:37.874Z	├ ○ /portfolio                                8.26 kB         304 kB
+2026-10-08T12:40:37.875Z	├ ƒ /portfolio/[id]                           6.01 kB         288 kB
+2026-10-08T12:40:37.875Z	├ ○ /privacy                                    182 B         106 kB
+2026-10-08T12:40:37.875Z	├ ○ /profile                                  5.84 kB         308 kB
+2026-10-08T12:40:37.875Z	├ ○ /referrals                                6.24 kB         281 kB
+2026-10-08T12:40:37.875Z	├ ○ /signup                                   5.92 kB         290 kB
+2026-10-08T12:40:37.875Z	├ ○ /staff                                     6.3 kB         284 kB
+2026-10-08T12:40:37.878Z	├ ○ /staff/vault                              7.37 kB         299 kB
+2026-10-08T12:40:37.878Z	├ ○ /stocks                                    5.5 kB         289 kB
+2026-10-08T12:40:37.878Z	├ ƒ /stocks/[symbol]                          6.62 kB         290 kB
+2026-10-08T12:40:37.878Z	├ ○ /stocks/market                             5.7 kB         289 kB
+2026-10-08T12:40:37.878Z	├ ○ /superadmin/admins                        4.33 kB         279 kB
+2026-10-08T12:40:37.878Z	├ ○ /superadmin/audit                         1.86 kB         277 kB
+2026-10-08T12:40:37.878Z	├ ○ /superadmin/broker                        8.93 kB         291 kB
+2026-10-08T12:40:37.878Z	├ ○ /superadmin/broker-exports                  177 B         279 kB
+2026-10-08T12:40:37.878Z	├ ○ /superadmin/dashboard                     1.84 kB         108 kB
+2026-10-08T12:40:37.878Z	├ ○ /superadmin/email                         7.51 kB         290 kB
+2026-10-08T12:40:37.878Z	├ ○ /superadmin/email/templates               4.08 kB         289 kB
+2026-10-08T12:40:37.878Z	├ ○ /superadmin/investments/plans             7.42 kB         282 kB
+2026-10-08T12:40:37.878Z	├ ○ /superadmin/investors                     6.93 kB         306 kB
+2026-10-08T12:40:37.878Z	├ ○ /superadmin/landing-templates               182 B         106 kB
+2026-10-08T12:40:37.878Z	├ ƒ /superadmin/landing-templates/[template]    136 B         156 kB
+2026-10-08T12:40:37.878Z	├ ○ /superadmin/loans                         7.34 kB         282 kB
+2026-10-08T12:40:37.878Z	├ ○ /superadmin/membership                    4.76 kB         293 kB
+2026-10-08T12:40:37.878Z	├ ○ /superadmin/payment-methods               4.23 kB         279 kB
+2026-10-08T12:40:37.878Z	├ ○ /superadmin/platform                      10.9 kB         318 kB
+2026-10-08T12:40:37.878Z	├ ○ /superadmin/telegram                      6.73 kB         289 kB
+2026-10-08T12:40:37.879Z	├ ○ /support                                  2.74 kB         349 kB
+2026-10-08T12:40:37.880Z	├ ○ /terms                                      182 B         106 kB
+2026-10-08T12:40:37.880Z	├ ○ /wallet                                      6 kB         290 kB
+2026-10-08T12:40:37.880Z	└ ƒ /wallet/receipt/[txnId]                   5.14 kB         291 kB
+2026-10-08T12:40:37.880Z	+ First Load JS shared by all                  102 kB
+2026-10-08T12:40:37.880Z	  ├ chunks/1255-fbff2a247371566e.js           46.2 kB
+2026-10-08T12:40:37.880Z	  ├ chunks/4bd1b696-100b9d70ed4e49c1.js       54.2 kB
+2026-10-08T12:40:37.880Z	  └ other shared chunks (total)               1.97 kB
+2026-10-08T12:40:37.880Z	
+2026-10-08T12:40:37.880Z	
+2026-10-08T12:40:37.880Z	○  (Static)   prerendered as static content
+2026-10-08T12:40:37.880Z	ƒ  (Dynamic)  server-rendered on demand
+2026-10-08T12:40:37.880Z	
+2026-10-08T12:40:44.107Z	
+2026-10-08T12:40:44.107Z	┌─────────────────────────────┐
+2026-10-08T12:40:44.107Z	│ OpenNext — Cloudflare build │
+2026-10-08T12:40:44.107Z	└─────────────────────────────┘
+2026-10-08T12:40:44.107Z	
+2026-10-08T12:40:44.219Z	App directory: /opt/buildhome/repo
+2026-10-08T12:40:44.219Z	Next.js version : 15.5.27
+2026-10-08T12:40:44.220Z	@opennextjs/cloudflare version: 1.20.9
+2026-10-08T12:40:44.220Z	@opennextjs/aws version: 4.1.8
+2026-10-08T12:40:44.220Z	workerd compatibility_date: 2026-10-06
+2026-10-08T12:40:44.222Z	
+2026-10-08T12:40:44.222Z	┌─────────────────────────────────┐
+2026-10-08T12:40:44.222Z	│ OpenNext — Building Next.js app │
+2026-10-08T12:40:44.222Z	└─────────────────────────────────┘
+2026-10-08T12:40:44.222Z	
+2026-10-08T12:40:44.405Z	
+2026-10-08T12:40:44.405Z	> easy-setup@1.0.0 build
+2026-10-08T12:40:44.405Z	> npm install --no-save --package-lock=false @opennextjs/cloudflare@latest && next build && npx --yes @opennextjs/cloudflare build
+2026-10-08T12:40:44.405Z	
+2026-10-08T12:41:00.783Z	
+2026-10-08T12:41:00.783Z	up to date in 16s
+2026-10-08T12:41:00.783Z	
+2026-10-08T12:41:00.783Z	199 packages are looking for funding
+2026-10-08T12:41:00.783Z	  run `npm fund` for details
+2026-10-08T12:41:00.786Z	npm warn allow-scripts 6 packages have install scripts not yet covered by allowScripts:
+2026-10-08T12:41:00.786Z	npm warn allow-scripts   esbuild@0.25.4 (postinstall: node install.js)
+2026-10-08T12:41:00.786Z	npm warn allow-scripts   unrs-resolver@1.12.2 (postinstall: node postinstall.js)
+2026-10-08T12:41:00.786Z	npm warn allow-scripts   @firebase/util@1.15.3 (postinstall: node ./postinstall.js)
+2026-10-08T12:41:00.786Z	npm warn allow-scripts   protobufjs@7.6.6 (postinstall: node scripts/postinstall)
+2026-10-08T12:41:00.786Z	npm warn allow-scripts   esbuild@0.28.1 (postinstall: node install.js)
+2026-10-08T12:41:00.786Z	npm warn allow-scripts   workerd@1.20261006.1 (postinstall: node install.js)
+2026-10-08T12:41:00.789Z	npm warn allow-scripts
+2026-10-08T12:41:00.790Z	npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+2026-10-08T12:41:01.824Z	   ▲ Next.js 15.5.27
+2026-10-08T12:41:01.825Z	
+2026-10-08T12:41:02.041Z	   Creating an optimized production build ...
+2026-10-08T12:41:15.794Z	 ✓ Compiled successfully in 10.4s
+2026-10-08T12:41:15.812Z	   Linting and checking validity of types ...
+2026-10-08T12:41:31.277Z	   Collecting page data ...
+2026-10-08T12:41:38.081Z	   Generating static pages (0/78) ...
+2026-10-08T12:41:40.769Z	   Generating static pages (19/78) 
+2026-10-08T12:41:41.491Z	   Generating static pages (38/78) 
+2026-10-08T12:41:42.045Z	   Generating static pages (58/78) 
+2026-10-08T12:41:42.511Z	 ✓ Generating static pages (78/78)
+2026-10-08T12:41:43.269Z	   Finalizing page optimization ...
+2026-10-08T12:41:43.269Z	   Collecting build traces ...
+2026-10-08T12:42:12.331Z	
+2026-10-08T12:42:12.336Z	Route (app)                                      Size  First Load JS
+2026-10-08T12:42:12.336Z	┌ ƒ /                                           136 B         156 kB
+2026-10-08T12:42:12.336Z	├ ○ /_not-found                                 166 B         103 kB
+2026-10-08T12:42:12.336Z	├ ○ /admin/analytics                          6.74 kB         281 kB
+2026-10-08T12:42:12.336Z	├ ○ /admin/broadcast                           5.2 kB         280 kB
+2026-10-08T12:42:12.336Z	├ ○ /admin/businesses                         4.06 kB         301 kB
+2026-10-08T12:42:12.336Z	├ ○ /admin/chats                              2.88 kB         349 kB
+2026-10-08T12:42:12.336Z	├ ○ /admin/dashboard                          3.42 kB         278 kB
+2026-10-08T12:42:12.336Z	├ ○ /admin/farm-products                      3.82 kB         301 kB
+2026-10-08T12:42:12.336Z	├ ○ /admin/insurance                          4.47 kB         302 kB
+2026-10-08T12:42:12.336Z	├ ○ /admin/investments                        4.46 kB         283 kB
+2026-10-08T12:42:12.336Z	├ ○ /admin/kyc                                7.99 kB         283 kB
+2026-10-08T12:42:12.336Z	├ ○ /admin/loan-products                      5.52 kB         280 kB
+2026-10-08T12:42:12.336Z	├ ○ /admin/loan-requests                      4.02 kB         284 kB
+2026-10-08T12:42:12.336Z	├ ○ /admin/messaging                          5.78 kB         294 kB
+2026-10-08T12:42:12.336Z	├ ○ /admin/payment-accounts                    5.5 kB         280 kB
+2026-10-08T12:42:12.336Z	├ ○ /admin/properties                         4.78 kB         302 kB
+2026-10-08T12:42:12.336Z	├ ○ /admin/stocks                             7.43 kB         282 kB
+2026-10-08T12:42:12.336Z	├ ○ /admin/store/analytics                    6.46 kB         281 kB
+2026-10-08T12:42:12.339Z	├ ○ /admin/store/orders                       3.92 kB         279 kB
+2026-10-08T12:42:12.339Z	├ ○ /admin/store/products                     5.74 kB         305 kB
+2026-10-08T12:42:12.339Z	├ ○ /admin/users                              7.05 kB         287 kB
+2026-10-08T12:42:12.339Z	├ ƒ /admin/users/[uid]/activity               3.69 kB         286 kB
+2026-10-08T12:42:12.339Z	├ ƒ /admin/users/[uid]/service                11.7 kB         304 kB
+2026-10-08T12:42:12.339Z	├ ○ /admin/wallet-requests                    2.25 kB         283 kB
+2026-10-08T12:42:12.339Z	├ ƒ /api/investments/process-maturity           166 B         103 kB
+2026-10-08T12:42:12.339Z	├ ƒ /api/otp/send                               166 B         103 kB
+2026-10-08T12:42:12.339Z	├ ƒ /api/otp/verify                             166 B         103 kB
+2026-10-08T12:42:12.340Z	├ ƒ /api/send-email                             166 B         103 kB
+2026-10-08T12:42:12.340Z	├ ƒ /api/sign-cloudinary                        166 B         103 kB
+2026-10-08T12:42:12.340Z	├ ƒ /api/statements/generate                    166 B         103 kB
+2026-10-08T12:42:12.340Z	├ ƒ /api/superadmin/broker-export               166 B         103 kB
+2026-10-08T12:42:12.340Z	├ ƒ /api/telegram/send                          166 B         103 kB
+2026-10-08T12:42:12.340Z	├ ƒ /api/telegram/test                          166 B         103 kB
+2026-10-08T12:42:12.340Z	├ ƒ /api/telegram/webhook                       166 B         103 kB
+2026-10-08T12:42:12.340Z	├ ƒ /api/test-cloudinary                        166 B         103 kB
+2026-10-08T12:42:12.340Z	├ ƒ /api/test-email                             166 B         103 kB
+2026-10-08T12:42:12.340Z	├ ○ /broker-exports                             177 B         279 kB
+2026-10-08T12:42:12.341Z	├ ○ /dashboard                                5.75 kB         307 kB
+2026-10-08T12:42:12.341Z	├ ○ /forgot-password                          4.18 kB         282 kB
+2026-10-08T12:42:12.341Z	├ ○ /investments                                182 B         106 kB
+2026-10-08T12:42:12.341Z	├ ○ /kyc                                      7.86 kB         301 kB
+2026-10-08T12:42:12.341Z	├ ○ /loans                                    4.27 kB         288 kB
+2026-10-08T12:42:12.341Z	├ ○ /login                                    5.27 kB         289 kB
+2026-10-08T12:42:12.341Z	├ ○ /market                                     859 B         280 kB
+2026-10-08T12:42:12.341Z	├ ○ /market/business                          4.95 kB         280 kB
+2026-10-08T12:42:12.341Z	├ ƒ /market/business/[id]                     4.31 kB         284 kB
+2026-10-08T12:42:12.341Z	├ ○ /market/farming                           5.35 kB         280 kB
+2026-10-08T12:42:12.341Z	├ ƒ /market/farming/[id]                      8.23 kB         283 kB
+2026-10-08T12:42:12.341Z	├ ○ /market/insurance                         5.04 kB         280 kB
+2026-10-08T12:42:12.341Z	├ ƒ /market/insurance/[id]                    8.18 kB         283 kB
+2026-10-08T12:42:12.341Z	├ ○ /market/loans                             4.64 kB         279 kB
+2026-10-08T12:42:12.342Z	├ ƒ /market/loans/[id]                        5.31 kB         280 kB
+2026-10-08T12:42:12.342Z	├ ○ /market/real-estate                       5.87 kB         281 kB
+2026-10-08T12:42:12.342Z	├ ƒ /market/real-estate/[id]                  4.73 kB         284 kB
+2026-10-08T12:42:12.342Z	├ ○ /my-policies                              5.97 kB         281 kB
+2026-10-08T12:42:12.342Z	├ ○ /notifications                            4.15 kB         279 kB
+2026-10-08T12:42:12.342Z	├ ○ /plans                                    4.79 kB         279 kB
+2026-10-08T12:42:12.342Z	├ ƒ /plans/[id]/subscribe                     7.53 kB         290 kB
+2026-10-08T12:42:12.343Z	├ ○ /policies                                   182 B         106 kB
+2026-10-08T12:42:12.343Z	├ ○ /portfolio                                8.26 kB         304 kB
+2026-10-08T12:42:12.343Z	├ ƒ /portfolio/[id]                           6.01 kB         288 kB
+2026-10-08T12:42:12.343Z	├ ○ /privacy                                    182 B         106 kB
+2026-10-08T12:42:12.343Z	├ ○ /profile                                  5.84 kB         308 kB
+2026-10-08T12:42:12.343Z	├ ○ /referrals                                6.24 kB         281 kB
+2026-10-08T12:42:12.343Z	├ ○ /signup                                   5.92 kB         290 kB
+2026-10-08T12:42:12.343Z	├ ○ /staff                                     6.3 kB         284 kB
+2026-10-08T12:42:12.343Z	├ ○ /staff/vault                              7.37 kB         299 kB
+2026-10-08T12:42:12.343Z	├ ○ /stocks                                    5.5 kB         289 kB
+2026-10-08T12:42:12.343Z	├ ƒ /stocks/[symbol]                          6.62 kB         290 kB
+2026-10-08T12:42:12.343Z	├ ○ /stocks/market                             5.7 kB         289 kB
+2026-10-08T12:42:12.343Z	├ ○ /superadmin/admins                        4.33 kB         279 kB
+2026-10-08T12:42:12.343Z	├ ○ /superadmin/audit                         1.86 kB         277 kB
+2026-10-08T12:42:12.343Z	├ ○ /superadmin/broker                        8.93 kB         291 kB
+2026-10-08T12:42:12.343Z	├ ○ /superadmin/broker-exports                  177 B         279 kB
+2026-10-08T12:42:12.343Z	├ ○ /superadmin/dashboard                     1.84 kB         108 kB
+2026-10-08T12:42:12.343Z	├ ○ /superadmin/email                         7.51 kB         290 kB
+2026-10-08T12:42:12.343Z	├ ○ /superadmin/email/templates               4.08 kB         289 kB
+2026-10-08T12:42:12.343Z	├ ○ /superadmin/investments/plans             7.42 kB         282 kB
+2026-10-08T12:42:12.343Z	├ ○ /superadmin/investors                     6.93 kB         306 kB
+2026-10-08T12:42:12.344Z	├ ○ /superadmin/landing-templates               182 B         106 kB
+2026-10-08T12:42:12.344Z	├ ƒ /superadmin/landing-templates/[template]    136 B         156 kB
+2026-10-08T12:42:12.344Z	├ ○ /superadmin/loans                         7.34 kB         282 kB
+2026-10-08T12:42:12.344Z	├ ○ /superadmin/membership                    4.76 kB         293 kB
+2026-10-08T12:42:12.344Z	├ ○ /superadmin/payment-methods               4.23 kB         279 kB
+2026-10-08T12:42:12.344Z	├ ○ /superadmin/platform                      10.9 kB         318 kB
+2026-10-08T12:42:12.344Z	├ ○ /superadmin/telegram                      6.73 kB         289 kB
+2026-10-08T12:42:12.344Z	├ ○ /support                                  2.74 kB         349 kB
+2026-10-08T12:42:12.344Z	├ ○ /terms                                      182 B         106 kB
+2026-10-08T12:42:12.344Z	├ ○ /wallet                                      6 kB         290 kB
+2026-10-08T12:42:12.344Z	└ ƒ /wallet/receipt/[txnId]                   5.14 kB         291 kB
+2026-10-08T12:42:12.344Z	+ First Load JS shared by all                  102 kB
+2026-10-08T12:42:12.344Z	  ├ chunks/1255-fbff2a247371566e.js           46.2 kB
+2026-10-08T12:42:12.344Z	  ├ chunks/4bd1b696-100b9d70ed4e49c1.js       54.2 kB
+2026-10-08T12:42:12.344Z	  └ other shared chunks (total)               1.97 kB
+2026-10-08T12:42:12.344Z	
+2026-10-08T12:42:12.344Z	
+2026-10-08T12:42:12.344Z	○  (Static)   prerendered as static content
+2026-10-08T12:42:12.344Z	ƒ  (Dynamic)  server-rendered on demand
+2026-10-08T12:42:12.344Z	
+2026-10-08T12:42:14.680Z	
+2026-10-08T12:42:14.681Z	┌─────────────────────────────┐
+2026-10-08T12:42:14.681Z	│ OpenNext — Cloudflare build │
+2026-10-08T12:42:14.681Z	└─────────────────────────────┘
+2026-10-08T12:42:14.681Z	
+2026-10-08T12:42:14.801Z	App directory: /opt/buildhome/repo
+2026-10-08T12:42:14.802Z	Next.js version : 15.5.27
+2026-10-08T12:42:14.803Z	@opennextjs/cloudflare version: 1.20.9
+2026-10-08T12:42:14.803Z	@opennextjs/aws version: 4.1.8
+2026-10-08T12:42:14.803Z	workerd compatibility_date: 2026-10-06
+2026-10-08T12:42:14.804Z	
+2026-10-08T12:42:14.805Z	┌─────────────────────────────────┐
+2026-10-08T12:42:14.805Z	│ OpenNext — Building Next.js app │
+2026-10-08T12:42:14.805Z	└─────────────────────────────────┘
+2026-10-08T12:42:14.805Z	
+2026-10-08T12:42:15.009Z	
+2026-10-08T12:42:15.010Z	> easy-setup@1.0.0 build
+2026-10-08T12:42:15.010Z	> npm install --no-save --package-lock=false @opennextjs/cloudflare@latest && next build && npx --yes @opennextjs/cloudflare build
+2026-10-08T12:42:15.010Z	
+2026-10-08T12:42:51.791Z	
+2026-10-08T12:42:51.791Z	up to date in 37s
+2026-10-08T12:42:51.792Z	
+2026-10-08T12:42:51.792Z	199 packages are looking for funding
+2026-10-08T12:42:51.792Z	  run `npm fund` for details
+2026-10-08T12:42:51.794Z	npm warn allow-scripts 6 packages have install scripts not yet covered by allowScripts:
+2026-10-08T12:42:51.794Z	npm warn allow-scripts   esbuild@0.25.4 (postinstall: node install.js)
+2026-10-08T12:42:51.794Z	npm warn allow-scripts   unrs-resolver@1.12.2 (postinstall: node postinstall.js)
+2026-10-08T12:42:51.794Z	npm warn allow-scripts   @firebase/util@1.15.3 (postinstall: node ./postinstall.js)
+2026-10-08T12:42:51.794Z	npm warn allow-scripts   protobufjs@7.6.6 (postinstall: node scripts/postinstall)
+2026-10-08T12:42:51.795Z	npm warn allow-scripts   esbuild@0.28.1 (postinstall: node install.js)
+2026-10-08T12:42:51.795Z	npm warn allow-scripts   workerd@1.20261006.1 (postinstall: node install.js)
+2026-10-08T12:42:51.795Z	npm warn allow-scripts
+2026-10-08T12:42:51.795Z	npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+2026-10-08T12:42:52.925Z	   ▲ Next.js 15.5.27
+2026-10-08T12:42:52.925Z	
+2026-10-08T12:42:53.157Z	   Creating an optimized production build ...
+2026-10-08T12:43:06.590Z	 ✓ Compiled successfully in 10.4s
+2026-10-08T12:43:06.593Z	   Linting and checking validity of types ...
+2026-10-08T12:43:22.616Z	   Collecting page data ...
+2026-10-08T12:43:28.887Z	   Generating static pages (0/78) ...
+2026-10-08T12:43:31.821Z	   Generating static pages (19/78) 
+2026-10-08T12:43:32.295Z	   Generating static pages (38/78) 
+2026-10-08T12:43:32.999Z	   Generating static pages (58/78) 
+2026-10-08T12:43:33.416Z	 ✓ Generating static pages (78/78)
+2026-10-08T12:43:34.445Z	   Finalizing page optimization ...
+2026-10-08T12:43:34.446Z	   Collecting build traces ...
+2026-10-08T12:43:54.987Z	
+2026-10-08T12:43:54.993Z	Route (app)                                      Size  First Load JS
+2026-10-08T12:43:54.993Z	┌ ƒ /                                           136 B         156 kB
+2026-10-08T12:43:54.993Z	├ ○ /_not-found                                 166 B         103 kB
+2026-10-08T12:43:54.993Z	├ ○ /admin/analytics                          6.74 kB         281 kB
+2026-10-08T12:43:54.993Z	├ ○ /admin/broadcast                           5.2 kB         280 kB
+2026-10-08T12:43:54.993Z	├ ○ /admin/businesses                         4.06 kB         301 kB
+2026-10-08T12:43:54.993Z	├ ○ /admin/chats                              2.88 kB         349 kB
+2026-10-08T12:43:54.993Z	├ ○ /admin/dashboard                          3.42 kB         278 kB
+2026-10-08T12:43:54.993Z	├ ○ /admin/farm-products                      3.82 kB         301 kB
+2026-10-08T12:43:54.994Z	├ ○ /admin/insurance                          4.47 kB         302 kB
+2026-10-08T12:43:54.994Z	├ ○ /admin/investments                        4.46 kB         283 kB
+2026-10-08T12:43:54.994Z	├ ○ /admin/kyc                                7.99 kB         283 kB
+2026-10-08T12:43:54.994Z	├ ○ /admin/loan-products                      5.52 kB         280 kB
+2026-10-08T12:43:54.994Z	├ ○ /admin/loan-requests                      4.02 kB         284 kB
+2026-10-08T12:43:54.994Z	├ ○ /admin/messaging                          5.78 kB         294 kB
+2026-10-08T12:43:54.994Z	├ ○ /admin/payment-accounts                    5.5 kB         280 kB
+2026-10-08T12:43:54.995Z	├ ○ /admin/properties                         4.78 kB         302 kB
+2026-10-08T12:43:54.996Z	├ ○ /admin/stocks                             7.43 kB         282 kB
+2026-10-08T12:43:54.996Z	├ ○ /admin/store/analytics                    6.46 kB         281 kB
+2026-10-08T12:43:54.996Z	├ ○ /admin/store/orders                       3.92 kB         279 kB
+2026-10-08T12:43:54.996Z	├ ○ /admin/store/products                     5.74 kB         305 kB
+2026-10-08T12:43:54.996Z	├ ○ /admin/users                              7.05 kB         287 kB
+2026-10-08T12:43:54.996Z	├ ƒ /admin/users/[uid]/activity               3.69 kB         286 kB
+2026-10-08T12:43:54.996Z	├ ƒ /admin/users/[uid]/service                11.7 kB         304 kB
+2026-10-08T12:43:54.996Z	├ ○ /admin/wallet-requests                    2.25 kB         283 kB
+2026-10-08T12:43:54.996Z	├ ƒ /api/investments/process-maturity           166 B         103 kB
+2026-10-08T12:43:54.996Z	├ ƒ /api/otp/send                               166 B         103 kB
+2026-10-08T12:43:54.996Z	├ ƒ /api/otp/verify                             166 B         103 kB
+2026-10-08T12:43:54.996Z	├ ƒ /api/send-email                             166 B         103 kB
+2026-10-08T12:43:54.996Z	├ ƒ /api/sign-cloudinary                        166 B         103 kB
+2026-10-08T12:43:54.996Z	├ ƒ /api/statements/generate                    166 B         103 kB
+2026-10-08T12:43:54.996Z	├ ƒ /api/superadmin/broker-export               166 B         103 kB
+2026-10-08T12:43:54.996Z	├ ƒ /api/telegram/send                          166 B         103 kB
+2026-10-08T12:43:54.996Z	├ ƒ /api/telegram/test                          166 B         103 kB
+2026-10-08T12:43:54.996Z	├ ƒ /api/telegram/webhook                       166 B         103 kB
+2026-10-08T12:43:54.996Z	├ ƒ /api/test-cloudinary                        166 B         103 kB
+2026-10-08T12:43:54.997Z	├ ƒ /api/test-email                             166 B         103 kB
+2026-10-08T12:43:54.997Z	├ ○ /broker-exports                             177 B         279 kB
+2026-10-08T12:43:54.997Z	├ ○ /dashboard                                5.75 kB         307 kB
+2026-10-08T12:43:54.997Z	├ ○ /forgot-password                          4.18 kB         282 kB
+2026-10-08T12:43:54.997Z	├ ○ /investments                                182 B         106 kB
+2026-10-08T12:43:54.997Z	├ ○ /kyc                                      7.86 kB         301 kB
+2026-10-08T12:43:54.997Z	├ ○ /loans                                    4.27 kB         288 kB
+2026-10-08T12:43:54.997Z	├ ○ /login                                    5.27 kB         289 kB
+2026-10-08T12:43:54.997Z	├ ○ /market                                     859 B         280 kB
+2026-10-08T12:43:54.997Z	├ ○ /market/business                          4.95 kB         280 kB
+2026-10-08T12:43:54.997Z	├ ƒ /market/business/[id]                     4.31 kB         284 kB
+2026-10-08T12:43:54.997Z	├ ○ /market/farming                           5.35 kB         280 kB
+2026-10-08T12:43:54.997Z	├ ƒ /market/farming/[id]                      8.23 kB         283 kB
+2026-10-08T12:43:54.997Z	├ ○ /market/insurance                         5.04 kB         280 kB
+2026-10-08T12:43:54.997Z	├ ƒ /market/insurance/[id]                    8.18 kB         283 kB
+2026-10-08T12:43:54.997Z	├ ○ /market/loans                             4.64 kB         279 kB
+2026-10-08T12:43:54.997Z	├ ƒ /market/loans/[id]                        5.31 kB         280 kB
+2026-10-08T12:43:54.997Z	├ ○ /market/real-estate                       5.87 kB         281 kB
+2026-10-08T12:43:54.997Z	├ ƒ /market/real-estate/[id]                  4.73 kB         284 kB
+2026-10-08T12:43:54.997Z	├ ○ /my-policies                              5.97 kB         281 kB
+2026-10-08T12:43:54.997Z	├ ○ /notifications                            4.15 kB         279 kB
+2026-10-08T12:43:54.997Z	├ ○ /plans                                    4.79 kB         279 kB
+2026-10-08T12:43:54.997Z	├ ƒ /plans/[id]/subscribe                     7.53 kB         290 kB
+2026-10-08T12:43:54.997Z	├ ○ /policies                                   182 B         106 kB
+2026-10-08T12:43:54.997Z	├ ○ /portfolio                                8.26 kB         304 kB
+2026-10-08T12:43:54.997Z	├ ƒ /portfolio/[id]                           6.01 kB         288 kB
+2026-10-08T12:43:54.997Z	├ ○ /privacy                                    182 B         106 kB
+2026-10-08T12:43:54.997Z	├ ○ /profile                                  5.84 kB         308 kB
+2026-10-08T12:43:54.997Z	├ ○ /referrals                                6.24 kB         281 kB
+2026-10-08T12:43:54.998Z	├ ○ /signup                                   5.92 kB         290 kB
+2026-10-08T12:43:54.998Z	├ ○ /staff                                     6.3 kB         284 kB
+2026-10-08T12:43:54.998Z	├ ○ /staff/vault                              7.37 kB         299 kB
+2026-10-08T12:43:54.998Z	├ ○ /stocks                                    5.5 kB         289 kB
+2026-10-08T12:43:54.998Z	├ ƒ /stocks/[symbol]                          6.62 kB         290 kB
+2026-10-08T12:43:54.998Z	├ ○ /stocks/market                             5.7 kB         289 kB
+2026-10-08T12:43:54.998Z	├ ○ /superadmin/admins                        4.33 kB         279 kB
+2026-10-08T12:43:54.998Z	├ ○ /superadmin/audit                         1.86 kB         277 kB
+2026-10-08T12:43:54.998Z	├ ○ /superadmin/broker                        8.93 kB         291 kB
+2026-10-08T12:43:54.998Z	├ ○ /superadmin/broker-exports                  177 B         279 kB
+2026-10-08T12:43:54.998Z	├ ○ /superadmin/dashboard                     1.84 kB         108 kB
+2026-10-08T12:43:54.998Z	├ ○ /superadmin/email                         7.51 kB         290 kB
+2026-10-08T12:43:54.998Z	├ ○ /superadmin/email/templates               4.08 kB         289 kB
+2026-10-08T12:43:54.998Z	├ ○ /superadmin/investments/plans             7.42 kB         282 kB
+2026-10-08T12:43:54.998Z	├ ○ /superadmin/investors                     6.93 kB         306 kB
+2026-10-08T12:43:54.999Z	├ ○ /superadmin/landing-templates               182 B         106 kB
+2026-10-08T12:43:54.999Z	├ ƒ /superadmin/landing-templates/[template]    136 B         156 kB
+2026-10-08T12:43:54.999Z	├ ○ /superadmin/loans                         7.34 kB         282 kB
+2026-10-08T12:43:54.999Z	├ ○ /superadmin/membership                    4.76 kB         293 kB
+2026-10-08T12:43:54.999Z	├ ○ /superadmin/payment-methods               4.23 kB         279 kB
+2026-10-08T12:43:54.999Z	├ ○ /superadmin/platform                      10.9 kB         318 kB
+2026-10-08T12:43:54.999Z	├ ○ /superadmin/telegram                      6.73 kB         289 kB
+2026-10-08T12:43:54.999Z	├ ○ /support                                  2.74 kB         349 kB
+2026-10-08T12:43:54.999Z	├ ○ /terms                                      182 B         106 kB
+2026-10-08T12:43:54.999Z	├ ○ /wallet                                      6 kB         290 kB
+2026-10-08T12:43:54.999Z	└ ƒ /wallet/receipt/[txnId]                   5.14 kB         291 kB
+2026-10-08T12:43:54.999Z	+ First Load JS shared by all                  102 kB
+2026-10-08T12:43:55.001Z	  ├ chunks/1255-fbff2a247371566e.js           46.2 kB
+2026-10-08T12:43:55.001Z	  ├ chunks/4bd1b696-100b9d70ed4e49c1.js       54.2 kB
+2026-10-08T12:43:55.001Z	  └ other shared chunks (total)               1.97 kB
+2026-10-08T12:43:55.001Z	
+2026-10-08T12:43:55.002Z	
+2026-10-08T12:43:55.002Z	○  (Static)   prerendered as static content
+2026-10-08T12:43:55.002Z	ƒ  (Dynamic)  server-rendered on demand
+2026-10-08T12:43:55.002Z	
+2026-10-08T12:43:57.597Z	
+2026-10-08T12:43:57.600Z	┌─────────────────────────────┐
+2026-10-08T12:43:57.600Z	│ OpenNext — Cloudflare build │
+2026-10-08T12:43:57.600Z	└─────────────────────────────┘
+2026-10-08T12:43:57.600Z	
+2026-10-08T12:43:57.778Z	App directory: /opt/buildhome/repo
+2026-10-08T12:43:57.779Z	Next.js version : 15.5.27
+2026-10-08T12:43:57.784Z	@opennextjs/cloudflare version: 1.20.9
+2026-10-08T12:43:57.784Z	@opennextjs/aws version: 4.1.8
+2026-10-08T12:43:57.785Z	workerd compatibility_date: 2026-10-06
+2026-10-08T12:43:57.789Z	
+2026-10-08T12:43:57.789Z	┌─────────────────────────────────┐
+2026-10-08T12:43:57.789Z	│ OpenNext — Building Next.js app │
+2026-10-08T12:43:57.789Z	└─────────────────────────────────┘
+2026-10-08T12:43:57.789Z	
+2026-10-08T12:43:58.013Z	
+2026-10-08T12:43:58.013Z	> easy-setup@1.0.0 build
+2026-10-08T12:43:58.013Z	> npm install --no-save --package-lock=false @opennextjs/cloudflare@latest && next build && npx --yes @opennextjs/cloudflare build
+2026-10-08T12:43:58.013Z	
+2026-10-08T12:44:13.142Z	
+2026-10-08T12:44:13.142Z	up to date in 15s
+2026-10-08T12:44:13.142Z	
+2026-10-08T12:44:13.142Z	199 packages are looking for funding
+2026-10-08T12:44:13.142Z	  run `npm fund` for details
+2026-10-08T12:44:13.145Z	npm warn allow-scripts 6 packages have install scripts not yet covered by allowScripts:
+2026-10-08T12:44:13.145Z	npm warn allow-scripts   esbuild@0.25.4 (postinstall: node install.js)
+2026-10-08T12:44:13.145Z	npm warn allow-scripts   unrs-resolver@1.12.2 (postinstall: node postinstall.js)
+2026-10-08T12:44:13.145Z	npm warn allow-scripts   @firebase/util@1.15.3 (postinstall: node ./postinstall.js)
+2026-10-08T12:44:13.145Z	npm warn allow-scripts   protobufjs@7.6.6 (postinstall: node scripts/postinstall)
+2026-10-08T12:44:13.145Z	npm warn allow-scripts   esbuild@0.28.1 (postinstall: node install.js)
+2026-10-08T12:44:13.145Z	npm warn allow-scripts   workerd@1.20261006.1 (postinstall: node install.js)
+2026-10-08T12:44:13.145Z	npm warn allow-scripts
+2026-10-08T12:44:13.145Z	npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+2026-10-08T12:44:14.205Z	   ▲ Next.js 15.5.27
+2026-10-08T12:44:14.205Z	
+2026-10-08T12:44:14.400Z	   Creating an optimized production build ...
+2026-10-08T12:44:26.310Z	 ✓ Compiled successfully in 8.8s
+2026-10-08T12:44:26.313Z	   Linting and checking validity of types ...
+2026-10-08T12:44:44.195Z	   Collecting page data ...
+2026-10-08T12:44:50.390Z	   Generating static pages (0/78) ...
+2026-10-08T12:44:52.894Z	   Generating static pages (19/78) 
+2026-10-08T12:44:53.278Z	   Generating static pages (38/78) 
+2026-10-08T12:44:54.316Z	   Generating static pages (58/78) 
+2026-10-08T12:44:54.913Z	 ✓ Generating static pages (78/78)
+2026-10-08T12:44:55.758Z	   Finalizing page optimization ...
+2026-10-08T12:44:55.758Z	   Collecting build traces ...
+2026-10-08T12:45:20.867Z	
+2026-10-08T12:45:20.873Z	Route (app)                                      Size  First Load JS
+2026-10-08T12:45:20.873Z	┌ ƒ /                                           136 B         156 kB
+2026-10-08T12:45:20.873Z	├ ○ /_not-found                                 166 B         103 kB
+2026-10-08T12:45:20.873Z	├ ○ /admin/analytics                          6.74 kB         281 kB
+2026-10-08T12:45:20.873Z	├ ○ /admin/broadcast                           5.2 kB         280 kB
+2026-10-08T12:45:20.873Z	├ ○ /admin/businesses                         4.06 kB         301 kB
+2026-10-08T12:45:20.874Z	├ ○ /admin/chats                              2.88 kB         349 kB
+2026-10-08T12:45:20.874Z	├ ○ /admin/dashboard                          3.42 kB         278 kB
+2026-10-08T12:45:20.874Z	├ ○ /admin/farm-products                      3.82 kB         301 kB
+2026-10-08T12:45:20.874Z	├ ○ /admin/insurance                          4.47 kB         302 kB
+2026-10-08T12:45:20.874Z	├ ○ /admin/investments                        4.46 kB         283 kB
+2026-10-08T12:45:20.874Z	├ ○ /admin/kyc                                7.99 kB         283 kB
+2026-10-08T12:45:20.874Z	├ ○ /admin/loan-products                      5.52 kB         280 kB
+2026-10-08T12:45:20.874Z	├ ○ /admin/loan-requests                      4.02 kB         284 kB
+2026-10-08T12:45:20.874Z	├ ○ /admin/messaging                          5.78 kB         294 kB
+2026-10-08T12:45:20.875Z	├ ○ /admin/payment-accounts                    5.5 kB         280 kB
+2026-10-08T12:45:20.875Z	├ ○ /admin/properties                         4.78 kB         302 kB
+2026-10-08T12:45:20.876Z	├ ○ /admin/stocks                             7.43 kB         282 kB
+2026-10-08T12:45:20.876Z	├ ○ /admin/store/analytics                    6.46 kB         281 kB
+2026-10-08T12:45:20.876Z	├ ○ /admin/store/orders                       3.92 kB         279 kB
+2026-10-08T12:45:20.876Z	├ ○ /admin/store/products                     5.74 kB         305 kB
+2026-10-08T12:45:20.876Z	├ ○ /admin/users                              7.05 kB         287 kB
+2026-10-08T12:45:20.876Z	├ ƒ /admin/users/[uid]/activity               3.69 kB         286 kB
+2026-10-08T12:45:20.876Z	├ ƒ /admin/users/[uid]/service                11.7 kB         304 kB
+2026-10-08T12:45:20.876Z	├ ○ /admin/wallet-requests                    2.25 kB         283 kB
+2026-10-08T12:45:20.876Z	├ ƒ /api/investments/process-maturity           166 B         103 kB
+2026-10-08T12:45:20.876Z	├ ƒ /api/otp/send                               166 B         103 kB
+2026-10-08T12:45:20.876Z	├ ƒ /api/otp/verify                             166 B         103 kB
+2026-10-08T12:45:20.876Z	├ ƒ /api/send-email                             166 B         103 kB
+2026-10-08T12:45:20.876Z	├ ƒ /api/sign-cloudinary                        166 B         103 kB
+2026-10-08T12:45:20.876Z	├ ƒ /api/statements/generate                    166 B         103 kB
+2026-10-08T12:45:20.876Z	├ ƒ /api/superadmin/broker-export               166 B         103 kB
+2026-10-08T12:45:20.876Z	├ ƒ /api/telegram/send                          166 B         103 kB
+2026-10-08T12:45:20.876Z	├ ƒ /api/telegram/test                          166 B         103 kB
+2026-10-08T12:45:20.876Z	├ ƒ /api/telegram/webhook                       166 B         103 kB
+2026-10-08T12:45:20.876Z	├ ƒ /api/test-cloudinary                        166 B         103 kB
+2026-10-08T12:45:20.876Z	├ ƒ /api/test-email                             166 B         103 kB
+2026-10-08T12:45:20.877Z	├ ○ /broker-exports                             177 B         279 kB
+2026-10-08T12:45:20.877Z	├ ○ /dashboard                                5.75 kB         307 kB
+2026-10-08T12:45:20.877Z	├ ○ /forgot-password                          4.18 kB         282 kB
+2026-10-08T12:45:20.877Z	├ ○ /investments                                182 B         106 kB
+2026-10-08T12:45:20.877Z	├ ○ /kyc                                      7.86 kB         301 kB
+2026-10-08T12:45:20.877Z	├ ○ /loans                                    4.27 kB         288 kB
+2026-10-08T12:45:20.877Z	├ ○ /login                                    5.27 kB         289 kB
+2026-10-08T12:45:20.877Z	├ ○ /market                                     859 B         280 kB
+2026-10-08T12:45:20.877Z	├ ○ /market/business                          4.95 kB         280 kB
+2026-10-08T12:45:20.880Z	├ ƒ /market/business/[id]                     4.31 kB         284 kB
+2026-10-08T12:45:20.880Z	├ ○ /market/farming                           5.35 kB         280 kB
+2026-10-08T12:45:20.880Z	├ ƒ /market/farming/[id]                      8.23 kB         283 kB
+2026-10-08T12:45:20.880Z	├ ○ /market/insurance                         5.04 kB         280 kB
+2026-10-08T12:45:20.881Z	├ ƒ /market/insurance/[id]                    8.18 kB         283 kB
+2026-10-08T12:45:20.881Z	├ ○ /market/loans                             4.64 kB         279 kB
+2026-10-08T12:45:20.882Z	├ ƒ /market/loans/[id]                        5.31 kB         280 kB
+2026-10-08T12:45:20.882Z	├ ○ /market/real-estate                       5.87 kB         281 kB
+2026-10-08T12:45:20.883Z	├ ƒ /market/real-estate/[id]                  4.73 kB         284 kB
+2026-10-08T12:45:20.883Z	├ ○ /my-policies                              5.97 kB         281 kB
+2026-10-08T12:45:20.883Z	├ ○ /notifications                            4.15 kB         279 kB
+2026-10-08T12:45:20.884Z	├ ○ /plans                                    4.79 kB         279 kB
+2026-10-08T12:45:20.884Z	├ ƒ /plans/[id]/subscribe                     7.53 kB         290 kB
+2026-10-08T12:45:20.884Z	├ ○ /policies                                   182 B         106 kB
+2026-10-08T12:45:20.884Z	├ ○ /portfolio                                8.26 kB         304 kB
+2026-10-08T12:45:20.884Z	├ ƒ /portfolio/[id]                           6.01 kB         288 kB
+2026-10-08T12:45:20.884Z	├ ○ /privacy                                    182 B         106 kB
+2026-10-08T12:45:20.884Z	├ ○ /profile                                  5.84 kB         308 kB
+2026-10-08T12:45:20.884Z	├ ○ /referrals                                6.24 kB         281 kB
+2026-10-08T12:45:20.884Z	├ ○ /signup                                   5.92 kB         290 kB
+2026-10-08T12:45:20.884Z	├ ○ /staff                                     6.3 kB         284 kB
+2026-10-08T12:45:20.884Z	├ ○ /staff/vault                              7.37 kB         299 kB
+2026-10-08T12:45:20.884Z	├ ○ /stocks                                    5.5 kB         289 kB
+2026-10-08T12:45:20.884Z	├ ƒ /stocks/[symbol]                          6.62 kB         290 kB
+2026-10-08T12:45:20.884Z	├ ○ /stocks/market                             5.7 kB         289 kB
+2026-10-08T12:45:20.884Z	├ ○ /superadmin/admins                        4.33 kB         279 kB
+2026-10-08T12:45:20.884Z	├ ○ /superadmin/audit                         1.86 kB         277 kB
+2026-10-08T12:45:20.884Z	├ ○ /superadmin/broker                        8.93 kB         291 kB
+2026-10-08T12:45:20.884Z	├ ○ /superadmin/broker-exports                  177 B         279 kB
+2026-10-08T12:45:20.884Z	├ ○ /superadmin/dashboard                     1.84 kB         108 kB
+2026-10-08T12:45:20.884Z	├ ○ /superadmin/email                         7.51 kB         290 kB
+2026-10-08T12:45:20.884Z	├ ○ /superadmin/email/templates               4.08 kB         289 kB
+2026-10-08T12:45:20.884Z	├ ○ /superadmin/investments/plans             7.42 kB         282 kB
+2026-10-08T12:45:20.884Z	├ ○ /superadmin/investors                     6.93 kB         306 kB
+2026-10-08T12:45:20.884Z	├ ○ /superadmin/landing-templates               182 B         106 kB
+2026-10-08T12:45:20.884Z	├ ƒ /superadmin/landing-templates/[template]    136 B         156 kB
+2026-10-08T12:45:20.884Z	├ ○ /superadmin/loans                         7.34 kB         282 kB
+2026-10-08T12:45:20.884Z	├ ○ /superadmin/membership                    4.76 kB         293 kB
+2026-10-08T12:45:20.884Z	├ ○ /superadmin/payment-methods               4.23 kB         279 kB
+2026-10-08T12:45:20.884Z	├ ○ /superadmin/platform                      10.9 kB         318 kB
+2026-10-08T12:45:20.884Z	├ ○ /superadmin/telegram                      6.73 kB         289 kB
+2026-10-08T12:45:20.884Z	├ ○ /support                                  2.74 kB         349 kB
+2026-10-08T12:45:20.884Z	├ ○ /terms                                      182 B         106 kB
+2026-10-08T12:45:20.884Z	├ ○ /wallet                                      6 kB         290 kB
+2026-10-08T12:45:20.884Z	└ ƒ /wallet/receipt/[txnId]                   5.14 kB         291 kB
+2026-10-08T12:45:20.884Z	+ First Load JS shared by all                  102 kB
+2026-10-08T12:45:20.884Z	  ├ chunks/1255-fbff2a247371566e.js           46.2 kB
+2026-10-08T12:45:20.884Z	  ├ chunks/4bd1b696-100b9d70ed4e49c1.js       54.2 kB
+2026-10-08T12:45:20.885Z	  └ other shared chunks (total)               1.97 kB
+2026-10-08T12:45:20.885Z	
+2026-10-08T12:45:20.885Z	
+2026-10-08T12:45:20.885Z	○  (Static)   prerendered as static content
+2026-10-08T12:45:20.885Z	ƒ  (Dynamic)  server-rendered on demand
+2026-10-08T12:45:20.885Z	
+2026-10-08T12:45:23.229Z	
+2026-10-08T12:45:23.230Z	┌─────────────────────────────┐
+2026-10-08T12:45:23.230Z	│ OpenNext — Cloudflare build │
+2026-10-08T12:45:23.230Z	└─────────────────────────────┘
+2026-10-08T12:45:23.230Z	
+2026-10-08T12:45:23.360Z	App directory: /opt/buildhome/repo
+2026-10-08T12:45:23.360Z	Next.js version : 15.5.27
+2026-10-08T12:45:23.361Z	@opennextjs/cloudflare version: 1.20.9
+2026-10-08T12:45:23.361Z	@opennextjs/aws version: 4.1.8
+2026-10-08T12:45:23.361Z	workerd compatibility_date: 2026-10-06
+2026-10-08T12:45:23.363Z	
+2026-10-08T12:45:23.363Z	┌─────────────────────────────────┐
+2026-10-08T12:45:23.363Z	│ OpenNext — Building Next.js app │
+2026-10-08T12:45:23.363Z	└─────────────────────────────────┘
+2026-10-08T12:45:23.363Z	
+2026-10-08T12:45:23.575Z	
+2026-10-08T12:45:23.577Z	> easy-setup@1.0.0 build
+2026-10-08T12:45:23.577Z	> npm install --no-save --package-lock=false @opennextjs/cloudflare@latest && next build && npx --yes @opennextjs/cloudflare build
+2026-10-08T12:45:23.577Z	
+2026-10-08T12:45:41.356Z	
+2026-10-08T12:45:41.356Z	up to date in 18s
+2026-10-08T12:45:41.356Z	
+2026-10-08T12:45:41.357Z	199 packages are looking for funding
+2026-10-08T12:45:41.357Z	  run `npm fund` for details
+2026-10-08T12:45:41.359Z	npm warn allow-scripts 6 packages have install scripts not yet covered by allowScripts:
+2026-10-08T12:45:41.359Z	npm warn allow-scripts   esbuild@0.25.4 (postinstall: node install.js)
+2026-10-08T12:45:41.359Z	npm warn allow-scripts   unrs-resolver@1.12.2 (postinstall: node postinstall.js)
+2026-10-08T12:45:41.359Z	npm warn allow-scripts   @firebase/util@1.15.3 (postinstall: node ./postinstall.js)
+2026-10-08T12:45:41.359Z	npm warn allow-scripts   protobufjs@7.6.6 (postinstall: node scripts/postinstall)
+2026-10-08T12:45:41.359Z	npm warn allow-scripts   esbuild@0.28.1 (postinstall: node install.js)
+2026-10-08T12:45:41.360Z	npm warn allow-scripts   workerd@1.20261006.1 (postinstall: node install.js)
+2026-10-08T12:45:41.360Z	npm warn allow-scripts
+2026-10-08T12:45:41.360Z	npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+2026-10-08T12:45:42.411Z	   ▲ Next.js 15.5.27
+2026-10-08T12:45:42.412Z	
+2026-10-08T12:45:42.684Z	   Creating an optimized production build ...
+2026-10-08T12:45:57.211Z	 ✓ Compiled successfully in 11.1s
+2026-10-08T12:45:57.214Z	   Linting and checking validity of types ...
+2026-10-08T12:46:12.169Z	   Collecting page data ...
+2026-10-08T12:46:18.856Z	   Generating static pages (0/78) ...
+2026-10-08T12:46:21.065Z	   Generating static pages (19/78) 
+2026-10-08T12:46:21.740Z	   Generating static pages (38/78) 
+2026-10-08T12:46:22.622Z	   Generating static pages (58/78) 
+2026-10-08T12:46:23.034Z	 ✓ Generating static pages (78/78)
+2026-10-08T12:46:24.119Z	   Finalizing page optimization ...
+2026-10-08T12:46:24.119Z	   Collecting build traces ...
+2026-10-08T12:46:51.045Z	
+2026-10-08T12:46:51.052Z	Route (app)                                      Size  First Load JS
+2026-10-08T12:46:51.052Z	┌ ƒ /                                           136 B         156 kB
+2026-10-08T12:46:51.052Z	├ ○ /_not-found                                 166 B         103 kB
+2026-10-08T12:46:51.052Z	├ ○ /admin/analytics                          6.74 kB         281 kB
+2026-10-08T12:46:51.052Z	├ ○ /admin/broadcast                           5.2 kB         280 kB
+2026-10-08T12:46:51.052Z	├ ○ /admin/businesses                         4.06 kB         301 kB
+2026-10-08T12:46:51.052Z	├ ○ /admin/chats                              2.88 kB         349 kB
+2026-10-08T12:46:51.052Z	├ ○ /admin/dashboard                          3.42 kB         278 kB
+2026-10-08T12:46:51.052Z	├ ○ /admin/farm-products                      3.82 kB         301 kB
+2026-10-08T12:46:51.052Z	├ ○ /admin/insurance                          4.47 kB         302 kB
+2026-10-08T12:46:51.052Z	├ ○ /admin/investments                        4.46 kB         283 kB
+2026-10-08T12:46:51.052Z	├ ○ /admin/kyc                                7.99 kB         283 kB
+2026-10-08T12:46:51.052Z	├ ○ /admin/loan-products                      5.52 kB         280 kB
+2026-10-08T12:46:51.052Z	├ ○ /admin/loan-requests                      4.02 kB         284 kB
+2026-10-08T12:46:51.052Z	├ ○ /admin/messaging                          5.78 kB         294 kB
+2026-10-08T12:46:51.052Z	├ ○ /admin/payment-accounts                    5.5 kB         280 kB
+2026-10-08T12:46:51.052Z	├ ○ /admin/properties                         4.78 kB         302 kB
+2026-10-08T12:46:51.052Z	├ ○ /admin/stocks                             7.43 kB         282 kB
+2026-10-08T12:46:51.052Z	├ ○ /admin/store/analytics                    6.46 kB         281 kB
+2026-10-08T12:46:51.052Z	├ ○ /admin/store/orders                       3.92 kB         279 kB
+2026-10-08T12:46:51.052Z	├ ○ /admin/store/products                     5.74 kB         305 kB
+2026-10-08T12:46:51.054Z	├ ○ /admin/users                              7.05 kB         287 kB
+2026-10-08T12:46:51.054Z	├ ƒ /admin/users/[uid]/activity               3.69 kB         286 kB
+2026-10-08T12:46:51.054Z	├ ƒ /admin/users/[uid]/service                11.7 kB         304 kB
+2026-10-08T12:46:51.054Z	├ ○ /admin/wallet-requests                    2.25 kB         283 kB
+2026-10-08T12:46:51.054Z	├ ƒ /api/investments/process-maturity           166 B         103 kB
+2026-10-08T12:46:51.054Z	├ ƒ /api/otp/send                               166 B         103 kB
+2026-10-08T12:46:51.054Z	├ ƒ /api/otp/verify                             166 B         103 kB
+2026-10-08T12:46:51.055Z	├ ƒ /api/send-email                             166 B         103 kB
+2026-10-08T12:46:51.055Z	├ ƒ /api/sign-cloudinary                        166 B         103 kB
+2026-10-08T12:46:51.055Z	├ ƒ /api/statements/generate                    166 B         103 kB
+2026-10-08T12:46:51.055Z	├ ƒ /api/superadmin/broker-export               166 B         103 kB
+2026-10-08T12:46:51.055Z	├ ƒ /api/telegram/send                          166 B         103 kB
+2026-10-08T12:46:51.055Z	├ ƒ /api/telegram/test                          166 B         103 kB
+2026-10-08T12:46:51.055Z	├ ƒ /api/telegram/webhook                       166 B         103 kB
+2026-10-08T12:46:51.055Z	├ ƒ /api/test-cloudinary                        166 B         103 kB
+2026-10-08T12:46:51.055Z	├ ƒ /api/test-email                             166 B         103 kB
+2026-10-08T12:46:51.055Z	├ ○ /broker-exports                             177 B         279 kB
+2026-10-08T12:46:51.055Z	├ ○ /dashboard                                5.75 kB         307 kB
+2026-10-08T12:46:51.055Z	├ ○ /forgot-password                          4.18 kB         282 kB
+2026-10-08T12:46:51.055Z	├ ○ /investments                                182 B         106 kB
+2026-10-08T12:46:51.055Z	├ ○ /kyc                                      7.86 kB         301 kB
+2026-10-08T12:46:51.055Z	├ ○ /loans                                    4.27 kB         288 kB
+2026-10-08T12:46:51.055Z	├ ○ /login                                    5.27 kB         289 kB
+2026-10-08T12:46:51.055Z	├ ○ /market                                     859 B         280 kB
+2026-10-08T12:46:51.055Z	├ ○ /market/business                          4.95 kB         280 kB
+2026-10-08T12:46:51.055Z	├ ƒ /market/business/[id]                     4.31 kB         284 kB
+2026-10-08T12:46:51.055Z	├ ○ /market/farming                           5.35 kB         280 kB
+2026-10-08T12:46:51.055Z	├ ƒ /market/farming/[id]                      8.23 kB         283 kB
+2026-10-08T12:46:51.055Z	├ ○ /market/insurance                         5.04 kB         280 kB
+2026-10-08T12:46:51.055Z	├ ƒ /market/insurance/[id]                    8.18 kB         283 kB
+2026-10-08T12:46:51.055Z	├ ○ /market/loans                             4.64 kB         279 kB
+2026-10-08T12:46:51.056Z	├ ƒ /market/loans/[id]                        5.31 kB         280 kB
+2026-10-08T12:46:51.056Z	├ ○ /market/real-estate                       5.87 kB         281 kB
+2026-10-08T12:46:51.056Z	├ ƒ /market/real-estate/[id]                  4.73 kB         284 kB
+2026-10-08T12:46:51.056Z	├ ○ /my-policies                              5.97 kB         281 kB
+2026-10-08T12:46:51.056Z	├ ○ /notifications                            4.15 kB         279 kB
+2026-10-08T12:46:51.056Z	├ ○ /plans                                    4.79 kB         279 kB
+2026-10-08T12:46:51.056Z	├ ƒ /plans/[id]/subscribe                     7.53 kB         290 kB
+2026-10-08T12:46:51.056Z	├ ○ /policies                                   182 B         106 kB
+2026-10-08T12:46:51.056Z	├ ○ /portfolio                                8.26 kB         304 kB
+2026-10-08T12:46:51.056Z	├ ƒ /portfolio/[id]                           6.01 kB         288 kB
+2026-10-08T12:46:51.056Z	├ ○ /privacy                                    182 B         106 kB
+2026-10-08T12:46:51.056Z	├ ○ /profile                                  5.84 kB         308 kB
+2026-10-08T12:46:51.056Z	├ ○ /referrals                                6.24 kB         281 kB
+2026-10-08T12:46:51.056Z	├ ○ /signup                                   5.92 kB         290 kB
+2026-10-08T12:46:51.056Z	├ ○ /staff                                     6.3 kB         284 kB
+2026-10-08T12:46:51.056Z	├ ○ /staff/vault                              7.37 kB         299 kB
+2026-10-08T12:46:51.056Z	├ ○ /stocks                                    5.5 kB         289 kB
+2026-10-08T12:46:51.056Z	├ ƒ /stocks/[symbol]                          6.62 kB         290 kB
+2026-10-08T12:46:51.056Z	├ ○ /stocks/market                             5.7 kB         289 kB
+2026-10-08T12:46:51.056Z	├ ○ /superadmin/admins                        4.33 kB         279 kB
+2026-10-08T12:46:51.056Z	├ ○ /superadmin/audit                         1.86 kB         277 kB
+2026-10-08T12:46:51.056Z	├ ○ /superadmin/broker                        8.93 kB         291 kB
+2026-10-08T12:46:51.056Z	├ ○ /superadmin/broker-exports                  177 B         279 kB
+2026-10-08T12:46:51.056Z	├ ○ /superadmin/dashboard                     1.84 kB         108 kB
+2026-10-08T12:46:51.056Z	├ ○ /superadmin/email                         7.51 kB         290 kB
+2026-10-08T12:46:51.056Z	├ ○ /superadmin/email/templates               4.08 kB         289 kB
+2026-10-08T12:46:51.056Z	├ ○ /superadmin/investments/plans             7.42 kB         282 kB
+2026-10-08T12:46:51.057Z	├ ○ /superadmin/investors                     6.93 kB         306 kB
+2026-10-08T12:46:51.057Z	├ ○ /superadmin/landing-templates               182 B         106 kB
+2026-10-08T12:46:51.057Z	├ ƒ /superadmin/landing-templates/[template]    136 B         156 kB
+2026-10-08T12:46:51.057Z	├ ○ /superadmin/loans                         7.34 kB         282 kB
+2026-10-08T12:46:51.057Z	├ ○ /superadmin/membership                    4.76 kB         293 kB
+2026-10-08T12:46:51.058Z	├ ○ /superadmin/payment-methods               4.23 kB         279 kB
+2026-10-08T12:46:51.058Z	├ ○ /superadmin/platform                      10.9 kB         318 kB
+2026-10-08T12:46:51.058Z	├ ○ /superadmin/telegram                      6.73 kB         289 kB
+2026-10-08T12:46:51.058Z	├ ○ /support                                  2.74 kB         349 kB
+2026-10-08T12:46:51.058Z	├ ○ /terms                                      182 B         106 kB
+2026-10-08T12:46:51.058Z	├ ○ /wallet                                      6 kB         290 kB
+2026-10-08T12:46:51.058Z	└ ƒ /wallet/receipt/[txnId]                   5.14 kB         291 kB
+2026-10-08T12:46:51.058Z	+ First Load JS shared by all                  102 kB
+2026-10-08T12:46:51.058Z	  ├ chunks/1255-fbff2a247371566e.js           46.2 kB
+2026-10-08T12:46:51.058Z	  ├ chunks/4bd1b696-100b9d70ed4e49c1.js       54.2 kB
+2026-10-08T12:46:51.058Z	  └ other shared chunks (total)               1.97 kB
+2026-10-08T12:46:51.058Z	
+2026-10-08T12:46:51.058Z	
+2026-10-08T12:46:51.058Z	○  (Static)   prerendered as static content
+2026-10-08T12:46:51.058Z	ƒ  (Dynamic)  server-rendered on demand
+2026-10-08T12:46:51.058Z	
+2026-10-08T12:46:53.396Z	
+2026-10-08T12:46:53.396Z	┌─────────────────────────────┐
+2026-10-08T12:46:53.396Z	│ OpenNext — Cloudflare build │
+2026-10-08T12:46:53.396Z	└─────────────────────────────┘
+2026-10-08T12:46:53.396Z	
+2026-10-08T12:46:53.510Z	App directory: /opt/buildhome/repo
+2026-10-08T12:46:53.510Z	Next.js version : 15.5.27
+2026-10-08T12:46:53.511Z	@opennextjs/cloudflare version: 1.20.9
+2026-10-08T12:46:53.511Z	@opennextjs/aws version: 4.1.8
+2026-10-08T12:46:53.511Z	workerd compatibility_date: 2026-10-06
+2026-10-08T12:46:53.514Z	
+2026-10-08T12:46:53.514Z	┌─────────────────────────────────┐
+2026-10-08T12:46:53.514Z	│ OpenNext — Building Next.js app │
+2026-10-08T12:46:53.514Z	└─────────────────────────────────┘
+2026-10-08T12:46:53.514Z	
+2026-10-08T12:46:53.732Z	
+2026-10-08T12:46:53.732Z	> easy-setup@1.0.0 build
+2026-10-08T12:46:53.733Z	> npm install --no-save --package-lock=false @opennextjs/cloudflare@latest && next build && npx --yes @opennextjs/cloudflare build
+2026-10-08T12:46:53.733Z	
+2026-10-08T12:47:10.637Z	
+2026-10-08T12:47:10.638Z	up to date in 17s
+2026-10-08T12:47:10.638Z	
+2026-10-08T12:47:10.638Z	199 packages are looking for funding
+2026-10-08T12:47:10.638Z	  run `npm fund` for details
+2026-10-08T12:47:10.639Z	npm warn allow-scripts 6 packages have install scripts not yet covered by allowScripts:
+2026-10-08T12:47:10.640Z	npm warn allow-scripts   esbuild@0.25.4 (postinstall: node install.js)
+2026-10-08T12:47:10.640Z	npm warn allow-scripts   unrs-resolver@1.12.2 (postinstall: node postinstall.js)
+2026-10-08T12:47:10.640Z	npm warn allow-scripts   @firebase/util@1.15.3 (postinstall: node ./postinstall.js)
+2026-10-08T12:47:10.640Z	npm warn allow-scripts   protobufjs@7.6.6 (postinstall: node scripts/postinstall)
+2026-10-08T12:47:10.640Z	npm warn allow-scripts   esbuild@0.28.1 (postinstall: node install.js)
+2026-10-08T12:47:10.640Z	npm warn allow-scripts   workerd@1.20261006.1 (postinstall: node install.js)
+2026-10-08T12:47:10.640Z	npm warn allow-scripts
+2026-10-08T12:47:10.640Z	npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+2026-10-08T12:47:11.612Z	   ▲ Next.js 15.5.27
+2026-10-08T12:47:11.612Z	
+2026-10-08T12:47:11.819Z	   Creating an optimized production build ...
+2026-10-08T12:47:27.348Z	 ✓ Compiled successfully in 12.5s
+2026-10-08T12:47:27.355Z	   Linting and checking validity of types ...
+2026-10-08T12:47:48.314Z	   Collecting page data ...
+2026-10-08T12:47:55.046Z	   Generating static pages (0/78) ...
+2026-10-08T12:47:57.778Z	   Generating static pages (19/78) 
+2026-10-08T12:47:58.421Z	   Generating static pages (38/78) 
+2026-10-08T12:47:59.152Z	   Generating static pages (58/78) 
+2026-10-08T12:47:59.526Z	 ✓ Generating static pages (78/78)
+2026-10-08T12:48:00.458Z	   Finalizing page optimization ...
+2026-10-08T12:48:00.458Z	   Collecting build traces ...
+2026-10-08T12:48:27.145Z	
+2026-10-08T12:48:27.150Z	Route (app)                                      Size  First Load JS
+2026-10-08T12:48:27.150Z	┌ ƒ /                                           136 B         156 kB
+2026-10-08T12:48:27.150Z	├ ○ /_not-found                                 166 B         103 kB
+2026-10-08T12:48:27.150Z	├ ○ /admin/analytics                          6.74 kB         281 kB
+2026-10-08T12:48:27.150Z	├ ○ /admin/broadcast                           5.2 kB         280 kB
+2026-10-08T12:48:27.150Z	├ ○ /admin/businesses                         4.06 kB         301 kB
+2026-10-08T12:48:27.150Z	├ ○ /admin/chats                              2.88 kB         349 kB
+2026-10-08T12:48:27.150Z	├ ○ /admin/dashboard                          3.42 kB         278 kB
+2026-10-08T12:48:27.150Z	├ ○ /admin/farm-products                      3.82 kB         301 kB
+2026-10-08T12:48:27.150Z	├ ○ /admin/insurance                          4.47 kB         302 kB
+2026-10-08T12:48:27.150Z	├ ○ /admin/investments                        4.46 kB         283 kB
+2026-10-08T12:48:27.150Z	├ ○ /admin/kyc                                7.99 kB         283 kB
+2026-10-08T12:48:27.150Z	├ ○ /admin/loan-products                      5.52 kB         280 kB
+2026-10-08T12:48:27.150Z	├ ○ /admin/loan-requests                      4.02 kB         284 kB
+2026-10-08T12:48:27.150Z	├ ○ /admin/messaging                          5.78 kB         294 kB
+2026-10-08T12:48:27.150Z	├ ○ /admin/payment-accounts                    5.5 kB         280 kB
+2026-10-08T12:48:27.150Z	├ ○ /admin/properties                         4.78 kB         302 kB
+2026-10-08T12:48:27.150Z	├ ○ /admin/stocks                             7.43 kB         282 kB
+2026-10-08T12:48:27.150Z	├ ○ /admin/store/analytics                    6.46 kB         281 kB
+2026-10-08T12:48:27.150Z	├ ○ /admin/store/orders                       3.92 kB         279 kB
+2026-10-08T12:48:27.150Z	├ ○ /admin/store/products                     5.74 kB         305 kB
+2026-10-08T12:48:27.150Z	├ ○ /admin/users                              7.05 kB         287 kB
+2026-10-08T12:48:27.150Z	├ ƒ /admin/users/[uid]/activity               3.69 kB         286 kB
+2026-10-08T12:48:27.150Z	├ ƒ /admin/users/[uid]/service                11.7 kB         304 kB
+2026-10-08T12:48:27.150Z	├ ○ /admin/wallet-requests                    2.25 kB         283 kB
+2026-10-08T12:48:27.150Z	├ ƒ /api/investments/process-maturity           166 B         103 kB
+2026-10-08T12:48:27.150Z	├ ƒ /api/otp/send                               166 B         103 kB
+2026-10-08T12:48:27.150Z	├ ƒ /api/otp/verify                             166 B         103 kB
+2026-10-08T12:48:27.150Z	├ ƒ /api/send-email                             166 B         103 kB
+2026-10-08T12:48:27.150Z	├ ƒ /api/sign-cloudinary                        166 B         103 kB
+2026-10-08T12:48:27.151Z	├ ƒ /api/statements/generate                    166 B         103 kB
+2026-10-08T12:48:27.151Z	├ ƒ /api/superadmin/broker-export               166 B         103 kB
+2026-10-08T12:48:27.151Z	├ ƒ /api/telegram/send                          166 B         103 kB
+2026-10-08T12:48:27.151Z	├ ƒ /api/telegram/test                          166 B         103 kB
+2026-10-08T12:48:27.151Z	├ ƒ /api/telegram/webhook                       166 B         103 kB
+2026-10-08T12:48:27.151Z	├ ƒ /api/test-cloudinary                        166 B         103 kB
+2026-10-08T12:48:27.151Z	├ ƒ /api/test-email                             166 B         103 kB
+2026-10-08T12:48:27.151Z	├ ○ /broker-exports                             177 B         279 kB
+2026-10-08T12:48:27.151Z	├ ○ /dashboard                                5.75 kB         307 kB
+2026-10-08T12:48:27.151Z	├ ○ /forgot-password                          4.18 kB         282 kB
+2026-10-08T12:48:27.151Z	├ ○ /investments                                182 B         106 kB
+2026-10-08T12:48:27.151Z	├ ○ /kyc                                      7.86 kB         301 kB
+2026-10-08T12:48:27.151Z	├ ○ /loans                                    4.27 kB         288 kB
+2026-10-08T12:48:27.151Z	├ ○ /login                                    5.27 kB         289 kB
+2026-10-08T12:48:27.151Z	├ ○ /market                                     859 B         280 kB
+2026-10-08T12:48:27.151Z	├ ○ /market/business                          4.95 kB         280 kB
+2026-10-08T12:48:27.152Z	├ ƒ /market/business/[id]                     4.31 kB         284 kB
+2026-10-08T12:48:27.152Z	├ ○ /market/farming                           5.35 kB         280 kB
+2026-10-08T12:48:27.152Z	├ ƒ /market/farming/[id]                      8.23 kB         283 kB
+2026-10-08T12:48:27.152Z	├ ○ /market/insurance                         5.04 kB         280 kB
+2026-10-08T12:48:27.152Z	├ ƒ /market/insurance/[id]                    8.18 kB         283 kB
+2026-10-08T12:48:27.152Z	├ ○ /market/loans                             4.64 kB         279 kB
+2026-10-08T12:48:27.152Z	├ ƒ /market/loans/[id]                        5.31 kB         280 kB
+2026-10-08T12:48:27.152Z	├ ○ /market/real-estate                       5.87 kB         281 kB
+2026-10-08T12:48:27.152Z	├ ƒ /market/real-estate/[id]                  4.73 kB         284 kB
+2026-10-08T12:48:27.152Z	├ ○ /my-policies                              5.97 kB         281 kB
+2026-10-08T12:48:27.152Z	├ ○ /notifications                            4.15 kB         279 kB
+2026-10-08T12:48:27.152Z	├ ○ /plans                                    4.79 kB         279 kB
+2026-10-08T12:48:27.152Z	├ ƒ /plans/[id]/subscribe                     7.53 kB         290 kB
+2026-10-08T12:48:27.152Z	├ ○ /policies                                   182 B         106 kB
+2026-10-08T12:48:27.152Z	├ ○ /portfolio                                8.26 kB         304 kB
+2026-10-08T12:48:27.152Z	├ ƒ /portfolio/[id]                           6.01 kB         288 kB
+2026-10-08T12:48:27.152Z	├ ○ /privacy                                    182 B         106 kB
+2026-10-08T12:48:27.153Z	├ ○ /profile                                  5.84 kB         308 kB
+2026-10-08T12:48:27.153Z	├ ○ /referrals                                6.24 kB         281 kB
+2026-10-08T12:48:27.153Z	├ ○ /signup                                   5.92 kB         290 kB
+2026-10-08T12:48:27.153Z	├ ○ /staff                                     6.3 kB         284 kB
+2026-10-08T12:48:27.153Z	├ ○ /staff/vault                              7.37 kB         299 kB
+2026-10-08T12:48:27.153Z	├ ○ /stocks                                    5.5 kB         289 kB
+2026-10-08T12:48:27.153Z	├ ƒ /stocks/[symbol]                          6.62 kB         290 kB
+2026-10-08T12:48:27.153Z	├ ○ /stocks/market                             5.7 kB         289 kB
+2026-10-08T12:48:27.153Z	├ ○ /superadmin/admins                        4.33 kB         279 kB
+2026-10-08T12:48:27.153Z	├ ○ /superadmin/audit                         1.86 kB         277 kB
+2026-10-08T12:48:27.153Z	├ ○ /superadmin/broker                        8.93 kB         291 kB
+2026-10-08T12:48:27.153Z	├ ○ /superadmin/broker-exports                  177 B         279 kB
+2026-10-08T12:48:27.154Z	├ ○ /superadmin/dashboard                     1.84 kB         108 kB
+2026-10-08T12:48:27.154Z	├ ○ /superadmin/email                         7.51 kB         290 kB
+2026-10-08T12:48:27.154Z	├ ○ /superadmin/email/templates               4.08 kB         289 kB
+2026-10-08T12:48:27.154Z	├ ○ /superadmin/investments/plans             7.42 kB         282 kB
+2026-10-08T12:48:27.154Z	├ ○ /superadmin/investors                     6.93 kB         306 kB
+2026-10-08T12:48:27.157Z	├ ○ /superadmin/landing-templates               182 B         106 kB
+2026-10-08T12:48:27.157Z	├ ƒ /superadmin/landing-templates/[template]    136 B         156 kB
+2026-10-08T12:48:27.157Z	├ ○ /superadmin/loans                         7.34 kB         282 kB
+2026-10-08T12:48:27.157Z	├ ○ /superadmin/membership                    4.76 kB         293 kB
+2026-10-08T12:48:27.157Z	├ ○ /superadmin/payment-methods               4.23 kB         279 kB
+2026-10-08T12:48:27.157Z	├ ○ /superadmin/platform                      10.9 kB         318 kB
+2026-10-08T12:48:27.157Z	├ ○ /superadmin/telegram                      6.73 kB         289 kB
+2026-10-08T12:48:27.157Z	├ ○ /support                                  2.74 kB         349 kB
+2026-10-08T12:48:27.157Z	├ ○ /terms                                      182 B         106 kB
+2026-10-08T12:48:27.157Z	├ ○ /wallet                                      6 kB         290 kB
+2026-10-08T12:48:27.157Z	└ ƒ /wallet/receipt/[txnId]                   5.14 kB         291 kB
+2026-10-08T12:48:27.157Z	+ First Load JS shared by all                  102 kB
+2026-10-08T12:48:27.157Z	  ├ chunks/1255-fbff2a247371566e.js           46.2 kB
+2026-10-08T12:48:27.157Z	  ├ chunks/4bd1b696-100b9d70ed4e49c1.js       54.2 kB
+2026-10-08T12:48:27.157Z	  └ other shared chunks (total)               1.97 kB
+2026-10-08T12:48:27.157Z	
+2026-10-08T12:48:27.157Z	
+2026-10-08T12:48:27.157Z	○  (Static)   prerendered as static content
+2026-10-08T12:48:27.157Z	ƒ  (Dynamic)  server-rendered on demand
+2026-10-08T12:48:27.157Z	
+2026-10-08T12:48:29.746Z	
+2026-10-08T12:48:29.746Z	┌─────────────────────────────┐
+2026-10-08T12:48:29.746Z	│ OpenNext — Cloudflare build │
+2026-10-08T12:48:29.746Z	└─────────────────────────────┘
+2026-10-08T12:48:29.746Z	
+2026-10-08T12:48:29.874Z	App directory: /opt/buildhome/repo
+2026-10-08T12:48:29.875Z	Next.js version : 15.5.27
+2026-10-08T12:48:29.876Z	@opennextjs/cloudflare version: 1.20.9
+2026-10-08T12:48:29.876Z	@opennextjs/aws version: 4.1.8
+2026-10-08T12:48:29.876Z	workerd compatibility_date: 2026-10-06
+2026-10-08T12:48:29.878Z	
+2026-10-08T12:48:29.878Z	┌─────────────────────────────────┐
+2026-10-08T12:48:29.878Z	│ OpenNext — Building Next.js app │
+2026-10-08T12:48:29.878Z	└─────────────────────────────────┘
+2026-10-08T12:48:29.878Z	
+2026-10-08T12:48:30.078Z	
+2026-10-08T12:48:30.079Z	> easy-setup@1.0.0 build
+2026-10-08T12:48:30.079Z	> npm install --no-save --package-lock=false @opennextjs/cloudflare@latest && next build && npx --yes @opennextjs/cloudflare build
+2026-10-08T12:48:30.079Z	
+2026-10-08T12:49:36.517Z	
+2026-10-08T12:49:36.518Z	up to date in 1m
+2026-10-08T12:49:36.518Z	
+2026-10-08T12:49:36.518Z	199 packages are looking for funding
+2026-10-08T12:49:36.519Z	  run `npm fund` for details
+2026-10-08T12:49:36.520Z	npm warn allow-scripts 6 packages have install scripts not yet covered by allowScripts:
+2026-10-08T12:49:36.521Z	npm warn allow-scripts   esbuild@0.25.4 (postinstall: node install.js)
+2026-10-08T12:49:36.521Z	npm warn allow-scripts   unrs-resolver@1.12.2 (postinstall: node postinstall.js)
+2026-10-08T12:49:36.521Z	npm warn allow-scripts   @firebase/util@1.15.3 (postinstall: node ./postinstall.js)
+2026-10-08T12:49:36.521Z	npm warn allow-scripts   protobufjs@7.6.6 (postinstall: node scripts/postinstall)
+2026-10-08T12:49:36.521Z	npm warn allow-scripts   esbuild@0.28.1 (postinstall: node install.js)
+2026-10-08T12:49:36.521Z	npm warn allow-scripts   workerd@1.20261006.1 (postinstall: node install.js)
+2026-10-08T12:49:36.521Z	npm warn allow-scripts
+2026-10-08T12:49:36.521Z	npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+2026-10-08T12:49:37.682Z	   ▲ Next.js 15.5.27
+2026-10-08T12:49:37.682Z	
+2026-10-08T12:49:37.916Z	   Creating an optimized production build ...
+2026-10-08T12:50:11.074Z	 ✓ Compiled successfully in 29.6s
+2026-10-08T12:50:11.079Z	   Linting and checking validity of types ...
+2026-10-08T12:50:37.267Z	   Collecting page data ...
+2026-10-08T12:50:44.902Z	   Generating static pages (0/78) ...
+2026-10-08T12:50:49.090Z	   Generating static pages (19/78) 
+2026-10-08T12:50:49.337Z	   Generating static pages (38/78) 
+2026-10-08T12:50:49.993Z	   Generating static pages (58/78) 
+2026-10-08T12:50:50.599Z	 ✓ Generating static pages (78/78)
+2026-10-08T12:50:52.314Z	   Finalizing page optimization ...
+2026-10-08T12:50:52.314Z	   Collecting build traces ...
+2026-10-08T12:51:22.250Z	
+2026-10-08T12:51:22.255Z	Route (app)                                      Size  First Load JS
+2026-10-08T12:51:22.255Z	┌ ƒ /                                           136 B         156 kB
+2026-10-08T12:51:22.255Z	├ ○ /_not-found                                 166 B         103 kB
+2026-10-08T12:51:22.255Z	├ ○ /admin/analytics                          6.74 kB         281 kB
+2026-10-08T12:51:22.255Z	├ ○ /admin/broadcast                           5.2 kB         280 kB
+2026-10-08T12:51:22.255Z	├ ○ /admin/businesses                         4.06 kB         301 kB
+2026-10-08T12:51:22.255Z	├ ○ /admin/chats                              2.88 kB         349 kB
+2026-10-08T12:51:22.256Z	├ ○ /admin/dashboard                          3.42 kB         278 kB
+2026-10-08T12:51:22.256Z	├ ○ /admin/farm-products                      3.82 kB         301 kB
+2026-10-08T12:51:22.256Z	├ ○ /admin/insurance                          4.47 kB         302 kB
+2026-10-08T12:51:22.256Z	├ ○ /admin/investments                        4.46 kB         283 kB
+2026-10-08T12:51:22.256Z	├ ○ /admin/kyc                                7.99 kB         283 kB
+2026-10-08T12:51:22.256Z	├ ○ /admin/loan-products                      5.52 kB         280 kB
+2026-10-08T12:51:22.256Z	├ ○ /admin/loan-requests                      4.02 kB         284 kB
+2026-10-08T12:51:22.256Z	├ ○ /admin/messaging                          5.78 kB         294 kB
+2026-10-08T12:51:22.256Z	├ ○ /admin/payment-accounts                    5.5 kB         280 kB
+2026-10-08T12:51:22.256Z	├ ○ /admin/properties                         4.78 kB         302 kB
+2026-10-08T12:51:22.256Z	├ ○ /admin/stocks                             7.43 kB         282 kB
+2026-10-08T12:51:22.256Z	├ ○ /admin/store/analytics                    6.46 kB         281 kB
+2026-10-08T12:51:22.256Z	├ ○ /admin/store/orders                       3.92 kB         279 kB
+2026-10-08T12:51:22.256Z	├ ○ /admin/store/products                     5.74 kB         305 kB
+2026-10-08T12:51:22.256Z	├ ○ /admin/users                              7.05 kB         287 kB
+2026-10-08T12:51:22.256Z	├ ƒ /admin/users/[uid]/activity               3.69 kB         286 kB
+2026-10-08T12:51:22.256Z	├ ƒ /admin/users/[uid]/service                11.7 kB         304 kB
+2026-10-08T12:51:22.256Z	├ ○ /admin/wallet-requests                    2.25 kB         283 kB
+2026-10-08T12:51:22.256Z	├ ƒ /api/investments/process-maturity           166 B         103 kB
+2026-10-08T12:51:22.256Z	├ ƒ /api/otp/send                               166 B         103 kB
+2026-10-08T12:51:22.256Z	├ ƒ /api/otp/verify                             166 B         103 kB
+2026-10-08T12:51:22.256Z	├ ƒ /api/send-email                             166 B         103 kB
+2026-10-08T12:51:22.257Z	├ ƒ /api/sign-cloudinary                        166 B         103 kB
+2026-10-08T12:51:22.257Z	├ ƒ /api/statements/generate                    166 B         103 kB
+2026-10-08T12:51:22.257Z	├ ƒ /api/superadmin/broker-export               166 B         103 kB
+2026-10-08T12:51:22.257Z	├ ƒ /api/telegram/send                          166 B         103 kB
+2026-10-08T12:51:22.257Z	├ ƒ /api/telegram/test                          166 B         103 kB
+2026-10-08T12:51:22.257Z	├ ƒ /api/telegram/webhook                       166 B         103 kB
+2026-10-08T12:51:22.257Z	├ ƒ /api/test-cloudinary                        166 B         103 kB
+2026-10-08T12:51:22.257Z	├ ƒ /api/test-email                             166 B         103 kB
+2026-10-08T12:51:22.257Z	├ ○ /broker-exports                             177 B         279 kB
+2026-10-08T12:51:22.257Z	├ ○ /dashboard                                5.75 kB         307 kB
+2026-10-08T12:51:22.257Z	├ ○ /forgot-password                          4.18 kB         282 kB
+2026-10-08T12:51:22.257Z	├ ○ /investments                                182 B         106 kB
+2026-10-08T12:51:22.257Z	├ ○ /kyc                                      7.86 kB         301 kB
+2026-10-08T12:51:22.257Z	├ ○ /loans                                    4.27 kB         288 kB
+2026-10-08T12:51:22.257Z	├ ○ /login                                    5.27 kB         289 kB
+2026-10-08T12:51:22.257Z	├ ○ /market                                     859 B         280 kB
+2026-10-08T12:51:22.257Z	├ ○ /market/business                          4.95 kB         280 kB
+2026-10-08T12:51:22.258Z	├ ƒ /market/business/[id]                     4.31 kB         284 kB
+2026-10-08T12:51:22.258Z	├ ○ /market/farming                           5.35 kB         280 kB
+2026-10-08T12:51:22.258Z	├ ƒ /market/farming/[id]                      8.23 kB         283 kB
+2026-10-08T12:51:22.258Z	├ ○ /market/insurance                         5.04 kB         280 kB
+2026-10-08T12:51:22.259Z	├ ƒ /market/insurance/[id]                    8.18 kB         283 kB
+2026-10-08T12:51:22.259Z	├ ○ /market/loans                             4.64 kB         279 kB
+2026-10-08T12:51:22.259Z	├ ƒ /market/loans/[id]                        5.31 kB         280 kB
+2026-10-08T12:51:22.259Z	├ ○ /market/real-estate                       5.87 kB         281 kB
+2026-10-08T12:51:22.259Z	├ ƒ /market/real-estate/[id]                  4.73 kB         284 kB
+2026-10-08T12:51:22.259Z	├ ○ /my-policies                              5.97 kB         281 kB
+2026-10-08T12:51:22.259Z	├ ○ /notifications                            4.15 kB         279 kB
+2026-10-08T12:51:22.259Z	├ ○ /plans                                    4.79 kB         279 kB
+2026-10-08T12:51:22.259Z	├ ƒ /plans/[id]/subscribe                     7.53 kB         290 kB
+2026-10-08T12:51:22.259Z	├ ○ /policies                                   182 B         106 kB
+2026-10-08T12:51:22.259Z	├ ○ /portfolio                                8.26 kB         304 kB
+2026-10-08T12:51:22.259Z	├ ƒ /portfolio/[id]                           6.01 kB         288 kB
+2026-10-08T12:51:22.259Z	├ ○ /privacy                                    182 B         106 kB
+2026-10-08T12:51:22.259Z	├ ○ /profile                                  5.84 kB         308 kB
+2026-10-08T12:51:22.259Z	├ ○ /referrals                                6.24 kB         281 kB
+2026-10-08T12:51:22.259Z	├ ○ /signup                                   5.92 kB         290 kB
+2026-10-08T12:51:22.259Z	├ ○ /staff                                     6.3 kB         284 kB
+2026-10-08T12:51:22.259Z	├ ○ /staff/vault                              7.37 kB         299 kB
+2026-10-08T12:51:22.259Z	├ ○ /stocks                                    5.5 kB         289 kB
+2026-10-08T12:51:22.259Z	├ ƒ /stocks/[symbol]                          6.62 kB         290 kB
+2026-10-08T12:51:22.260Z	├ ○ /stocks/market                             5.7 kB         289 kB
+2026-10-08T12:51:22.260Z	├ ○ /superadmin/admins                        4.33 kB         279 kB
+2026-10-08T12:51:22.260Z	├ ○ /superadmin/audit                         1.86 kB         277 kB
+2026-10-08T12:51:22.260Z	├ ○ /superadmin/broker                        8.93 kB         291 kB
+2026-10-08T12:51:22.260Z	├ ○ /superadmin/broker-exports                  177 B         279 kB
+2026-10-08T12:51:22.260Z	├ ○ /superadmin/dashboard                     1.84 kB         108 kB
+2026-10-08T12:51:22.260Z	├ ○ /superadmin/email                         7.51 kB         290 kB
+2026-10-08T12:51:22.260Z	├ ○ /superadmin/email/templates               4.08 kB         289 kB
+2026-10-08T12:51:22.260Z	├ ○ /superadmin/investments/plans             7.42 kB         282 kB
+2026-10-08T12:51:22.260Z	├ ○ /superadmin/investors                     6.93 kB         306 kB
+2026-10-08T12:51:22.260Z	├ ○ /superadmin/landing-templates               182 B         106 kB
+2026-10-08T12:51:22.260Z	├ ƒ /superadmin/landing-templates/[template]    136 B         156 kB
+2026-10-08T12:51:22.260Z	├ ○ /superadmin/loans                         7.34 kB         282 kB
+2026-10-08T12:51:22.260Z	├ ○ /superadmin/membership                    4.76 kB         293 kB
+2026-10-08T12:51:22.260Z	├ ○ /superadmin/payment-methods               4.23 kB         279 kB
+2026-10-08T12:51:22.260Z	├ ○ /superadmin/platform                      10.9 kB         318 kB
+2026-10-08T12:51:22.260Z	├ ○ /superadmin/telegram                      6.73 kB         289 kB
+2026-10-08T12:51:22.260Z	├ ○ /support                                  2.74 kB         349 kB
+2026-10-08T12:51:22.260Z	├ ○ /terms                                      182 B         106 kB
+2026-10-08T12:51:22.260Z	├ ○ /wallet                                      6 kB         290 kB
+2026-10-08T12:51:22.260Z	└ ƒ /wallet/receipt/[txnId]                   5.14 kB         291 kB
+2026-10-08T12:51:22.260Z	+ First Load JS shared by all                  102 kB
+2026-10-08T12:51:22.260Z	  ├ chunks/1255-fbff2a247371566e.js           46.2 kB
+2026-10-08T12:51:22.260Z	  ├ chunks/4bd1b696-100b9d70ed4e49c1.js       54.2 kB
+2026-10-08T12:51:22.260Z	  └ other shared chunks (total)               1.97 kB
+2026-10-08T12:51:22.260Z	
+2026-10-08T12:51:22.260Z	
+2026-10-08T12:51:22.260Z	○  (Static)   prerendered as static content
+2026-10-08T12:51:22.261Z	ƒ  (Dynamic)  server-rendered on demand
+2026-10-08T12:51:22.261Z	
+2026-10-08T12:51:35.079Z	
+2026-10-08T12:51:35.079Z	┌─────────────────────────────┐
+2026-10-08T12:51:35.079Z	│ OpenNext — Cloudflare build │
+2026-10-08T12:51:35.079Z	└─────────────────────────────┘
+2026-10-08T12:51:35.079Z	
+2026-10-08T12:51:35.218Z	App directory: /opt/buildhome/repo
+2026-10-08T12:51:35.219Z	Next.js version : 15.5.27
+2026-10-08T12:51:35.222Z	@opennextjs/cloudflare version: 1.20.9
+2026-10-08T12:51:35.223Z	@opennextjs/aws version: 4.1.8
+2026-10-08T12:51:35.223Z	workerd compatibility_date: 2026-10-06
+2026-10-08T12:51:35.223Z	
+2026-10-08T12:51:35.223Z	┌─────────────────────────────────┐
+2026-10-08T12:51:35.223Z	│ OpenNext — Building Next.js app │
+2026-10-08T12:51:35.224Z	└─────────────────────────────────┘
+2026-10-08T12:51:35.224Z	
+2026-10-08T12:51:35.546Z	
+2026-10-08T12:51:35.546Z	> easy-setup@1.0.0 build
+2026-10-08T12:51:35.546Z	> npm install --no-save --package-lock=false @opennextjs/cloudflare@latest && next build && npx --yes @opennextjs/cloudflare build
+2026-10-08T12:51:35.546Z	
+2026-10-08T12:52:07.838Z	
+2026-10-08T12:52:07.838Z	up to date in 32s
+2026-10-08T12:52:07.838Z	
+2026-10-08T12:52:07.838Z	199 packages are looking for funding
+2026-10-08T12:52:07.838Z	  run `npm fund` for details
+2026-10-08T12:52:07.838Z	npm warn allow-scripts 6 packages have install scripts not yet covered by allowScripts:
+2026-10-08T12:52:07.839Z	npm warn allow-scripts   esbuild@0.25.4 (postinstall: node install.js)
+2026-10-08T12:52:07.839Z	npm warn allow-scripts   unrs-resolver@1.12.2 (postinstall: node postinstall.js)
+2026-10-08T12:52:07.839Z	npm warn allow-scripts   @firebase/util@1.15.3 (postinstall: node ./postinstall.js)
+2026-10-08T12:52:07.839Z	npm warn allow-scripts   protobufjs@7.6.6 (postinstall: node scripts/postinstall)
+2026-10-08T12:52:07.839Z	npm warn allow-scripts   esbuild@0.28.1 (postinstall: node install.js)
+2026-10-08T12:52:07.839Z	npm warn allow-scripts   workerd@1.20261006.1 (postinstall: node install.js)
+2026-10-08T12:52:07.839Z	npm warn allow-scripts
+2026-10-08T12:52:07.839Z	npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+2026-10-08T12:52:09.157Z	   ▲ Next.js 15.5.27
+2026-10-08T12:52:09.158Z	
+2026-10-08T12:52:09.366Z	   Creating an optimized production build ...
+2026-10-08T12:52:27.271Z	 ✓ Compiled successfully in 11.5s
+2026-10-08T12:52:27.275Z	   Linting and checking validity of types ...
+2026-10-08T12:55:21.697Z	Build took too long and was timed out
