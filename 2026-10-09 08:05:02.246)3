@@ -1,0 +1,37 @@
+{
+  "level": "error",
+  "message": " ⨯     at Function (<anonymous>)\n    at f4 (worker.js:97128:22)\n    at s4.get (worker.js:112303:73)\n    at j.resolve (worker.js:96066:196)\n    at s4.resolveAll (worker.js:112335:78)\n    at l4.resolveAll (worker.js:97006:82)\n    at l4.resolveAll (worker.js:97006:82)\n    at l4.resolveAll (worker.js:97006:82)\n    at l4.resolveAll (worker.js:118540:41)\n    at l4.fromJSON (worker.js:118465:132)",
+  "$workers": {
+    "scriptName": "brokerforcloudfare",
+    "scriptVersion": {
+      "id": "e7f854a1-075c-4d39-ab51-477582240817"
+    },
+    "eventType": "fetch",
+    "executionModel": "stateless",
+    "truncated": false,
+    "event": {
+      "request": {
+        "method": "GET",
+        "url": "https://brokerforcloudfare.tonyemicah200.workers.dev/favicon.ico",
+        "path": "/favicon.ico"
+      }
+    }
+  },
+  "$metadata": {
+    "id": "01M4FQNHH60000000000000002",
+    "requestId": "916c81ae727c62accd5c85abb40d98f2",
+    "rayId": "a47b88dd0f504389",
+    "traceId": "5c2b5873047bb91a4751d6d4eee71962",
+    "spanId": "1a71d8a5474977c4",
+    "trigger": "GET /favicon.ico",
+    "service": "brokerforcloudfare",
+    "level": "error",
+    "error": " ⨯     at Function (<anonymous>)\n    at f4 (worker.js:97128:22)\n    at s4.get (worker.js:112303:73)\n    at j.resolve (worker.js:96066:196)\n    at s4.resolveAll (worker.js:112335:78)\n    at l4.resolveAll (worker.js:97006:82)\n    at l4.resolveAll (worker.js:97006:82)\n    at l4.resolveAll (worker.js:97006:82)\n    at l4.resolveAll (worker.js:118540:41)\n    at l4.fromJSON (worker.js:118465:132)",
+    "message": " ⨯     at Function (<anonymous>)\n    at f4 (worker.js:97128:22)\n    at s4.get (worker.js:112303:73)\n    at j.resolve (worker.js:96066:196)\n    at s4.resolveAll (worker.js:112335:78)\n    at l4.resolveAll (worker.js:97006:82)\n    at l4.resolveAll (worker.js:97006:82)\n    at l4.resolveAll (worker.js:97006:82)\n    at l4.resolveAll (worker.js:118540:41)\n    at l4.fromJSON (worker.js:118465:132)",
+    "url": "https://brokerforcloudfare.tonyemicah200.workers.dev/favicon.ico",
+    "account": "5ef6983cc4e65fdd92c8900b9a47846a",
+    "provider": "cloudflare-streaming",
+    "type": "cf-worker",
+    "origin": "fetch"
+  }
+}
